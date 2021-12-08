@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,9 @@ namespace ConCungReplication
         public Homepage()
         {
             InitializeComponent();
+
+            Login loginForm = new Login();
+            loginForm.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -22,9 +26,6 @@ namespace ConCungReplication
             this.Close();
         }
 
-        private void Hand(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
