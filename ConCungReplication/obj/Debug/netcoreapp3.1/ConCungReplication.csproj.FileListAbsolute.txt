@@ -1,0 +1,16 @@
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Homepage.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
