@@ -8,18 +8,18 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Login : Form
+    public partial class SignUp : Form
     {
-        public Login()
+        public SignUp()
         {
             InitializeComponent();
         }
 
-        private void SignUpText_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void ContinueButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SignUp signUpForm = new SignUp();
-            signUpForm.ShowDialog();
+            SignUpFinal signUpFinal = new SignUpFinal();
+            signUpFinal.ShowDialog();
         }
     }
 }

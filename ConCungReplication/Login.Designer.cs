@@ -33,6 +33,7 @@ namespace ConCungReplication
             this.usernameInput = new System.Windows.Forms.TextBox();
             this.passwordInput = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -45,13 +46,12 @@ namespace ConCungReplication
             this.SignUpText = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.ForgotPasswordText = new System.Windows.Forms.LinkLabel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // usernameInput
@@ -59,8 +59,9 @@ namespace ConCungReplication
             this.usernameInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.usernameInput.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.usernameInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.usernameInput.Location = new System.Drawing.Point(72, 42);
+            this.usernameInput.Location = new System.Drawing.Point(72, 40);
             this.usernameInput.Name = "usernameInput";
+            this.usernameInput.PlaceholderText = "3412394222";
             this.usernameInput.Size = new System.Drawing.Size(421, 22);
             this.usernameInput.TabIndex = 1;
             // 
@@ -69,7 +70,7 @@ namespace ConCungReplication
             this.passwordInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.passwordInput.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.passwordInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.passwordInput.Location = new System.Drawing.Point(72, 40);
+            this.passwordInput.Location = new System.Drawing.Point(72, 41);
             this.passwordInput.Name = "passwordInput";
             this.passwordInput.PasswordChar = '*';
             this.passwordInput.Size = new System.Drawing.Size(421, 22);
@@ -84,6 +85,15 @@ namespace ConCungReplication
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(556, 131);
             this.panel3.TabIndex = 7;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(383, 33);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(111, 110);
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
             // 
             // label3
             // 
@@ -103,7 +113,7 @@ namespace ConCungReplication
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
             this.label4.Location = new System.Drawing.Point(34, 161);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 37);
+            this.label4.Size = new System.Drawing.Size(152, 39);
             this.label4.TabIndex = 8;
             this.label4.Text = "Welcome";
             // 
@@ -201,6 +211,7 @@ namespace ConCungReplication
             this.SignUpText.TabStop = true;
             this.SignUpText.Text = "Sign up";
             this.SignUpText.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(22)))), ((int)(((byte)(90)))));
+            this.SignUpText.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.SignUpText_LinkClicked);
             // 
             // label5
             // 
@@ -227,15 +238,6 @@ namespace ConCungReplication
             this.ForgotPasswordText.Text = "Forgot Password?";
             this.ForgotPasswordText.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(22)))), ((int)(((byte)(90)))));
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(383, 33);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(111, 110);
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -258,13 +260,13 @@ namespace ConCungReplication
             this.Text = "Login";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

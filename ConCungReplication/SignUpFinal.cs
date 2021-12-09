@@ -8,18 +8,17 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Login : Form
+    public partial class SignUpFinal : Form
     {
-        public Login()
+        public SignUpFinal()
         {
             InitializeComponent();
         }
 
-        private void SignUpText_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LoginButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            SignUp signUpForm = new SignUp();
-            signUpForm.ShowDialog();
+            this.Close();
+            MessageBox.Show("Your account had been created successfully!","Success");
         }
     }
 }
