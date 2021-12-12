@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Homepage : Form
+    public partial class HomepageCustomer : Form
     {
-        public Homepage()
+        public HomepageCustomer()
         {
             InitializeComponent();
 
@@ -26,6 +26,10 @@ namespace ConCungReplication
             this.Close();
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ProductPage productPage = new ProductPage();
+            productPage.ShowDialog();
+        }
     }
 }

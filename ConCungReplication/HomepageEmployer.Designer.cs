@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    partial class Homepage
+    partial class HomepageEloyer
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,7 +35,7 @@ namespace ConCungReplication
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepageCustomer));
             this.logo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.aboutUs = new System.Windows.Forms.Label();
