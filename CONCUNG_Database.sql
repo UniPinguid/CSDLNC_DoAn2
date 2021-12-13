@@ -135,10 +135,8 @@ go
 create table NGUOIDUNG
 (
 	username char(20) not null,
-	KH_ID char(10),
-	NV_ID char(10),
-	password char(20),
-	VaiTro nvarchar(15)
+	password char(20) not null,
+	VaiTro nvarchar(15) not null
 )
 go
 
