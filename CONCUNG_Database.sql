@@ -1,4 +1,4 @@
-﻿create database CONCUNG
+create database CONCUNG
 go
 
 use CONCUNG
@@ -8,7 +8,7 @@ go
 create table KHACHHANG
 (
 	KH_ID char(10) not null, 
-	TenKH nvarchar(15),
+	TenKH nvarchar(20),
 	SoDienThoai char(10),
 	Email char(30),
 	Phai nvarchar(3),
@@ -22,7 +22,7 @@ create table Con_KH
 (
 	KH_ID char(10) not null,
 	STT int not null,
-	Ten nvarchar(15),
+	Ten nvarchar(20),
 	Phai nvarchar(3),
 	NgaySinh datetime
 )
@@ -33,10 +33,10 @@ create  table DiaChi_KH
 	KH_ID char(10) not null,
 	STT int not null,
 	SoNha int,
-	Duong nvarchar(15),
-	XaPhuong nvarchar(15),
-	Quan nvarchar(15),
-	Tinh nvarchar(15)
+	Duong nvarchar(20),
+	XaPhuong nvarchar(20),
+	Quan nvarchar(20),
+	Tinh nvarchar(20)
 )
 go
 
@@ -48,7 +48,7 @@ create table SANPHAM
 	Gia int,
 	MoTa nvarchar(50),
 	SLTon int,
-	ThuongHieu nvarchar(15),
+	ThuongHieu nvarchar(20),
 	KhuyenMai float,
 	NgayBatDau datetime,
 	NgayKetThuc datetime,
@@ -100,7 +100,7 @@ go
 create table NHANVIEN
 (
 	NV_ID char(10) not null,
-	Ten_NV nvarchar(15),
+	Ten_NV nvarchar(20),
 	Phai_NV nvarchar(3),
 	CMND_NV char(9),
 	NgaySinhNV datetime,
