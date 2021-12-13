@@ -127,7 +127,6 @@ create table DonNhapHang
 	NH_ID char(10) not null,
 	NgayNhapHang datetime,
 	NCC nvarchar(30),
-	NgayNhap datetime,
 	TienNhap float,
 	SP_ID char(10)
 )
