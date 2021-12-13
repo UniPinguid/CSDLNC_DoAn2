@@ -31,5 +31,11 @@ namespace ConCungReplication
             ProductPage productPage = new ProductPage();
             productPage.ShowDialog();
         }
+
+        private void CartClick(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.ShowDialog();
+        }
     }
 }

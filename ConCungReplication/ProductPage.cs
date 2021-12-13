@@ -14,5 +14,22 @@ namespace ConCungReplication
         {
             InitializeComponent();
         }
+
+        private void incrementQuantity(object sender, EventArgs e)
+        {
+            int quantity_num = Convert.ToInt32(quantity.Text);
+            quantity_num++;
+
+            quantity.Text = Convert.ToString(quantity_num);
+        }
+
+        private void decrementQuantity(object sender, EventArgs e)
+        {
+            int quantity_num = Convert.ToInt32(quantity.Text);
+            if (quantity_num > 1)
+                quantity_num--;
+
+            quantity.Text = Convert.ToString(quantity_num);
+        }
     }
 }
