@@ -10,7 +10,7 @@ create table KHACHHANG
 	KH_ID char(10) not null, 
 	TenKH nvarchar(15),
 	SoDienThoai char(10),
-	Email char(15),
+	Email char(30),
 	Phai nvarchar(3),
 	NgaySinh datetime,
 	SoBe int
