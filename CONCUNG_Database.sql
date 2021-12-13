@@ -44,7 +44,7 @@ go
 create table SANPHAM
 (
 	SP_ID char(10) not null,
-	TenSP nvarchar(15),
+	TenSP nvarchar(20),
 	Gia int,
 	MoTa nvarchar(50),
 	SLTon int,
