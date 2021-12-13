@@ -45,7 +45,7 @@ create table SANPHAM
 (
 	SP_ID char(10) not null,
 	TenSP nvarchar(20),
-	Gia int,
+	Gia float,
 	MoTa nvarchar(50),
 	SLTon int,
 	ThuongHieu nvarchar(20),
@@ -61,7 +61,7 @@ create table LichSuGia
 (
 	SP_ID char(10) not null,
 	ThoiGian datetime not null,
-	Gia int
+	Gia float
 )
 
 create table HOADON
