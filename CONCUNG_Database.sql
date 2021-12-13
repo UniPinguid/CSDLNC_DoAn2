@@ -120,6 +120,7 @@ create table XH_SP
 	ThoiGianXuat datetime,
 	SoLuongXuat int
 )
+go
 
 create table DonNhapHang
 (
@@ -130,7 +131,7 @@ create table DonNhapHang
 	TienNhap float,
 	SP_ID char(10)
 )
-
+go
 
 create table NGUOIDUNG
 (
