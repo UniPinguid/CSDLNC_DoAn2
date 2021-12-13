@@ -16,9 +16,6 @@ namespace ConCungReplication
         public HomepageCustomer()
         {
             InitializeComponent();
-
-            Login loginForm = new Login();
-            loginForm.ShowDialog();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -34,6 +31,7 @@ namespace ConCungReplication
 
         private void CartClick(object sender, EventArgs e)
         {
+            this.Hide();
             Cart cart = new Cart();
             cart.ShowDialog();
         }

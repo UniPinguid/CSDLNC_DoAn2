@@ -50,6 +50,9 @@ namespace ConCungReplication
             this.label6 = new System.Windows.Forms.Label();
             this.coupon = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.totalAmount = new System.Windows.Forms.Label();
+            this.enterCoupon = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,6 +60,7 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -71,6 +75,7 @@ namespace ConCungReplication
             // 
             // logo
             // 
+            this.logo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
             this.logo.ImageLocation = "";
             this.logo.Location = new System.Drawing.Point(48, 25);
@@ -79,6 +84,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.clickLogo);
             // 
             // panel1
             // 
@@ -234,6 +240,7 @@ namespace ConCungReplication
             this.ContinueBtn.TabIndex = 18;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = false;
+            this.ContinueBtn.Click += new System.EventHandler(this.ContinueClick);
             // 
             // label5
             // 
@@ -274,8 +281,43 @@ namespace ConCungReplication
             this.panel3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.panel3.Location = new System.Drawing.Point(1075, 252);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(233, 42);
+            this.panel3.Size = new System.Drawing.Size(234, 42);
             this.panel3.TabIndex = 22;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1153, 327);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(157, 158);
+            this.pictureBox4.TabIndex = 23;
+            this.pictureBox4.TabStop = false;
+            // 
+            // totalAmount
+            // 
+            this.totalAmount.AutoSize = true;
+            this.totalAmount.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.totalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
+            this.totalAmount.Location = new System.Drawing.Point(1208, 411);
+            this.totalAmount.Name = "totalAmount";
+            this.totalAmount.Size = new System.Drawing.Size(43, 50);
+            this.totalAmount.TabIndex = 24;
+            this.totalAmount.Text = "0";
+            this.totalAmount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // enterCoupon
+            // 
+            this.enterCoupon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
+            this.enterCoupon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.enterCoupon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.enterCoupon.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.enterCoupon.ForeColor = System.Drawing.Color.White;
+            this.enterCoupon.Location = new System.Drawing.Point(1315, 252);
+            this.enterCoupon.Name = "enterCoupon";
+            this.enterCoupon.Size = new System.Drawing.Size(53, 42);
+            this.enterCoupon.TabIndex = 25;
+            this.enterCoupon.Text = "↩";
+            this.enterCoupon.UseVisualStyleBackColor = false;
             // 
             // Cart
             // 
@@ -283,6 +325,9 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1394, 767);
+            this.Controls.Add(this.enterCoupon);
+            this.Controls.Add(this.totalAmount);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -301,6 +346,7 @@ namespace ConCungReplication
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cart";
@@ -312,6 +358,7 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -339,5 +386,8 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox coupon;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label totalAmount;
+        private System.Windows.Forms.Button enterCoupon;
     }
 }

@@ -8,18 +8,18 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Cart : Form
+    public partial class Receipt : Form
     {
-        public Cart()
+        public Receipt()
         {
             InitializeComponent();
         }
 
-        private void ContinueClick(object sender, EventArgs e)
+        private void clickReturn(object sender, EventArgs e)
         {
-            this.Hide();
-            Receipt receipt = new Receipt();
-            receipt.Show();
+            this.Close();
+            Cart cart = new Cart();
+            cart.Show();
         }
 
         private void clickLogo(object sender, EventArgs e)

@@ -184,6 +184,7 @@ namespace ConCungReplication
             this.LoginButton.TabIndex = 12;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.Click += new System.EventHandler(this.clickLogin);
             // 
             // label2
             // 

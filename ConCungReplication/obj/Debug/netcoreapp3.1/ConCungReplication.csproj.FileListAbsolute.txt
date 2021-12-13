@@ -20,3 +20,4 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEloyer.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Receipt.resources
