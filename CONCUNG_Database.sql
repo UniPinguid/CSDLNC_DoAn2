@@ -75,7 +75,7 @@ create table HOADON
 	GiamGia float,
 	ThanhTien float,
 	PhuongThucThanhToan char(10),
-	HoaToc int,
+	HoaToc bit,
 	DonViVanChuyen nvarchar(30),
 	NV_ID char(10),
 	KH_ID char(10)
