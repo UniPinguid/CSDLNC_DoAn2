@@ -199,7 +199,7 @@ alter table NhomSP
 add constraint PK_NHOMSP primary key (GrSP_ID)
 
 alter table LichSuGia
-add constraint PK_LICHSUGIA primary key (SP_ID)
+add constraint PK_LICHSUGIA primary key (SP_ID, ThoiGian)
 go
 
 --FOREIGN KEY--
