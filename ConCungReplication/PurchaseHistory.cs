@@ -8,18 +8,11 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Cart : Form
+    public partial class PurchaseHistory : Form
     {
-        public Cart()
+        public PurchaseHistory()
         {
             InitializeComponent();
-        }
-
-        private void ContinueClick(object sender, EventArgs e)
-        {
-            this.Hide();
-            OrderPayment receipt = new OrderPayment();
-            receipt.Show();
         }
 
         private void clickLogo(object sender, EventArgs e)
@@ -27,6 +20,13 @@ namespace ConCungReplication
             this.Close();
             HomepageCustomer homepage = new HomepageCustomer();
             homepage.Show();
+        }
+
+        private void clickTest(object sender, EventArgs e)
+        {
+            this.Close();
+            OrderInfo orderInfo = new OrderInfo();
+            orderInfo.Show();
         }
     }
 }

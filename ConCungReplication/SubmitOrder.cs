@@ -8,21 +8,21 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Cart : Form
+    public partial class SubmitOrder : Form
     {
-        public Cart()
+        public SubmitOrder()
         {
             InitializeComponent();
         }
 
-        private void ContinueClick(object sender, EventArgs e)
+        private void clickViewPurchaseHistory(object sender, EventArgs e)
         {
-            this.Hide();
-            OrderPayment receipt = new OrderPayment();
-            receipt.Show();
+            this.Close();
+            PurchaseHistory purchaseHistory = new PurchaseHistory();
+            purchaseHistory.Show();
         }
 
-        private void clickLogo(object sender, EventArgs e)
+        private void clickToHomepage(object sender, EventArgs e)
         {
             this.Close();
             HomepageCustomer homepage = new HomepageCustomer();

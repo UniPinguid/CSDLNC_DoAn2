@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class Receipt : Form
+    public partial class OrderPayment : Form
     {
-        public Receipt()
+        public OrderPayment()
         {
             InitializeComponent();
         }
@@ -27,6 +27,14 @@ namespace ConCungReplication
             this.Close();
             HomepageCustomer homepage = new HomepageCustomer();
             homepage.Show();
+        }
+
+        private void clickSubmit(object sender, EventArgs e)
+        {
+            this.Close();
+            // Insert data here
+            SubmitOrder submitOrder = new SubmitOrder();
+            submitOrder.Show();
         }
     }
 }
