@@ -35,5 +35,12 @@ namespace ConCungReplication
             Cart cart = new Cart();
             cart.ShowDialog();
         }
+
+        private void clickUser(object sender, EventArgs e)
+        {
+            this.Close();
+            UserProfile userProfile = new UserProfile();
+            userProfile.Show();
+        }
     }
 }

@@ -123,6 +123,7 @@ namespace ConCungReplication
             this.pictureBox1.Size = new System.Drawing.Size(32, 42);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.clickUser);
             // 
             // searchBar_overlay
             // 

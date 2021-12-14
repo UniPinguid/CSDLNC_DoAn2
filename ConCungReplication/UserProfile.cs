@@ -8,25 +8,18 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class PurchaseHistory : Form
+    public partial class UserProfile : Form
     {
-        public PurchaseHistory()
+        public UserProfile()
         {
             InitializeComponent();
         }
 
-        private void clickLogo(object sender, EventArgs e)
+        private void clickPurchase(object sender, EventArgs e)
         {
             this.Close();
-            HomepageCustomer homepage = new HomepageCustomer();
-            homepage.Show();
-        }
-
-        private void clickTest(object sender, EventArgs e)
-        {
-            this.Close();
-            OrderInfo orderInfo = new OrderInfo();
-            orderInfo.Show();
+            PurchaseHistory purchase = new PurchaseHistory();
+            purchase.Show();
         }
 
         private void clickLogout(object sender, EventArgs e)
@@ -38,13 +31,6 @@ namespace ConCungReplication
                 Login login = new Login();
                 login.Show();
             }
-        }
-
-        private void clickProfile(object sender, EventArgs e)
-        {
-            this.Close();
-            UserProfile profile = new UserProfile();
-            profile.Show();
         }
     }
 }

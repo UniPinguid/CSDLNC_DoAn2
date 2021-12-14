@@ -44,10 +44,10 @@ namespace ConCungReplication
             this.GenderSelect = new System.Windows.Forms.ComboBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.birthdayInput = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.emailInput = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.AddressInput = new System.Windows.Forms.TextBox();
@@ -219,7 +219,7 @@ namespace ConCungReplication
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.textBox1);
+            this.groupBox5.Controls.Add(this.birthdayInput);
             this.groupBox5.Controls.Add(this.pictureBox5);
             this.groupBox5.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
@@ -230,16 +230,16 @@ namespace ConCungReplication
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "BIRTHDAY";
             // 
-            // textBox1
+            // birthdayInput
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.textBox1.Location = new System.Drawing.Point(72, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "11/25/2005";
-            this.textBox1.Size = new System.Drawing.Size(421, 22);
-            this.textBox1.TabIndex = 3;
+            this.birthdayInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.birthdayInput.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.birthdayInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.birthdayInput.Location = new System.Drawing.Point(72, 41);
+            this.birthdayInput.Name = "birthdayInput";
+            this.birthdayInput.PlaceholderText = "11/25/2005";
+            this.birthdayInput.Size = new System.Drawing.Size(421, 22);
+            this.birthdayInput.TabIndex = 3;
             // 
             // pictureBox5
             // 
@@ -252,7 +252,7 @@ namespace ConCungReplication
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.emailInput);
             this.groupBox2.Controls.Add(this.pictureBox3);
             this.groupBox2.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
@@ -263,16 +263,16 @@ namespace ConCungReplication
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "EMAIL";
             // 
-            // textBox2
+            // emailInput
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.textBox2.Location = new System.Drawing.Point(72, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "johnaddoe@gmail.com";
-            this.textBox2.Size = new System.Drawing.Size(421, 22);
-            this.textBox2.TabIndex = 2;
+            this.emailInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.emailInput.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.emailInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.emailInput.Location = new System.Drawing.Point(72, 38);
+            this.emailInput.Name = "emailInput";
+            this.emailInput.PlaceholderText = "johnaddoe@gmail.com";
+            this.emailInput.Size = new System.Drawing.Size(421, 22);
+            this.emailInput.TabIndex = 2;
             // 
             // pictureBox3
             // 
@@ -460,9 +460,9 @@ namespace ConCungReplication
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox emailInput;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox birthdayInput;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TextBox AddressInput;
         private System.Windows.Forms.GroupBox groupBox7;
