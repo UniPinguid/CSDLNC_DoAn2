@@ -52,7 +52,7 @@ create table SANPHAM
 	KhuyenMai float,
 	NgayBatDau datetime,
 	NgayKetThuc datetime,
-	GrSP_ID char(10)
+	GrSP_ID char(10) not null
 )
 go
 
@@ -77,8 +77,8 @@ create table HOADON
 	PhuongThucThanhToan char(10),
 	HoaToc bit,
 	DonViVanChuyen nvarchar(30),
-	NV_ID char(10),
-	KH_ID char(10)
+	NV_ID char(10) not null,
+	KH_ID char(10) not null
 )
 go
 
@@ -128,15 +128,15 @@ create table DonNhapHang
 	NgayNhapHang datetime,
 	NCC nvarchar(30),
 	TienNhap float,
-	SP_ID char(10)
+	SP_ID char(10) not null
 )
 go
 
 create table NGUOIDUNG
 (
 	username char(20) not null,
-	KH_ID char(10),
-	NV_ID char(10),
+	KH_ID char(10) not null,
+	NV_ID char(10) not null,
 	password char(20) not null,
 	VaiTro int not null
 )
