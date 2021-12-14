@@ -45,7 +45,7 @@ create table SANPHAM
 (
 	SP_ID char(10) not null,
 	TenSP nvarchar(20),
-	Gia int,
+	Gia float,
 	MoTa nvarchar(50),
 	SLTon int,
 	ThuongHieu nvarchar(20),
@@ -61,7 +61,7 @@ create table LichSuGia
 (
 	SP_ID char(10) not null,
 	ThoiGian datetime not null,
-	Gia int
+	Gia float
 )
 
 create table HOADON
@@ -75,7 +75,7 @@ create table HOADON
 	GiamGia float,
 	ThanhTien float,
 	PhuongThucThanhToan char(10),
-	HoaToc int,
+	HoaToc bit,
 	DonViVanChuyen nvarchar(30),
 	NV_ID char(10),
 	KH_ID char(10)
@@ -127,7 +127,6 @@ create table DonNhapHang
 	NH_ID char(10) not null,
 	NgayNhapHang datetime,
 	NCC nvarchar(30),
-	NgayNhap datetime,
 	TienNhap float,
 	SP_ID char(10)
 )
@@ -138,8 +137,8 @@ create table NGUOIDUNG
 	username char(20) not null,
 	KH_ID char(10),
 	NV_ID char(10),
-	password char(20),
-	VaiTro nvarchar(15)
+	password char(20) not null,
+	VaiTro int not null
 )
 go
 
