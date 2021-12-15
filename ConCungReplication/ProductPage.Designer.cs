@@ -87,6 +87,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.clickLogo);
             // 
             // panel1
             // 
@@ -109,6 +110,7 @@ namespace ConCungReplication
             this.pictureBox3.Size = new System.Drawing.Size(32, 42);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.clickLogo);
             // 
             // cartQuantity
             // 
@@ -131,6 +133,7 @@ namespace ConCungReplication
             this.pictureBox2.Size = new System.Drawing.Size(68, 43);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.clickCart);
             // 
             // pictureBox1
             // 

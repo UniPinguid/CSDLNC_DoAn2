@@ -36,5 +36,12 @@ namespace ConCungReplication
             SubmitOrder submitOrder = new SubmitOrder();
             submitOrder.Show();
         }
+
+        private void clickUser(object sender, EventArgs e)
+        {
+            this.Close();
+            UserProfile user = new UserProfile();
+            user.Show();
+        }
     }
 }

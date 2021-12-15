@@ -39,5 +39,12 @@ namespace ConCungReplication
             UserLocation userLocation = new UserLocation();
             userLocation.Show();
         }
+
+        private void clickLogo(object sender, EventArgs e)
+        {
+            this.Close();
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+        }
     }
 }

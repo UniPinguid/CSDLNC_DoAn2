@@ -50,11 +50,13 @@ namespace ConCungReplication
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.receiver = new System.Windows.Forms.Label();
-            this.location = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.number = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.receiver = new System.Windows.Forms.TextBox();
+            this.location = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel5.SuspendLayout();
@@ -67,6 +69,8 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -259,7 +263,7 @@ namespace ConCungReplication
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1090, 362);
+            this.dataGridView1.Size = new System.Drawing.Size(1107, 362);
             this.dataGridView1.TabIndex = 36;
             // 
             // label1
@@ -284,49 +288,16 @@ namespace ConCungReplication
             this.label2.TabIndex = 38;
             this.label2.Text = "Receiver";
             // 
-            // receiver
-            // 
-            this.receiver.AutoSize = true;
-            this.receiver.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.receiver.ForeColor = System.Drawing.Color.DimGray;
-            this.receiver.Location = new System.Drawing.Point(422, 195);
-            this.receiver.Name = "receiver";
-            this.receiver.Size = new System.Drawing.Size(130, 24);
-            this.receiver.TabIndex = 39;
-            this.receiver.Text = "Brunette Amy";
-            // 
-            // location
-            // 
-            this.location.AutoSize = true;
-            this.location.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.location.ForeColor = System.Drawing.Color.DimGray;
-            this.location.Location = new System.Drawing.Point(422, 231);
-            this.location.Name = "location";
-            this.location.Size = new System.Drawing.Size(405, 24);
-            this.location.TabIndex = 41;
-            this.location.Text = "410 Green Hill Court, Boynton Beach, FL 33435";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Montserrat SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.DimGray;
-            this.label10.Location = new System.Drawing.Point(305, 231);
+            this.label10.Location = new System.Drawing.Point(305, 264);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(93, 25);
             this.label10.TabIndex = 40;
             this.label10.Text = "Location";
-            // 
-            // number
-            // 
-            this.number.AutoSize = true;
-            this.number.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.number.ForeColor = System.Drawing.Color.DimGray;
-            this.number.Location = new System.Drawing.Point(1045, 196);
-            this.number.Name = "number";
-            this.number.Size = new System.Drawing.Size(115, 24);
-            this.number.TabIndex = 43;
-            this.number.Text = "2931 282 222";
             // 
             // label12
             // 
@@ -339,17 +310,60 @@ namespace ConCungReplication
             this.label12.TabIndex = 42;
             this.label12.Text = "Contact Number";
             // 
+            // receiver
+            // 
+            this.receiver.Location = new System.Drawing.Point(305, 226);
+            this.receiver.Name = "receiver";
+            this.receiver.Size = new System.Drawing.Size(522, 27);
+            this.receiver.TabIndex = 44;
+            // 
+            // location
+            // 
+            this.location.Location = new System.Drawing.Point(305, 295);
+            this.location.Name = "location";
+            this.location.Size = new System.Drawing.Size(816, 27);
+            this.location.TabIndex = 45;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(853, 226);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(268, 27);
+            this.textBox1.TabIndex = 46;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(1178, 285);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(176, 36);
+            this.pictureBox6.TabIndex = 47;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(1178, 226);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(176, 36);
+            this.pictureBox7.TabIndex = 48;
+            this.pictureBox7.TabStop = false;
+            // 
             // UserLocation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1417, 733);
-            this.Controls.Add(this.number);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.location);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.receiver);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -381,6 +395,8 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -408,10 +424,12 @@ namespace ConCungReplication
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label receiver;
-        private System.Windows.Forms.Label location;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label number;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox receiver;
+        private System.Windows.Forms.TextBox location;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

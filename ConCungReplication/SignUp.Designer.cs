@@ -202,6 +202,9 @@ namespace ConCungReplication
             this.GenderSelect.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.GenderSelect.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.GenderSelect.FormattingEnabled = true;
+            this.GenderSelect.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
             this.GenderSelect.Location = new System.Drawing.Point(61, 35);
             this.GenderSelect.Name = "GenderSelect";
             this.GenderSelect.Size = new System.Drawing.Size(110, 32);

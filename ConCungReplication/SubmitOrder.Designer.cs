@@ -98,7 +98,7 @@ namespace ConCungReplication
             this.Controls.Add(this.PurchaseHistoryBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SubmitOrder";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

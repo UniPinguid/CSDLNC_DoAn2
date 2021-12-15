@@ -31,5 +31,19 @@ namespace ConCungReplication
 
             quantity.Text = Convert.ToString(quantity_num);
         }
+
+        private void clickLogo(object sender, EventArgs e)
+        {
+            this.Close();
+            UserProfile profile = new UserProfile();
+            profile.Show();
+        }
+
+        private void clickCart(object sender, EventArgs e)
+        {
+            this.Close();
+            Cart cart = new Cart();
+            cart.Show();
+        }
     }
 }

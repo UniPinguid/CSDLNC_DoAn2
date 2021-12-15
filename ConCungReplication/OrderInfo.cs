@@ -28,5 +28,12 @@ namespace ConCungReplication
             HomepageCustomer homepage = new HomepageCustomer();
             homepage.Show();
         }
+
+        private void clickUser(object sender, EventArgs e)
+        {
+            this.Close();
+            UserProfile user = new UserProfile();
+            user.Show();
+        }
     }
 }

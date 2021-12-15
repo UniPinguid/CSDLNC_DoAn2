@@ -96,6 +96,7 @@ namespace ConCungReplication
             this.pictureBox3.Size = new System.Drawing.Size(32, 42);
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 
