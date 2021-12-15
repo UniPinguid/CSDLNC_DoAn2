@@ -240,6 +240,7 @@ namespace ConCungReplication
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(235, 38);
             this.panel5.TabIndex = 18;
+            this.panel5.Click += new System.EventHandler(this.clickLocation);
             // 
             // label6
             // 
@@ -251,6 +252,7 @@ namespace ConCungReplication
             this.label6.Size = new System.Drawing.Size(123, 24);
             this.label6.TabIndex = 17;
             this.label6.Text = "My Locations";
+            this.label6.Click += new System.EventHandler(this.clickLocation);
             // 
             // pictureBox4
             // 
@@ -260,6 +262,7 @@ namespace ConCungReplication
             this.pictureBox4.Size = new System.Drawing.Size(32, 32);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.clickLocation);
             // 
             // panel6
             // 

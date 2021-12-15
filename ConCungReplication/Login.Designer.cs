@@ -128,7 +128,7 @@ namespace ConCungReplication
             this.groupBox1.Size = new System.Drawing.Size(500, 80);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "USER ID";
+            this.groupBox1.Text = "USERNAME";
             // 
             // pictureBox2
             // 

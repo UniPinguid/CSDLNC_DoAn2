@@ -40,9 +40,12 @@ namespace ConCungReplication
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.CheckTOS = new System.Windows.Forms.CheckBox();
             this.LoginButton = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.usernameInput = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -92,7 +95,7 @@ namespace ConCungReplication
             this.groupBox2.Controls.Add(this.passwordInput);
             this.groupBox2.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
-            this.groupBox2.Location = new System.Drawing.Point(34, 256);
+            this.groupBox2.Location = new System.Drawing.Point(29, 373);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(500, 80);
             this.groupBox2.TabIndex = 15;
@@ -115,7 +118,7 @@ namespace ConCungReplication
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
-            this.groupBox1.Location = new System.Drawing.Point(34, 373);
+            this.groupBox1.Location = new System.Drawing.Point(29, 486);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(500, 80);
             this.groupBox1.TabIndex = 16;
@@ -137,7 +140,7 @@ namespace ConCungReplication
             // 
             this.CheckTOS.AutoSize = true;
             this.CheckTOS.Font = new System.Drawing.Font("Montserrat Light", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CheckTOS.Location = new System.Drawing.Point(38, 483);
+            this.CheckTOS.Location = new System.Drawing.Point(33, 596);
             this.CheckTOS.Name = "CheckTOS";
             this.CheckTOS.Size = new System.Drawing.Size(496, 44);
             this.CheckTOS.TabIndex = 17;
@@ -151,7 +154,7 @@ namespace ConCungReplication
             this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginButton.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LoginButton.ForeColor = System.Drawing.Color.White;
-            this.LoginButton.Location = new System.Drawing.Point(34, 568);
+            this.LoginButton.Location = new System.Drawing.Point(29, 681);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(500, 50);
             this.LoginButton.TabIndex = 18;
@@ -159,12 +162,36 @@ namespace ConCungReplication
             this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.usernameInput);
+            this.groupBox3.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
+            this.groupBox3.Location = new System.Drawing.Point(29, 254);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(500, 80);
+            this.groupBox3.TabIndex = 16;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "USERNAME";
+            // 
+            // usernameInput
+            // 
+            this.usernameInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usernameInput.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.usernameInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.usernameInput.Location = new System.Drawing.Point(38, 41);
+            this.usernameInput.Name = "usernameInput";
+            this.usernameInput.PasswordChar = '*';
+            this.usernameInput.Size = new System.Drawing.Size(455, 22);
+            this.usernameInput.TabIndex = 2;
+            // 
             // SignUpFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(556, 669);
+            this.ClientSize = new System.Drawing.Size(556, 769);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.CheckTOS);
             this.Controls.Add(this.groupBox1);
@@ -183,6 +210,8 @@ namespace ConCungReplication
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,5 +229,7 @@ namespace ConCungReplication
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.CheckBox CheckTOS;
         private System.Windows.Forms.Button LoginButton;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox usernameInput;
     }
 }

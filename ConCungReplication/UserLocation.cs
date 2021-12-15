@@ -8,25 +8,11 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class PurchaseHistory : Form
+    public partial class UserLocation : Form
     {
-        public PurchaseHistory()
+        public UserLocation()
         {
             InitializeComponent();
-        }
-
-        private void clickLogo(object sender, EventArgs e)
-        {
-            this.Close();
-            HomepageCustomer homepage = new HomepageCustomer();
-            homepage.Show();
-        }
-
-        private void clickTest(object sender, EventArgs e)
-        {
-            this.Close();
-            OrderInfo orderInfo = new OrderInfo();
-            orderInfo.Show();
         }
 
         private void clickLogout(object sender, EventArgs e)
@@ -40,6 +26,13 @@ namespace ConCungReplication
             }
         }
 
+        private void clickPurchaseHistory(object sender, EventArgs e)
+        {
+            this.Close();
+            PurchaseHistory purchase = new PurchaseHistory();
+            purchase.Show();
+        }
+
         private void clickProfile(object sender, EventArgs e)
         {
             this.Close();
@@ -47,11 +40,11 @@ namespace ConCungReplication
             profile.Show();
         }
 
-        private void clickLocation(object sender, EventArgs e)
+        private void clickLogo(object sender, EventArgs e)
         {
             this.Close();
-            UserLocation location = new UserLocation();
-            location.Show();
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
         }
     }
 }
