@@ -25,13 +25,13 @@ namespace ConCungReplication
         private void clickLogin(object sender, EventArgs e)
         {
             this.Hide();
-            // If username is in Customer database
-            HomepageCustomer homepageCustomer = new HomepageCustomer();
-            homepageCustomer.Show();
+            //// If username is in Customer database
+            //HomepageCustomer homepageCustomer = new HomepageCustomer();
+            //homepageCustomer.Show();
 
-            //// If username is in Employer database
-            // HomepageCustomer homepageCustomer = new HomepageCustomer();
-            // homepageCustomer.Show();
+            // If username is in Employer database
+            HomepageEmployer homepageEmployer = new HomepageEmployer();
+            homepageEmployer.Show();
         }
     }
 }

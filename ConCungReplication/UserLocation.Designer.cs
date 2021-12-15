@@ -259,11 +259,11 @@ namespace ConCungReplication
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(273, 333);
+            this.dataGridView1.Location = new System.Drawing.Point(273, 337);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1107, 362);
+            this.dataGridView1.Size = new System.Drawing.Size(1107, 358);
             this.dataGridView1.TabIndex = 36;
             // 
             // label1
@@ -312,23 +312,29 @@ namespace ConCungReplication
             // 
             // receiver
             // 
+            this.receiver.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.receiver.ForeColor = System.Drawing.Color.DimGray;
             this.receiver.Location = new System.Drawing.Point(305, 226);
             this.receiver.Name = "receiver";
-            this.receiver.Size = new System.Drawing.Size(522, 27);
+            this.receiver.Size = new System.Drawing.Size(522, 26);
             this.receiver.TabIndex = 44;
             // 
             // location
             // 
+            this.location.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.location.ForeColor = System.Drawing.Color.DimGray;
             this.location.Location = new System.Drawing.Point(305, 295);
             this.location.Name = "location";
-            this.location.Size = new System.Drawing.Size(816, 27);
+            this.location.Size = new System.Drawing.Size(816, 26);
             this.location.TabIndex = 45;
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
             this.textBox1.Location = new System.Drawing.Point(853, 226);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(268, 27);
+            this.textBox1.Size = new System.Drawing.Size(268, 26);
             this.textBox1.TabIndex = 46;
             // 
             // pictureBox6

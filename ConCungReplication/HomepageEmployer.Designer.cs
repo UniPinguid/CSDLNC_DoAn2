@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    partial class HomepageEloyer
+    partial class HomepageEmployer
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,17 +35,19 @@ namespace ConCungReplication
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepageEloyer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepageEmployer));
             this.logo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.aboutUs = new System.Windows.Forms.Label();
-            this.searchBar_overlay = new System.Windows.Forms.Panel();
-            this.searchBar = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cover = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel1.SuspendLayout();
-            this.searchBar_overlay.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // logo
@@ -62,44 +64,74 @@ namespace ConCungReplication
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
-            this.panel1.Controls.Add(this.aboutUs);
-            this.panel1.Controls.Add(this.searchBar_overlay);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.logo);
             this.panel1.Location = new System.Drawing.Point(0, 36);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1920, 74);
             this.panel1.TabIndex = 1;
             // 
-            // aboutUs
+            // label4
             // 
-            this.aboutUs.AutoSize = true;
-            this.aboutUs.Font = new System.Drawing.Font("Montserrat", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.aboutUs.Location = new System.Drawing.Point(1439, 25);
-            this.aboutUs.Name = "aboutUs";
-            this.aboutUs.Size = new System.Drawing.Size(79, 21);
-            this.aboutUs.TabIndex = 0;
-            this.aboutUs.Text = "About Us";
+            this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(1094, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 27);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Traces";
             // 
-            // searchBar_overlay
+            // label3
             // 
-            this.searchBar_overlay.BackColor = System.Drawing.Color.White;
-            this.searchBar_overlay.Controls.Add(this.searchBar);
-            this.searchBar_overlay.Location = new System.Drawing.Point(240, 18);
-            this.searchBar_overlay.Name = "searchBar_overlay";
-            this.searchBar_overlay.Size = new System.Drawing.Size(774, 42);
-            this.searchBar_overlay.TabIndex = 1;
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(1267, 26);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 27);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Import/Export";
+            this.label3.Click += new System.EventHandler(this.clickIE);
             // 
-            // searchBar
+            // label2
             // 
-            this.searchBar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.searchBar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.searchBar.Font = new System.Drawing.Font("Roboto Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.searchBar.Location = new System.Drawing.Point(19, 14);
-            this.searchBar.Margin = new System.Windows.Forms.Padding(16, 8, 16, 8);
-            this.searchBar.MaxLength = 256;
-            this.searchBar.Name = "searchBar";
-            this.searchBar.Size = new System.Drawing.Size(736, 21);
-            this.searchBar.TabIndex = 2;
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(900, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 27);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Storage";
+            this.label2.Click += new System.EventHandler(this.clickStorage);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(684, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 27);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Products";
+            this.label1.Click += new System.EventHandler(this.clickProducts);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1505, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 43);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.clickLogout);
             // 
             // panel2
             // 
@@ -114,12 +146,13 @@ namespace ConCungReplication
             // cover
             // 
             this.cover.AutoScroll = true;
+            this.cover.BackColor = System.Drawing.Color.White;
             this.cover.Location = new System.Drawing.Point(0, 110);
             this.cover.Name = "cover";
             this.cover.Size = new System.Drawing.Size(1584, 820);
             this.cover.TabIndex = 3;
             // 
-            // HomepageEloyer
+            // HomepageEmployer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,14 +162,13 @@ namespace ConCungReplication
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "HomepageEloyer";
+            this.Name = "HomepageEmployer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Concung";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.searchBar_overlay.ResumeLayout(false);
-            this.searchBar_overlay.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -144,11 +176,13 @@ namespace ConCungReplication
 
         private PictureBox logo;
         private Panel panel1;
-        private TextBox searchBar;
-        private Panel searchBar_overlay;
         private Panel panel2;
-        private Label aboutUs;
         private Panel cover;
+        private PictureBox pictureBox1;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
     }
 }
 
