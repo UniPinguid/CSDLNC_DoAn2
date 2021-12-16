@@ -46,5 +46,12 @@ namespace ConCungReplication
                 login.Show();
             }
         }
+
+        private void clickTraces(object sender, EventArgs e)
+        {
+            this.Close();
+            OrderTraces traces = new OrderTraces();
+            traces.Show();
+        }
     }
 }

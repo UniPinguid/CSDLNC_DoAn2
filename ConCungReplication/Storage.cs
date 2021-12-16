@@ -46,5 +46,12 @@ namespace ConCungReplication
             ImportExport ie = new ImportExport();
             ie.Show();
         }
+
+        private void clickTraces(object sender, EventArgs e)
+        {
+            this.Close();
+            OrderTraces traces = new OrderTraces();
+            traces.Show();
+        }
     }
 }

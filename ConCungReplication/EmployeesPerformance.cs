@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class ProductManagement : Form
+    public partial class EmployeesPerformance : Form
     {
-        public ProductManagement()
+        public EmployeesPerformance()
         {
             InitializeComponent();
         }
@@ -18,15 +18,22 @@ namespace ConCungReplication
         private void clickLogo(object sender, EventArgs e)
         {
             this.Close();
-            HomepageEmployer homepage = new HomepageEmployer();
+            HomepageManager homepage = new HomepageManager();
             homepage.Show();
         }
 
-        private void clickStorage(object sender, EventArgs e)
+        private void clickStatistics(object sender, EventArgs e)
         {
             this.Close();
-            Storage storage = new Storage();
-            storage.Show();
+            Statistics stats = new Statistics();
+            stats.Show();
+        }
+
+        private void clickComparison(object sender, EventArgs e)
+        {
+            this.Close();
+            Comparison comparison = new Comparison();
+            comparison.Show();
         }
 
         private void clickLogout(object sender, EventArgs e)
@@ -38,20 +45,6 @@ namespace ConCungReplication
                 Login login = new Login();
                 login.Show();
             }
-        }
-
-        private void clickIE(object sender, EventArgs e)
-        {
-            this.Close();
-            ImportExport ie = new ImportExport();
-            ie.Show();
-        }
-
-        private void clickTraces(object sender, EventArgs e)
-        {
-            this.Close();
-            OrderTraces traces = new OrderTraces();
-            traces.Show();
         }
     }
 }

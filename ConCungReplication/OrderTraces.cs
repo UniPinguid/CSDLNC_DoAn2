@@ -3,30 +3,23 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConCungReplication
 {
-    public partial class HomepageEmployer : Form
+    public partial class OrderTraces : Form
     {
-        public HomepageEmployer()
+        public OrderTraces()
         {
             InitializeComponent();
         }
 
-        private void clickLogout(object sender, EventArgs e)
+        private void clickLogo(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Log out Verification", MessageBoxButtons.YesNo);
-            if (dialogResult == DialogResult.Yes)
-            {
-                this.Close();
-                Login login = new Login();
-                login.Show();
-            }
+            this.Close();
+            HomepageEmployer homepage = new HomepageEmployer();
+            homepage.Show();
         }
 
         private void clickProducts(object sender, EventArgs e)
@@ -50,11 +43,15 @@ namespace ConCungReplication
             ie.Show();
         }
 
-        private void clickTraces(object sender, EventArgs e)
+        private void clickLogout(object sender, EventArgs e)
         {
-            this.Close();
-            OrderTraces traces = new OrderTraces();
-            traces.Show();
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Log out Verification", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+                Login login = new Login();
+                login.Show();
+            }
         }
     }
 }

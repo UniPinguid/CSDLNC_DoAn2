@@ -45,9 +45,15 @@ namespace ConCungReplication
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cover = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.cover.SuspendLayout();
             this.SuspendLayout();
             // 
             // logo
@@ -85,6 +91,7 @@ namespace ConCungReplication
             this.label4.Size = new System.Drawing.Size(78, 27);
             this.label4.TabIndex = 5;
             this.label4.Text = "Traces";
+            this.label4.Click += new System.EventHandler(this.clickTraces);
             // 
             // label3
             // 
@@ -147,10 +154,70 @@ namespace ConCungReplication
             // 
             this.cover.AutoScroll = true;
             this.cover.BackColor = System.Drawing.Color.White;
+            this.cover.Controls.Add(this.label6);
+            this.cover.Controls.Add(this.groupBox3);
+            this.cover.Controls.Add(this.groupBox2);
+            this.cover.Controls.Add(this.groupBox1);
+            this.cover.Controls.Add(this.label5);
             this.cover.Location = new System.Drawing.Point(0, 110);
             this.cover.Name = "cover";
             this.cover.Size = new System.Drawing.Size(1584, 820);
             this.cover.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
+            this.label6.Location = new System.Drawing.Point(48, 30);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 27);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "News";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Font = new System.Drawing.Font("Montserrat SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox3.ForeColor = System.Drawing.Color.DimGray;
+            this.groupBox3.Location = new System.Drawing.Point(1139, 541);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(415, 181);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "System";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Font = new System.Drawing.Font("Montserrat SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox2.ForeColor = System.Drawing.Color.DimGray;
+            this.groupBox2.Location = new System.Drawing.Point(1139, 339);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(415, 181);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Customer";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Font = new System.Drawing.Font("Montserrat SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.groupBox1.Location = new System.Drawing.Point(1139, 69);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(415, 251);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Shipping Unit";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
+            this.label5.Location = new System.Drawing.Point(1139, 30);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(145, 27);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Notifications";
             // 
             // HomepageEmployer
             // 
@@ -169,6 +236,8 @@ namespace ConCungReplication
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.cover.ResumeLayout(false);
+            this.cover.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -183,6 +252,11 @@ namespace ConCungReplication
         private Label label3;
         private Label label2;
         private Label label1;
+        private Label label6;
+        private GroupBox groupBox3;
+        private GroupBox groupBox2;
+        private GroupBox groupBox1;
+        private Label label5;
     }
 }
 

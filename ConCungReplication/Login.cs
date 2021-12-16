@@ -29,9 +29,13 @@ namespace ConCungReplication
             //HomepageCustomer homepageCustomer = new HomepageCustomer();
             //homepageCustomer.Show();
 
-            // If username is in Employer database
-            HomepageEmployer homepageEmployer = new HomepageEmployer();
-            homepageEmployer.Show();
+            //// If username is in Employer database
+            //HomepageEmployer homepageEmployer = new HomepageEmployer();
+            //homepageEmployer.Show();
+
+            // If username is in Manager database
+            HomepageManager homepageManager = new HomepageManager();
+            homepageManager.Show();
         }
     }
 }
