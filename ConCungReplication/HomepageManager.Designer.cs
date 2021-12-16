@@ -91,6 +91,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(116, 27);
             this.label3.TabIndex = 4;
             this.label3.Text = "Discounts";
+            this.label3.Click += new System.EventHandler(this.clickDiscounts);
             // 
             // label2
             // 
@@ -144,6 +145,7 @@ namespace ConCungReplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1582, 853);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
