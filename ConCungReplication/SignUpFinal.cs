@@ -17,8 +17,10 @@ namespace ConCungReplication
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            this.Close();
             MessageBox.Show("Your account had been created successfully!","Success");
+            Login login = new Login();
+            login.Show();
+            this.Close();
         }
     }
 }

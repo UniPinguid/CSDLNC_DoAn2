@@ -17,25 +17,30 @@ namespace ConCungReplication
 
         private void SignUpText_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
             SignUp signUpForm = new SignUp();
-            signUpForm.ShowDialog();
+            signUpForm.Show();
+            this.Hide();
         }
 
         private void clickLogin(object sender, EventArgs e)
         {
-            this.Hide();
             //// If username is in Customer database
             //HomepageCustomer homepageCustomer = new HomepageCustomer();
-            //homepageCustomer.Show();
+            //homepageCustomer.ShowDialog();
 
             //// If username is in Employer database
             //HomepageEmployer homepageEmployer = new HomepageEmployer();
-            //homepageEmployer.Show();
+            //homepageEmployer.ShowDialog();
 
-            // If username is in Manager database
-            HomepageManager homepageManager = new HomepageManager();
-            homepageManager.Show();
+            //// If username is in Manager database
+            //HomepageManager homepageManager = new HomepageManager();
+            //homepageManager.ShowDialog();
+
+            // If username is in Personnel database
+            HomepagePersonnel homepagePersonnel = new HomepagePersonnel();
+            homepagePersonnel.Show();
+
+            this.Hide();
         }
     }
 }

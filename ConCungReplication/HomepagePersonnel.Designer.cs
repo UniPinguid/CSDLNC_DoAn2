@@ -1,7 +1,7 @@
 ﻿
 namespace ConCungReplication
 {
-    partial class HomepageManager
+    partial class HomepagePersonnel
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace ConCungReplication
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepageManager));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepagePersonnel));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,7 +73,7 @@ namespace ConCungReplication
             this.panel2.MaximumSize = new System.Drawing.Size(1920, 36);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1920, 36);
-            this.panel2.TabIndex = 4;
+            this.panel2.TabIndex = 6;
             // 
             // panel1
             // 
@@ -87,7 +87,7 @@ namespace ConCungReplication
             this.panel1.Location = new System.Drawing.Point(0, 35);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1920, 74);
-            this.panel1.TabIndex = 3;
+            this.panel1.TabIndex = 5;
             // 
             // label4
             // 
@@ -95,12 +95,12 @@ namespace ConCungReplication
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(1094, 26);
+            this.label4.Location = new System.Drawing.Point(1058, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 27);
+            this.label4.Size = new System.Drawing.Size(154, 27);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Employees";
-            this.label4.Click += new System.EventHandler(this.clickEmployees);
+            this.label4.Text = "Salary History";
+            this.label4.Click += new System.EventHandler(this.clickSalaryHistory);
             // 
             // label3
             // 
@@ -110,10 +110,10 @@ namespace ConCungReplication
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(1297, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 27);
+            this.label3.Size = new System.Drawing.Size(101, 27);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Discounts";
-            this.label3.Click += new System.EventHandler(this.clickDiscounts);
+            this.label3.Text = "Rewards";
+            this.label3.Click += new System.EventHandler(this.clickRewards);
             // 
             // label2
             // 
@@ -121,12 +121,12 @@ namespace ConCungReplication
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(878, 26);
+            this.label2.Location = new System.Drawing.Point(885, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 27);
+            this.label2.Size = new System.Drawing.Size(65, 27);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Comparison";
-            this.label2.Click += new System.EventHandler(this.clickComparison);
+            this.label2.Text = "Sales";
+            this.label2.Click += new System.EventHandler(this.clickSales);
             // 
             // label1
             // 
@@ -136,10 +136,10 @@ namespace ConCungReplication
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(684, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 27);
+            this.label1.Size = new System.Drawing.Size(96, 27);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Statistics";
-            this.label1.Click += new System.EventHandler(this.clickStatistics);
+            this.label1.Text = "Roll-call";
+            this.label1.Click += new System.EventHandler(this.clickRollcall);
             // 
             // pictureBox1
             // 
@@ -183,10 +183,10 @@ namespace ConCungReplication
             this.panel3.Controls.Add(this.label26);
             this.panel3.Controls.Add(this.label24);
             this.panel3.Controls.Add(this.gender);
-            this.panel3.Location = new System.Drawing.Point(0, 109);
+            this.panel3.Location = new System.Drawing.Point(0, 108);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(303, 746);
-            this.panel3.TabIndex = 9;
+            this.panel3.TabIndex = 7;
             // 
             // pictureBox4
             // 
@@ -212,7 +212,6 @@ namespace ConCungReplication
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label28.ForeColor = System.Drawing.Color.DimGray;
             this.label28.Location = new System.Drawing.Point(141, 456);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(128, 27);
@@ -234,7 +233,6 @@ namespace ConCungReplication
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.ForeColor = System.Drawing.Color.DimGray;
             this.label21.Location = new System.Drawing.Point(43, 377);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(103, 21);
@@ -246,7 +244,6 @@ namespace ConCungReplication
             this.KPI.AutoSize = true;
             this.KPI.BackColor = System.Drawing.Color.Transparent;
             this.KPI.Font = new System.Drawing.Font("Montserrat SemiBold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.KPI.ForeColor = System.Drawing.Color.DimGray;
             this.KPI.Location = new System.Drawing.Point(38, 451);
             this.KPI.Name = "KPI";
             this.KPI.Size = new System.Drawing.Size(74, 37);
@@ -257,7 +254,6 @@ namespace ConCungReplication
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.ForeColor = System.Drawing.Color.DimGray;
             this.label23.Location = new System.Drawing.Point(43, 351);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(75, 21);
@@ -320,7 +316,6 @@ namespace ConCungReplication
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.ForeColor = System.Drawing.Color.DimGray;
             this.label25.Location = new System.Drawing.Point(43, 325);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(83, 21);
@@ -342,10 +337,9 @@ namespace ConCungReplication
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Montserrat SemiBold", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.ForeColor = System.Drawing.Color.DimGray;
             this.label26.Location = new System.Drawing.Point(73, 248);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(156, 40);
+            this.label26.Size = new System.Drawing.Size(153, 39);
             this.label26.TabIndex = 119;
             this.label26.Text = "MYNAME";
             // 
@@ -370,7 +364,7 @@ namespace ConCungReplication
             this.gender.TabIndex = 124;
             this.gender.Text = "Male";
             // 
-            // HomepageManager
+            // HomepagePersonnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -381,9 +375,9 @@ namespace ConCungReplication
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "HomepageManager";
+            this.Name = "HomepagePersonnel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HomepageManager";
+            this.Text = "HomepagePersonnel";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
