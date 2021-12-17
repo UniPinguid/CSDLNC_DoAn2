@@ -243,7 +243,7 @@ add constraint FK_USER_KHID foreign key (KH_ID) references KHACHHANG(KH_ID)
 go
 
 alter table XH_SP
-add constraint FK_XHSP_XHID foreign key (SP_ID) references SANPHAM(SP_ID)
+add constraint FK_XHSP_SPID foreign key (SP_ID) references SANPHAM(SP_ID)
 go
 
 alter table HOADON
