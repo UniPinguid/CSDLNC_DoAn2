@@ -46,5 +46,12 @@ namespace ConCungReplication
             EmployeesPerformance employees = new EmployeesPerformance();
             employees.Show();
         }
+
+        private void clickDiscounts(object sender, EventArgs e)
+        {
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
     }
 }

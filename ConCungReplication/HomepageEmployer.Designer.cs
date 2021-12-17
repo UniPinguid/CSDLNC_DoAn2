@@ -221,6 +221,7 @@ namespace ConCungReplication
             this.pictureBox4.Size = new System.Drawing.Size(235, 48);
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.clickLogout);
             // 
             // pictureBox3
             // 

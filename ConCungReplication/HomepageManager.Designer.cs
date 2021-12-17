@@ -197,6 +197,7 @@ namespace ConCungReplication
             this.pictureBox4.Size = new System.Drawing.Size(235, 48);
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.clickLogout);
             // 
             // pictureBox3
             // 
@@ -345,7 +346,7 @@ namespace ConCungReplication
             this.label26.ForeColor = System.Drawing.Color.DimGray;
             this.label26.Location = new System.Drawing.Point(73, 248);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(156, 40);
+            this.label26.Size = new System.Drawing.Size(153, 39);
             this.label26.TabIndex = 119;
             this.label26.Text = "MYNAME";
             // 

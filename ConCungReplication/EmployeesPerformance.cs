@@ -46,5 +46,12 @@ namespace ConCungReplication
                 login.Show();
             }
         }
+
+        private void clickDiscounts(object sender, EventArgs e)
+        {
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
     }
 }

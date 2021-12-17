@@ -113,6 +113,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(116, 27);
             this.label3.TabIndex = 4;
             this.label3.Text = "Discounts";
+            this.label3.Click += new System.EventHandler(this.clickDiscounts);
             // 
             // label2
             // 
