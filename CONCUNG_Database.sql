@@ -1,4 +1,4 @@
-create database CONCUNG
+﻿create database CONCUNG
 go
 
 use CONCUNG
@@ -9,7 +9,7 @@ create table KHACHHANG
 (
 	KH_ID char(10) not null, 
 	TenKH nvarchar(20),
-	SoDienThoai char(10),
+	SoDienThoai char(10) not null,
 	Email char(30),
 	Phai nvarchar(3),
 	NgaySinh datetime,
@@ -31,6 +31,7 @@ go
 create  table DiaChi_KH 
 (
 	KH_ID char(10) not null,
+	TenNguoiNhan nvarchar(20),
 	STT int not null,
 	SoNha int,
 	Duong nvarchar(20),
@@ -68,7 +69,7 @@ create table HOADON
 (
 	HD_ID char(10) not null,
 	NgayMua datetime,
-	DiaChiGiaoHamg char(50),
+	DiaChiGiaoHang char(50),
 	TienHang float,
 	PhiVanChuyen float,
 	TrangThai int,
@@ -102,7 +103,7 @@ create table NHANVIEN
 	NV_ID char(10) not null,
 	Ten_NV nvarchar(20),
 	Phai_NV nvarchar(3),
-	CMND_NV char(9),
+	CMND_NV char(9) not null,
 	NgaySinhNV datetime,
 	DiaChiNV nvarchar(50),
 	KPI_NV float,
@@ -132,11 +133,12 @@ create table DonNhapHang
 )
 go
 
+
 create table NGUOIDUNG
 (
 	username char(20) not null,
-	KH_ID char(10) not null,
-	NV_ID char(10) not null,
+	KH_ID char(10),
+	NV_ID char(10) ,
 	password char(20) not null,
 	VaiTro int not null
 )
@@ -250,6 +252,7 @@ go
 
 alter table SANPHAM
 add constraint FK_NHOMSP_GRSPID foreign key (GrSP_ID) references NhomSP(GrSP_ID)
+go
 
 alter table LichSuGia
 add constraint FK_LICHSUGIA_SPID foreign key (SP_ID) references SANPHAM(SP_ID)
@@ -257,4 +260,30 @@ go
 -----------
 
 
+alter table KHACHHANG
+add constraint uniqueKH_SoDienThoai UNIQUE(SoDienThoai)
+go
 
+alter table NHANVIEN
+add constraint uniqueNV_CMND UNIQUE(CMND_NV)
+go
+-----
+--Tính tiền hàng--
+create trigger  TinhTienHang_insert
+on CT_HoaDon
+after insert as
+update HOADON
+set HOADON.TienHang = (100-s.KhuyenMai)*i.SoLuong*s.Gia*0.01
+from inserted i, HOADON h, SANPHAM s
+where i.HD_ID = h.HD_ID and i.SP_ID = s.SP_ID
+
+go
+
+--Tình thành tiền--
+create trigger TinhThanhTien
+on HOADON
+after update as
+update HOADON
+set HOADON.ThanhTien = i.TienHang*(100-i.GiamGia)*0.01+i.PhiVanChuyen
+from HOADON h inner join inserted i on i.HD_ID = h.HD_ID
+go
