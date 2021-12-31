@@ -10,6 +10,13 @@ namespace ConCungReplication.forms
 {
     public partial class SignUp2 : Form
     {
+
+        static string HouseNumber = "";
+        static string street = "";
+        static string ward = "";
+        static string province = "";
+        static string district = "";
+
         public SignUp2()
         {
             InitializeComponent();
@@ -40,9 +47,51 @@ namespace ConCungReplication.forms
 
         private void clickContinue(object sender, EventArgs e)
         {
-            SignUpFinal signUpFinal = new SignUpFinal();
-            signUpFinal.Show();
-            this.Close();
+            int checkEmpty = 0;
+
+            if (textBox6.Text == "")
+            {
+                MessageBox.Show("House number is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox3.Text == "")
+            {
+                MessageBox.Show("Street is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox5.Text == "")
+            {
+                MessageBox.Show("Ward is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("District is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Province is empty");
+                checkEmpty = 1;
+            }
+
+
+            if (checkEmpty == 0)
+            {
+                street = textBox3.Text;
+                HouseNumber = textBox5.Text;
+                ward = textBox5.Text;
+                district = textBox2.Text;
+                province = textBox1.Text;
+
+                SignUpFinal signUpFinal = new SignUpFinal();
+                signUpFinal.Show();
+                this.Close();
+            }
         }
     }
 }
