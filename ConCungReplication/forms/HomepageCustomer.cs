@@ -42,5 +42,28 @@ namespace ConCungReplication
             UserProfile userProfile = new UserProfile();
             userProfile.Show();
         }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void clickBrowse(object sender, EventArgs e)
+        {
+            Browse browse = new Browse();
+            browse.Show();
+            this.Close();
+        }
+
+        private void clickCart(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
+            this.Close();
+        }
     }
 }

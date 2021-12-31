@@ -35,5 +35,19 @@ namespace ConCungReplication
             UserProfile profile = new UserProfile();
             profile.Show();
         }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickBrowse(object sender, EventArgs e)
+        {
+            Browse browse = new Browse();
+            browse.Show();
+            this.Close();
+        }
     }
 }

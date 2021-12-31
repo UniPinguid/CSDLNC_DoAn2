@@ -45,5 +45,12 @@ namespace ConCungReplication
             Cart cart = new Cart();
             cart.Show();
         }
+
+        private void clickBack(object sender, EventArgs e)
+        {
+            Browse browse = new Browse();
+            browse.Show();
+            this.Close();
+        }
     }
 }
