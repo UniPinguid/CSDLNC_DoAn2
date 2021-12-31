@@ -267,9 +267,10 @@ go
 alter table NHANVIEN
 add constraint uniqueNV_CMND UNIQUE(CMND_NV)
 go
+
 -----
 --Tính tiền hàng--
-create trigger  TinhTienHang_insert
+create trigger TinhTienHang_insert
 on CT_HoaDon
 after insert as
 update HOADON
@@ -287,3 +288,18 @@ update HOADON
 set HOADON.ThanhTien = i.TienHang*(100-i.GiamGia)*0.01+i.PhiVanChuyen
 from HOADON h inner join inserted i on i.HD_ID = h.HD_ID
 go
+
+-- Tính tổng tiền hóa đơn
+update HOADON
+set ThanhTien = f.total
+from HOADON h, (select a.HD_ID, SUM(a.ThanhTien) as total
+                from (select ct.HD_ID, ThanhTien = sp.Gia * ct.SoLuong
+	                  from CT_HoaDon ct, SANPHAM sp
+	                  where ct.SP_ID = sp.SP_ID) a
+	            group by a.HD_ID) f
+where h.HD_ID = f.HD_ID
+
+-- Nếu khuyến mãi lớn hơn giá thì khuyến mãi 50%
+update SANPHAM
+set KhuyenMai = Gia * 50/100
+where KhuyenMai > Gia

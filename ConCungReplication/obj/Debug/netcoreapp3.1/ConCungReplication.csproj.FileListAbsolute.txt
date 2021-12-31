@@ -40,3 +40,14 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalesByEmployees.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rewards.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalaryHistory.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
