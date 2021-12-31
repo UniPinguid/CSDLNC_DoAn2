@@ -1,4 +1,6 @@
-﻿update NHANVIEN
+﻿USE CONCUNG
+GO
+update NHANVIEN
 set PhongBan = N'Nhân Sự'
 where PhongBan = N'Phòng nhân sự' or PhongBan = N'Phòng hành chính'
 go
@@ -10,4 +12,13 @@ GO
 UPDATE NHANVIEN
 SET PhongBan = N'Quản Trị'
 WHERE PhongBan = N'Phòng tài vụ'
+GO
+
+CREATE TABLE KH_DATHANG(
+	KH_ID CHAR(10) NOT NULL,
+	SP_ID CHAR(10) NOT NULL,
+	SoLuong INT,
+	PRIMARY KEY (KH_ID, SP_ID),
+	FOREIGN KEY (KH_ID) REFERENCES KHACHHANG(KH_ID),
+	FOREIGN KEY (SP_ID) REFERENCES SANPHAM(SP_ID))
 GO
