@@ -130,11 +130,11 @@ namespace ConCungReplication
             // address
             // 
             this.address.AutoSize = true;
-            this.address.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.address.ForeColor = System.Drawing.Color.DimGray;
             this.address.Location = new System.Drawing.Point(79, 168);
             this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(405, 24);
+            this.address.Size = new System.Drawing.Size(365, 20);
             this.address.TabIndex = 9;
             this.address.Text = "410 Green Hill Court, Boynton Beach, FL 33435";
             // 
@@ -151,33 +151,33 @@ namespace ConCungReplication
             // customerName
             // 
             this.customerName.AutoSize = true;
-            this.customerName.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.customerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.customerName.ForeColor = System.Drawing.Color.DimGray;
             this.customerName.Location = new System.Drawing.Point(80, 142);
             this.customerName.Name = "customerName";
-            this.customerName.Size = new System.Drawing.Size(180, 25);
+            this.customerName.Size = new System.Drawing.Size(168, 22);
             this.customerName.TabIndex = 11;
             this.customerName.Text = "John Andrick Doe";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(1075, 514);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 26);
+            this.label1.Size = new System.Drawing.Size(77, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "Subtotal";
             // 
             // subtotal
             // 
             this.subtotal.AutoSize = true;
-            this.subtotal.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.subtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.subtotal.ForeColor = System.Drawing.Color.DimGray;
             this.subtotal.Location = new System.Drawing.Point(1272, 514);
             this.subtotal.Name = "subtotal";
-            this.subtotal.Size = new System.Drawing.Size(92, 26);
+            this.subtotal.Size = new System.Drawing.Size(77, 24);
             this.subtotal.TabIndex = 13;
             this.subtotal.Text = "42,000đ";
             this.subtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -185,11 +185,11 @@ namespace ConCungReplication
             // discount
             // 
             this.discount.AutoSize = true;
-            this.discount.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.discount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.discount.ForeColor = System.Drawing.Color.DimGray;
             this.discount.Location = new System.Drawing.Point(1265, 548);
             this.discount.Name = "discount";
-            this.discount.Size = new System.Drawing.Size(99, 26);
+            this.discount.Size = new System.Drawing.Size(83, 24);
             this.discount.TabIndex = 15;
             this.discount.Text = "-42,000đ";
             this.discount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -197,22 +197,22 @@ namespace ConCungReplication
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DimGray;
             this.label3.Location = new System.Drawing.Point(1074, 548);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 26);
+            this.label3.Size = new System.Drawing.Size(83, 24);
             this.label3.TabIndex = 14;
             this.label3.Text = "Discount";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
             this.label2.Location = new System.Drawing.Point(1241, 605);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 41);
+            this.label2.Size = new System.Drawing.Size(114, 36);
             this.label2.TabIndex = 17;
             this.label2.Text = "0.000đ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -220,11 +220,11 @@ namespace ConCungReplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DimGray;
             this.label4.Location = new System.Drawing.Point(1074, 593);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 26);
+            this.label4.Size = new System.Drawing.Size(56, 24);
             this.label4.TabIndex = 16;
             this.label4.Text = "Total";
             // 
@@ -233,7 +233,7 @@ namespace ConCungReplication
             this.ContinueBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
             this.ContinueBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ContinueBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ContinueBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ContinueBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ContinueBtn.ForeColor = System.Drawing.Color.White;
             this.ContinueBtn.Location = new System.Drawing.Point(1075, 695);
             this.ContinueBtn.Name = "ContinueBtn";
@@ -246,33 +246,33 @@ namespace ConCungReplication
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Montserrat", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DimGray;
             this.label5.Location = new System.Drawing.Point(1253, 642);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 20);
+            this.label5.Size = new System.Drawing.Size(102, 17);
             this.label5.TabIndex = 19;
             this.label5.Text = "(VAT included)";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Montserrat", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(1072, 219);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 25);
+            this.label6.Size = new System.Drawing.Size(117, 22);
             this.label6.TabIndex = 20;
             this.label6.Text = "Enter coupon";
             // 
             // coupon
             // 
             this.coupon.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.coupon.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.coupon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.coupon.ForeColor = System.Drawing.Color.DimGray;
             this.coupon.Location = new System.Drawing.Point(21, 6);
             this.coupon.Name = "coupon";
             this.coupon.PlaceholderText = "GI2WKA81";
-            this.coupon.Size = new System.Drawing.Size(198, 25);
+            this.coupon.Size = new System.Drawing.Size(198, 23);
             this.coupon.TabIndex = 21;
             // 
             // panel3
@@ -311,7 +311,7 @@ namespace ConCungReplication
             this.enterCoupon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
             this.enterCoupon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.enterCoupon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.enterCoupon.Font = new System.Drawing.Font("Montserrat SemiBold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.enterCoupon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.enterCoupon.ForeColor = System.Drawing.Color.White;
             this.enterCoupon.Location = new System.Drawing.Point(1315, 252);
             this.enterCoupon.Name = "enterCoupon";
