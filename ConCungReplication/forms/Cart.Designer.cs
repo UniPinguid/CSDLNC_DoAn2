@@ -57,9 +57,13 @@ namespace ConCungReplication
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TenSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThuongHieu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KhuyenMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.inCartData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -77,6 +81,11 @@ namespace ConCungReplication
             // 
             this.inCartData.BackgroundColor = System.Drawing.Color.White;
             this.inCartData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.inCartData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TenSP,
+            this.ThuongHieu,
+            this.Gia,
+            this.KhuyenMai});
             this.inCartData.Location = new System.Drawing.Point(28, 215);
             this.inCartData.Name = "inCartData";
             this.inCartData.RowHeadersWidth = 51;
@@ -370,6 +379,17 @@ namespace ConCungReplication
             this.panel3.Size = new System.Drawing.Size(231, 55);
             this.panel3.TabIndex = 36;
             // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Poppins", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.textBox1.Location = new System.Drawing.Point(18, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PlaceholderText = "1234ABCD";
+            this.textBox1.Size = new System.Drawing.Size(201, 33);
+            this.textBox1.TabIndex = 0;
+            // 
             // panel4
             // 
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
@@ -392,16 +412,37 @@ namespace ConCungReplication
             this.label6.TabIndex = 38;
             this.label6.Text = "Proceed";
             // 
-            // textBox1
+            // TenSP
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Poppins", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.textBox1.Location = new System.Drawing.Point(18, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "1234ABCD";
-            this.textBox1.Size = new System.Drawing.Size(201, 33);
-            this.textBox1.TabIndex = 0;
+            this.TenSP.DataPropertyName = "TenSP";
+            this.TenSP.HeaderText = "Sản Phẩm";
+            this.TenSP.MinimumWidth = 6;
+            this.TenSP.Name = "TenSP";
+            this.TenSP.Width = 125;
+            // 
+            // ThuongHieu
+            // 
+            this.ThuongHieu.DataPropertyName = "ThuongHieu";
+            this.ThuongHieu.HeaderText = "Thương Hiệu";
+            this.ThuongHieu.MinimumWidth = 6;
+            this.ThuongHieu.Name = "ThuongHieu";
+            this.ThuongHieu.Width = 125;
+            // 
+            // Gia
+            // 
+            this.Gia.DataPropertyName = "Gia";
+            this.Gia.HeaderText = "Giá";
+            this.Gia.MinimumWidth = 6;
+            this.Gia.Name = "Gia";
+            this.Gia.Width = 125;
+            // 
+            // KhuyenMai
+            // 
+            this.KhuyenMai.DataPropertyName = "KhuyenMai";
+            this.KhuyenMai.HeaderText = "Khuyến Mãi";
+            this.KhuyenMai.MinimumWidth = 6;
+            this.KhuyenMai.Name = "KhuyenMai";
+            this.KhuyenMai.Width = 125;
             // 
             // Cart
             // 
@@ -432,6 +473,7 @@ namespace ConCungReplication
             this.Name = "Cart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cart";
+            this.Load += new System.EventHandler(this.Cart_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inCartData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -484,5 +526,9 @@ namespace ConCungReplication
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenSP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ThuongHieu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KhuyenMai;
     }
 }
