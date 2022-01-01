@@ -10,11 +10,16 @@ namespace ConCungReplication
 {
     public partial class ProductPage : Form
     {
+        private string _idSP = "";
         public ProductPage()
         {
             InitializeComponent();
         }
-
+        public string IDSP
+        {
+            get { return _idSP; }
+            set { _idSP = value; }
+        }
         private void incrementQuantity(object sender, EventArgs e)
         {
             int quantity_num = Convert.ToInt32(quantity.Text);

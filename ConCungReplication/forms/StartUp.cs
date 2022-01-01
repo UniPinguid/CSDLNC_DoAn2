@@ -28,7 +28,7 @@ namespace ConCungReplication
         SqlDataAdapter adapter;
         DataTable dt;
         string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
-        public string id = "";
+        public static string id = "";
 
         public StartUp()
         {
@@ -74,14 +74,9 @@ namespace ConCungReplication
                     conn.Close();
                     if (customerID != "")
                     {
-                        BoxLoading BoxLoading = new BoxLoading();
-                        BoxLoading.ShowDialog();
-
                         HomepageCustomer homepageCustomer = new HomepageCustomer();
-                        homepageCustomer.Show();
+                        homepageCustomer.ShowDialog();
                         id = customerID;
-
-                        this.Hide();
                     }
                     else if (employeeID != "")
                     {
@@ -148,6 +143,7 @@ namespace ConCungReplication
             {
                 MessageBox.Show("Lỗi hệ thống.", "Thông Báo");
             }
+            this.Hide();
         }
     }
 }
