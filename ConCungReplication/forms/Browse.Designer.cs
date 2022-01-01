@@ -44,6 +44,13 @@ namespace ConCungReplication
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TenSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThuongHieu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KhuyenMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayKetThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
@@ -56,13 +63,6 @@ namespace ConCungReplication
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.TenSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ThuongHieu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KhuyenMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayKetThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -171,6 +171,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // panel2
             // 
@@ -190,6 +191,7 @@ namespace ConCungReplication
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(143, 65);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // textBox1
             // 
@@ -234,6 +236,62 @@ namespace ConCungReplication
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.doubleClickItem);
             // 
+            // TenSP
+            // 
+            this.TenSP.DataPropertyName = "TenSP";
+            this.TenSP.HeaderText = "Sản Phẩm";
+            this.TenSP.MinimumWidth = 6;
+            this.TenSP.Name = "TenSP";
+            this.TenSP.Width = 125;
+            // 
+            // Gia
+            // 
+            this.Gia.DataPropertyName = "Gia";
+            this.Gia.HeaderText = "Giá";
+            this.Gia.MinimumWidth = 6;
+            this.Gia.Name = "Gia";
+            this.Gia.Width = 125;
+            // 
+            // ThuongHieu
+            // 
+            this.ThuongHieu.DataPropertyName = "ThuongHieu";
+            this.ThuongHieu.HeaderText = "Thương Hiệu";
+            this.ThuongHieu.MinimumWidth = 6;
+            this.ThuongHieu.Name = "ThuongHieu";
+            this.ThuongHieu.Width = 125;
+            // 
+            // KhuyenMai
+            // 
+            this.KhuyenMai.DataPropertyName = "KhuyenMai";
+            this.KhuyenMai.HeaderText = "Khuyến Mãi";
+            this.KhuyenMai.MinimumWidth = 6;
+            this.KhuyenMai.Name = "KhuyenMai";
+            this.KhuyenMai.Width = 125;
+            // 
+            // NgayBatDau
+            // 
+            this.NgayBatDau.DataPropertyName = "NgayBatDau";
+            this.NgayBatDau.HeaderText = "Bắt Đầu";
+            this.NgayBatDau.MinimumWidth = 6;
+            this.NgayBatDau.Name = "NgayBatDau";
+            this.NgayBatDau.Width = 125;
+            // 
+            // NgayKetThuc
+            // 
+            this.NgayKetThuc.DataPropertyName = "NgayKetThuc";
+            this.NgayKetThuc.HeaderText = "Hạn Chót";
+            this.NgayKetThuc.MinimumWidth = 6;
+            this.NgayKetThuc.Name = "NgayKetThuc";
+            this.NgayKetThuc.Width = 125;
+            // 
+            // MoTa
+            // 
+            this.MoTa.DataPropertyName = "MoTa";
+            this.MoTa.HeaderText = "Mô Tả";
+            this.MoTa.MinimumWidth = 6;
+            this.MoTa.Name = "MoTa";
+            this.MoTa.Width = 125;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -252,12 +310,12 @@ namespace ConCungReplication
             this.checkedListBox1.ForeColor = System.Drawing.Color.DimGray;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Brand A",
-            "Brand B",
-            "Brand C",
-            "Brand D",
-            "Brand E",
-            "Brand F"});
+            "BabyOne",
+            "Ensure",
+            "Fitobimbi",
+            "Hairburst",
+            "PediaKid",
+            "ToyCity"});
             this.checkedListBox1.Location = new System.Drawing.Point(62, 530);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(260, 174);
@@ -270,13 +328,13 @@ namespace ConCungReplication
             this.checkedListBox2.ForeColor = System.Drawing.Color.DimGray;
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
-            "Dairy products",
-            "Toys",
-            "Bedding",
-            "A",
-            "B",
-            "C",
-            "D"});
+            "Ăn dặm",
+            "Chăm sóc gia đình",
+            "Đồ chơi",
+            "Đồ dùng mẹ và bé",
+            "Sữa bột",
+            "Thực phẩm",
+            "Vitamin và Sức khỏe"});
             this.checkedListBox2.Location = new System.Drawing.Point(57, 775);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(260, 203);
@@ -368,6 +426,7 @@ namespace ConCungReplication
             this.label11.Size = new System.Drawing.Size(90, 36);
             this.label11.TabIndex = 17;
             this.label11.Text = "Refresh";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -390,62 +449,6 @@ namespace ConCungReplication
             this.label13.Size = new System.Drawing.Size(48, 34);
             this.label13.TabIndex = 18;
             this.label13.Text = "TIP:";
-            // 
-            // TenSP
-            // 
-            this.TenSP.DataPropertyName = "TenSP";
-            this.TenSP.HeaderText = "Sản Phẩm";
-            this.TenSP.MinimumWidth = 6;
-            this.TenSP.Name = "TenSP";
-            this.TenSP.Width = 125;
-            // 
-            // Gia
-            // 
-            this.Gia.DataPropertyName = "Gia";
-            this.Gia.HeaderText = "Giá";
-            this.Gia.MinimumWidth = 6;
-            this.Gia.Name = "Gia";
-            this.Gia.Width = 125;
-            // 
-            // ThuongHieu
-            // 
-            this.ThuongHieu.DataPropertyName = "ThuongHieu";
-            this.ThuongHieu.HeaderText = "Thương Hiệu";
-            this.ThuongHieu.MinimumWidth = 6;
-            this.ThuongHieu.Name = "ThuongHieu";
-            this.ThuongHieu.Width = 125;
-            // 
-            // KhuyenMai
-            // 
-            this.KhuyenMai.DataPropertyName = "KhuyenMai";
-            this.KhuyenMai.HeaderText = "Khuyến Mãi";
-            this.KhuyenMai.MinimumWidth = 6;
-            this.KhuyenMai.Name = "KhuyenMai";
-            this.KhuyenMai.Width = 125;
-            // 
-            // NgayBatDau
-            // 
-            this.NgayBatDau.DataPropertyName = "NgayBatDau";
-            this.NgayBatDau.HeaderText = "Bắt Đầu";
-            this.NgayBatDau.MinimumWidth = 6;
-            this.NgayBatDau.Name = "NgayBatDau";
-            this.NgayBatDau.Width = 125;
-            // 
-            // NgayKetThuc
-            // 
-            this.NgayKetThuc.DataPropertyName = "NgayKetThuc";
-            this.NgayKetThuc.HeaderText = "Hạn Chót";
-            this.NgayKetThuc.MinimumWidth = 6;
-            this.NgayKetThuc.Name = "NgayKetThuc";
-            this.NgayKetThuc.Width = 125;
-            // 
-            // MoTa
-            // 
-            this.MoTa.DataPropertyName = "MoTa";
-            this.MoTa.HeaderText = "Mô Tả";
-            this.MoTa.MinimumWidth = 6;
-            this.MoTa.Name = "MoTa";
-            this.MoTa.Width = 125;
             // 
             // Browse
             // 

@@ -31,6 +31,10 @@ namespace ConCungReplication
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cart));
             this.inCartData = new System.Windows.Forms.DataGridView();
+            this.TenSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThuongHieu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KhuyenMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.address = new System.Windows.Forms.Label();
             this.customerName = new System.Windows.Forms.Label();
@@ -60,10 +64,6 @@ namespace ConCungReplication
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.TenSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ThuongHieu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KhuyenMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.inCartData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -92,6 +92,39 @@ namespace ConCungReplication
             this.inCartData.RowTemplate.Height = 29;
             this.inCartData.Size = new System.Drawing.Size(1530, 372);
             this.inCartData.TabIndex = 7;
+            this.inCartData.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.inCartData_CellContentDoubleClick);
+            // 
+            // TenSP
+            // 
+            this.TenSP.DataPropertyName = "TenSP";
+            this.TenSP.HeaderText = "Sản Phẩm";
+            this.TenSP.MinimumWidth = 6;
+            this.TenSP.Name = "TenSP";
+            this.TenSP.Width = 125;
+            // 
+            // ThuongHieu
+            // 
+            this.ThuongHieu.DataPropertyName = "ThuongHieu";
+            this.ThuongHieu.HeaderText = "Thương Hiệu";
+            this.ThuongHieu.MinimumWidth = 6;
+            this.ThuongHieu.Name = "ThuongHieu";
+            this.ThuongHieu.Width = 125;
+            // 
+            // Gia
+            // 
+            this.Gia.DataPropertyName = "Gia";
+            this.Gia.HeaderText = "Giá";
+            this.Gia.MinimumWidth = 6;
+            this.Gia.Name = "Gia";
+            this.Gia.Width = 125;
+            // 
+            // KhuyenMai
+            // 
+            this.KhuyenMai.DataPropertyName = "KhuyenMai";
+            this.KhuyenMai.HeaderText = "Khuyến Mãi";
+            this.KhuyenMai.MinimumWidth = 6;
+            this.KhuyenMai.Name = "KhuyenMai";
+            this.KhuyenMai.Width = 125;
             // 
             // pictureBox1
             // 
@@ -334,6 +367,7 @@ namespace ConCungReplication
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(241, 65);
             this.panel14.TabIndex = 33;
+            this.panel14.Click += new System.EventHandler(this.panel14_Click);
             // 
             // label11
             // 
@@ -411,38 +445,6 @@ namespace ConCungReplication
             this.label6.Size = new System.Drawing.Size(114, 40);
             this.label6.TabIndex = 38;
             this.label6.Text = "Proceed";
-            // 
-            // TenSP
-            // 
-            this.TenSP.DataPropertyName = "TenSP";
-            this.TenSP.HeaderText = "Sản Phẩm";
-            this.TenSP.MinimumWidth = 6;
-            this.TenSP.Name = "TenSP";
-            this.TenSP.Width = 125;
-            // 
-            // ThuongHieu
-            // 
-            this.ThuongHieu.DataPropertyName = "ThuongHieu";
-            this.ThuongHieu.HeaderText = "Thương Hiệu";
-            this.ThuongHieu.MinimumWidth = 6;
-            this.ThuongHieu.Name = "ThuongHieu";
-            this.ThuongHieu.Width = 125;
-            // 
-            // Gia
-            // 
-            this.Gia.DataPropertyName = "Gia";
-            this.Gia.HeaderText = "Giá";
-            this.Gia.MinimumWidth = 6;
-            this.Gia.Name = "Gia";
-            this.Gia.Width = 125;
-            // 
-            // KhuyenMai
-            // 
-            this.KhuyenMai.DataPropertyName = "KhuyenMai";
-            this.KhuyenMai.HeaderText = "Khuyến Mãi";
-            this.KhuyenMai.MinimumWidth = 6;
-            this.KhuyenMai.Name = "KhuyenMai";
-            this.KhuyenMai.Width = 125;
             // 
             // Cart
             // 

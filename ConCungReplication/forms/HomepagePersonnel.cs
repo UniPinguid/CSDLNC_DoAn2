@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace ConCungReplication
 {
@@ -14,7 +16,32 @@ namespace ConCungReplication
         {
             InitializeComponent();
         }
+        SqlConnection conn;
+        string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        DataTable dt;
 
+        void loadPersonnel(string idnv)
+        {
+            conn = new SqlConnection(ConnectionString);
+            conn.Open();
+
+            string truyVan = "SELECT * FROM NHANVIEN WHERE NV_ID = '" + idnv + "'";
+
+            SqlCommand cmd = new SqlCommand(truyVan, conn);
+            using var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                label26.Text = reader["Ten_NV"].ToString();
+                label27.Text = reader["NV_ID"].ToString();
+                gender.Text = reader["Phai_NV"].ToString();
+                citizenID.Text = reader["CMND_NV"].ToString();
+                label22.Text = reader["NgaySinhNV"].ToString();
+                label20.Text = reader["PhongBan"].ToString();
+                KPI.Text = reader["KPI_NV"].ToString();
+                label28.Text = reader["Luong"].ToString();
+            }
+            conn.Close();
+        }
         private void clickRollcall(object sender, EventArgs e)
         {
             Rollcall rollcall = new Rollcall();
@@ -52,6 +79,12 @@ namespace ConCungReplication
             Rewards rewards = new Rewards();
             rewards.Show();
             this.Close();
+        }
+
+        private void HomepagePersonnel_Load(object sender, EventArgs e)
+        {
+
+            loadPersonnel(StartUp.id);
         }
     }
 }

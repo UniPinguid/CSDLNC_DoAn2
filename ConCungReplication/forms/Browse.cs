@@ -15,17 +15,39 @@ namespace ConCungReplication
         SqlConnection conn;
         string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
         DataTable dt;
-        void loadData()
+        void loadData(int act)
         {
             conn = new SqlConnection(ConnectionString);
             conn.Open();
 
-            string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM";
+            string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM ";
 
-            //if(checkedListBox1.CheckedItems.Count > 0)
+            //if(act == 1)
             //{
-            //    truyVan += " WHERE ThuongHieu LIKE N'%"+
+            //    if(checkedListBox1.CheckedItems.Count > 0)
+            //    {
+            //        truyVan += " WHERE ThuongHieu LIKE '";
+            //        for(int i = 0;i< checkedListBox1.CheckedItems.Count;i++)
+            //        {
+            //            truyVan += checkedListBox1.CheckedItems[i].ToString() + "'";
+            //            if(i<checkedListBox1.CheckedItems.Count-1)
+            //            {
+            //                truyVan += " OR ThuongHieu LIKE N'";
+            //            }
+            //        }
+            //    }
+            //    if(checkedListBox2.CheckedItems.Count > 0)
+            //    {
+            //        if(truyVan.Contains("WHERE")==false)
+            //        {
+            //            truyVan+="WHERE "
+            //        }
+            //    }
             //}
+            if (act == 2)
+            {
+                truyVan += " WHERE TenSP LIKE N'%" + textBox1.Text + "%'";
+            }
 
             SqlCommand cmd = new SqlCommand(truyVan, conn);
             cmd.CommandType = CommandType.Text;
@@ -79,19 +101,26 @@ namespace ConCungReplication
             product.Show();
             this.Close();
         }
-
-        private void doubleClickItem(object sender, EventArgs e)
+        private void Browse_Load(object sender, EventArgs e)
         {
-            ProductPage product = new ProductPage();
-            int i = dataGridView1.CurrentCell.RowIndex;
-            product.IDSP = dt.Rows[i]["SP_ID"].ToString();
-            product.Show();
+            loadData(1);
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
             this.Close();
         }
 
-        private void Browse_Load(object sender, EventArgs e)
+        private void panel3_Click(object sender, EventArgs e)
         {
-            loadData();
+            loadData(2);
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            loadData(1);
         }
     }
 }

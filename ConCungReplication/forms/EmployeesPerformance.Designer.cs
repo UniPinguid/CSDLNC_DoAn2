@@ -57,6 +57,15 @@ namespace ConCungReplication
             this.label11 = new System.Windows.Forms.Label();
             this.KPI = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.NV_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ten_NV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Phai_NV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CMND_NV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgaySinhNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DiaChiNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KPI_NV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PhongBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -201,17 +210,29 @@ namespace ConCungReplication
             this.searchIcon.Size = new System.Drawing.Size(36, 36);
             this.searchIcon.TabIndex = 63;
             this.searchIcon.TabStop = false;
+            this.searchIcon.Click += new System.EventHandler(this.searchIcon_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NV_ID,
+            this.Ten_NV,
+            this.Phai_NV,
+            this.CMND_NV,
+            this.NgaySinhNV,
+            this.DiaChiNV,
+            this.KPI_NV,
+            this.PhongBan,
+            this.Luong});
             this.dataGridView1.Location = new System.Drawing.Point(27, 192);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(1067, 634);
             this.dataGridView1.TabIndex = 64;
+            this.dataGridView1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
             // 
             // citizenID
             // 
@@ -357,6 +378,78 @@ namespace ConCungReplication
             this.pictureBox3.TabIndex = 88;
             this.pictureBox3.TabStop = false;
             // 
+            // NV_ID
+            // 
+            this.NV_ID.DataPropertyName = "NV_ID";
+            this.NV_ID.HeaderText = "Mã Nhân Viên";
+            this.NV_ID.MinimumWidth = 6;
+            this.NV_ID.Name = "NV_ID";
+            this.NV_ID.Width = 125;
+            // 
+            // Ten_NV
+            // 
+            this.Ten_NV.DataPropertyName = "Ten_NV";
+            this.Ten_NV.HeaderText = "Họ Tên";
+            this.Ten_NV.MinimumWidth = 6;
+            this.Ten_NV.Name = "Ten_NV";
+            this.Ten_NV.Width = 125;
+            // 
+            // Phai_NV
+            // 
+            this.Phai_NV.DataPropertyName = "Phai_NV";
+            this.Phai_NV.HeaderText = "Giới Tính";
+            this.Phai_NV.MinimumWidth = 6;
+            this.Phai_NV.Name = "Phai_NV";
+            this.Phai_NV.Width = 125;
+            // 
+            // CMND_NV
+            // 
+            this.CMND_NV.DataPropertyName = "CMND_NV";
+            this.CMND_NV.HeaderText = "CMND";
+            this.CMND_NV.MinimumWidth = 6;
+            this.CMND_NV.Name = "CMND_NV";
+            this.CMND_NV.Width = 125;
+            // 
+            // NgaySinhNV
+            // 
+            this.NgaySinhNV.DataPropertyName = "NgaySinhNV";
+            this.NgaySinhNV.HeaderText = "Ngày Sinh";
+            this.NgaySinhNV.MinimumWidth = 6;
+            this.NgaySinhNV.Name = "NgaySinhNV";
+            this.NgaySinhNV.Width = 125;
+            // 
+            // DiaChiNV
+            // 
+            this.DiaChiNV.DataPropertyName = "DiaChiNV";
+            this.DiaChiNV.HeaderText = "Địa Chỉ";
+            this.DiaChiNV.MinimumWidth = 6;
+            this.DiaChiNV.Name = "DiaChiNV";
+            this.DiaChiNV.Width = 125;
+            // 
+            // KPI_NV
+            // 
+            this.KPI_NV.DataPropertyName = "KPI_NV";
+            this.KPI_NV.HeaderText = "KPI";
+            this.KPI_NV.MinimumWidth = 6;
+            this.KPI_NV.Name = "KPI_NV";
+            this.KPI_NV.Width = 125;
+            // 
+            // PhongBan
+            // 
+            this.PhongBan.DataPropertyName = "PhongBan";
+            this.PhongBan.HeaderText = "Chức Vụ";
+            this.PhongBan.MinimumWidth = 6;
+            this.PhongBan.Name = "PhongBan";
+            this.PhongBan.Width = 125;
+            // 
+            // Luong
+            // 
+            this.Luong.DataPropertyName = "Luong";
+            this.Luong.HeaderText = "Lương";
+            this.Luong.MinimumWidth = 6;
+            this.Luong.Name = "Luong";
+            this.Luong.Width = 125;
+            // 
             // EmployeesPerformance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -389,6 +482,7 @@ namespace ConCungReplication
             this.Name = "EmployeesPerformance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee\'s Performance";
+            this.Load += new System.EventHandler(this.EmployeesPerformance_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -431,5 +525,14 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label KPI;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NV_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ten_NV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Phai_NV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CMND_NV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinhNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChiNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KPI_NV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PhongBan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Luong;
     }
 }
