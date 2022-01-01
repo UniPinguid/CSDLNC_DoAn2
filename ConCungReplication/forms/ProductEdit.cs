@@ -30,5 +30,18 @@ namespace ConCungReplication.forms
                 this.Close();
             }
         }
+
+        private void confirmPanel_Click(object sender, EventArgs e)
+        {
+            bool v = ProductManagement.getaddnew();
+            if (v == true)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }

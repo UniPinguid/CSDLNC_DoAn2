@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tung3\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nam3\\03-CSDL NC\\02-Thực hành\\02\\03-Physical\\00-Source\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+      "projectUniqueName": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
       "projectName": "ConCungReplication",
-      "projectPath": "D:\\Nam3\\03-CSDL NC\\02-Thực hành\\02\\03-Physical\\00-Source\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
-      "packagesPath": "C:\\Users\\tung3\\.nuget\\packages\\",
-      "outputPath": "D:\\Nam3\\03-CSDL NC\\02-Thực hành\\02\\03-Physical\\00-Source\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
+      "projectPath": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tung3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -507,24 +507,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.21, 3.1.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -533,7 +515,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

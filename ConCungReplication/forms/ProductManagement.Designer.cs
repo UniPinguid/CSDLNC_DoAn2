@@ -51,15 +51,15 @@ namespace ConCungReplication
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.searchPanel = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.addPanel = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.editPanel = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.PMdeletePanel = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.viewproductPanel = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -71,10 +71,10 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.addPanel.SuspendLayout();
+            this.editPanel.SuspendLayout();
+            this.PMdeletePanel.SuspendLayout();
+            this.viewproductPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -322,21 +322,21 @@ namespace ConCungReplication
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.searchPanel);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Location = new System.Drawing.Point(38, 121);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1500, 261);
             this.panel2.TabIndex = 51;
             // 
-            // panel3
+            // searchPanel
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(1052, 171);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(143, 65);
-            this.panel3.TabIndex = 1;
+            this.searchPanel.BackColor = System.Drawing.Color.Transparent;
+            this.searchPanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.searchPanel.Location = new System.Drawing.Point(1052, 171);
+            this.searchPanel.Name = "searchPanel";
+            this.searchPanel.Size = new System.Drawing.Size(143, 65);
+            this.searchPanel.TabIndex = 1;
             // 
             // textBox1
             // 
@@ -349,15 +349,16 @@ namespace ConCungReplication
             this.textBox1.Size = new System.Drawing.Size(625, 35);
             this.textBox1.TabIndex = 0;
             // 
-            // panel4
+            // addPanel
             // 
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.Controls.Add(this.label14);
-            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(530, 436);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(241, 65);
-            this.panel4.TabIndex = 62;
+            this.addPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addPanel.BackgroundImage")));
+            this.addPanel.Controls.Add(this.label14);
+            this.addPanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addPanel.Location = new System.Drawing.Point(530, 436);
+            this.addPanel.Name = "addPanel";
+            this.addPanel.Size = new System.Drawing.Size(241, 65);
+            this.addPanel.TabIndex = 62;
+            this.addPanel.Click += new System.EventHandler(this.addPanel_Click);
             // 
             // label14
             // 
@@ -372,15 +373,16 @@ namespace ConCungReplication
             this.label14.TabIndex = 63;
             this.label14.Text = "Add product";
             // 
-            // panel5
+            // editPanel
             // 
-            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
-            this.panel5.Controls.Add(this.label15);
-            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(839, 436);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(241, 65);
-            this.panel5.TabIndex = 64;
+            this.editPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("editPanel.BackgroundImage")));
+            this.editPanel.Controls.Add(this.label15);
+            this.editPanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.editPanel.Location = new System.Drawing.Point(839, 436);
+            this.editPanel.Name = "editPanel";
+            this.editPanel.Size = new System.Drawing.Size(241, 65);
+            this.editPanel.TabIndex = 64;
+            this.editPanel.Click += new System.EventHandler(this.editPanel_Click);
             // 
             // label15
             // 
@@ -395,15 +397,15 @@ namespace ConCungReplication
             this.label15.TabIndex = 63;
             this.label15.Text = "Edit product";
             // 
-            // panel6
+            // PMdeletePanel
             // 
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
-            this.panel6.Controls.Add(this.label16);
-            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(1143, 436);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(241, 65);
-            this.panel6.TabIndex = 64;
+            this.PMdeletePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PMdeletePanel.BackgroundImage")));
+            this.PMdeletePanel.Controls.Add(this.label16);
+            this.PMdeletePanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PMdeletePanel.Location = new System.Drawing.Point(1143, 436);
+            this.PMdeletePanel.Name = "PMdeletePanel";
+            this.PMdeletePanel.Size = new System.Drawing.Size(241, 65);
+            this.PMdeletePanel.TabIndex = 64;
             // 
             // label16
             // 
@@ -418,15 +420,15 @@ namespace ConCungReplication
             this.label16.TabIndex = 63;
             this.label16.Text = "Delete product";
             // 
-            // panel8
+            // viewproductPanel
             // 
-            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
-            this.panel8.Controls.Add(this.label17);
-            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(228, 436);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(241, 65);
-            this.panel8.TabIndex = 65;
+            this.viewproductPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("viewproductPanel.BackgroundImage")));
+            this.viewproductPanel.Controls.Add(this.label17);
+            this.viewproductPanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewproductPanel.Location = new System.Drawing.Point(228, 436);
+            this.viewproductPanel.Name = "viewproductPanel";
+            this.viewproductPanel.Size = new System.Drawing.Size(241, 65);
+            this.viewproductPanel.TabIndex = 65;
             // 
             // label17
             // 
@@ -513,16 +515,16 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1642, 900);
+            this.ClientSize = new System.Drawing.Size(1701, 900);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.checkedListBox4);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.checkedListBox3);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.viewproductPanel);
+            this.Controls.Add(this.PMdeletePanel);
+            this.Controls.Add(this.editPanel);
+            this.Controls.Add(this.addPanel);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);
@@ -547,14 +549,14 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.addPanel.ResumeLayout(false);
+            this.addPanel.PerformLayout();
+            this.editPanel.ResumeLayout(false);
+            this.editPanel.PerformLayout();
+            this.PMdeletePanel.ResumeLayout(false);
+            this.PMdeletePanel.PerformLayout();
+            this.viewproductPanel.ResumeLayout(false);
+            this.viewproductPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -582,11 +584,11 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel searchPanel;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel addPanel;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel editPanel;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label16;
@@ -597,5 +599,7 @@ namespace ConCungReplication
         private System.Windows.Forms.CheckedListBox checkedListBox3;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel PMdeletePanel;
+        private System.Windows.Forms.Panel viewproductPanel;
     }
 }

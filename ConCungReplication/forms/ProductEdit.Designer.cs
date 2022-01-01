@@ -34,6 +34,7 @@ namespace ConCungReplication.forms
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,14 +68,14 @@ namespace ConCungReplication.forms
             this.label11 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.confirmPanel = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel5.SuspendLayout();
@@ -85,14 +86,13 @@ namespace ConCungReplication.forms
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
+            this.confirmPanel.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // description
             // 
-            this.description.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.description.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.description.ForeColor = System.Drawing.Color.DimGray;
             this.description.Location = new System.Drawing.Point(501, 540);
             this.description.Name = "description";
@@ -139,6 +139,16 @@ namespace ConCungReplication.forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1587, 131);
             this.panel1.TabIndex = 65;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(54, 97);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 20);
+            this.pictureBox5.TabIndex = 79;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.clickBack);
             // 
             // label8
             // 
@@ -501,15 +511,16 @@ namespace ConCungReplication.forms
             this.label16.TabIndex = 76;
             this.label16.Text = "Change image";
             // 
-            // panel11
+            // confirmPanel
             // 
-            this.panel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel11.BackgroundImage")));
-            this.panel11.Controls.Add(this.label17);
-            this.panel11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel11.Location = new System.Drawing.Point(1318, 804);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(241, 65);
-            this.panel11.TabIndex = 76;
+            this.confirmPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("confirmPanel.BackgroundImage")));
+            this.confirmPanel.Controls.Add(this.label17);
+            this.confirmPanel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.confirmPanel.Location = new System.Drawing.Point(1318, 804);
+            this.confirmPanel.Name = "confirmPanel";
+            this.confirmPanel.Size = new System.Drawing.Size(241, 65);
+            this.confirmPanel.TabIndex = 76;
+            this.confirmPanel.Click += new System.EventHandler(this.confirmPanel_Click);
             // 
             // label17
             // 
@@ -556,16 +567,6 @@ namespace ConCungReplication.forms
             this.panel12.Size = new System.Drawing.Size(322, 55);
             this.panel12.TabIndex = 77;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(54, 97);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 20);
-            this.pictureBox5.TabIndex = 79;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.clickBack);
-            // 
             // ProductEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -574,7 +575,7 @@ namespace ConCungReplication.forms
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel11);
+            this.Controls.Add(this.confirmPanel);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label15);
@@ -602,6 +603,7 @@ namespace ConCungReplication.forms
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.panel5.ResumeLayout(false);
@@ -620,11 +622,10 @@ namespace ConCungReplication.forms
             this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
+            this.confirmPanel.ResumeLayout(false);
+            this.confirmPanel.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -668,7 +669,7 @@ namespace ConCungReplication.forms
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel confirmPanel;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label18;
