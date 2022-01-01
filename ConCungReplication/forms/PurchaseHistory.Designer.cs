@@ -45,16 +45,16 @@ namespace ConCungReplication
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.logo = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.purchaseHistoryList)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,11 +62,11 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // purchaseHistoryList
@@ -99,7 +99,7 @@ namespace ConCungReplication
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(53)))), ((int)(((byte)(227)))));
-            this.label2.Location = new System.Drawing.Point(909, 159);
+            this.label2.Location = new System.Drawing.Point(909, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 30);
             this.label2.TabIndex = 14;
@@ -110,7 +110,7 @@ namespace ConCungReplication
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(178)))), ((int)(((byte)(219)))));
-            this.label3.Location = new System.Drawing.Point(947, 159);
+            this.label3.Location = new System.Drawing.Point(950, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(606, 30);
             this.label3.TabIndex = 13;
@@ -240,25 +240,68 @@ namespace ConCungReplication
             this.panel2.Size = new System.Drawing.Size(318, 700);
             this.panel2.TabIndex = 23;
             // 
-            // label4
+            // panel8
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(22, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 34);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Profile";
+            this.panel8.BackColor = System.Drawing.Color.Transparent;
+            this.panel8.Controls.Add(this.label8);
+            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel8.Location = new System.Drawing.Point(43, 580);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(262, 60);
+            this.panel8.TabIndex = 24;
             // 
-            // panel3
+            // label8
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(43, 48);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(262, 60);
-            this.panel3.TabIndex = 0;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label8.Location = new System.Drawing.Point(22, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 34);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Exit";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Transparent;
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel6.Location = new System.Drawing.Point(42, 502);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(262, 60);
+            this.panel6.TabIndex = 24;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label7.Location = new System.Drawing.Point(22, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(84, 34);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Log out";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel5.Location = new System.Drawing.Point(43, 204);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(262, 60);
+            this.panel5.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label6.Location = new System.Drawing.Point(22, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(136, 34);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "My Locations";
             // 
             // panel4
             // 
@@ -281,65 +324,26 @@ namespace ConCungReplication
             this.label5.TabIndex = 0;
             this.label5.Text = "Purchase History";
             // 
-            // panel5
+            // panel3
             // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(43, 204);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(262, 60);
-            this.panel5.TabIndex = 1;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel3.Location = new System.Drawing.Point(43, 48);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(262, 60);
+            this.panel3.TabIndex = 0;
             // 
-            // label6
+            // label4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(22, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(136, 34);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "My Locations";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(42, 502);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(262, 60);
-            this.panel6.TabIndex = 24;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(22, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 34);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Log out";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.Controls.Add(this.label8);
-            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(43, 580);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(262, 60);
-            this.panel8.TabIndex = 24;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(22, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 34);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Exit";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Poppins Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label4.Location = new System.Drawing.Point(22, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 34);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Profile";
             // 
             // PurchaseHistory
             // 
@@ -367,16 +371,16 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -529,11 +529,11 @@ namespace ConCungReplication.forms
             this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label17.Font = new System.Drawing.Font("Poppins SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(73, 16);
+            this.label17.Location = new System.Drawing.Point(67, 16);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 40);
+            this.label17.Size = new System.Drawing.Size(112, 40);
             this.label17.TabIndex = 63;
-            this.label17.Text = "Update";
+            this.label17.Text = "Confirm";
             // 
             // textBox8
             // 

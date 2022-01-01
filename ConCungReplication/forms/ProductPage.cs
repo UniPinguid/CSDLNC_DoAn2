@@ -57,5 +57,25 @@ namespace ConCungReplication
             browse.Show();
             this.Close();
         }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickUser(object sender, EventArgs e)
+        {
+            UserProfile profile = new UserProfile();
+            profile.Show();
+            this.Close();
+        }
+
+        private void ProductPage_Load(object sender, EventArgs e)
+        {
+            panel1.AutoScroll = true;
+            panel1.VerticalScroll.Value = 0;
+        }
     }
 }
