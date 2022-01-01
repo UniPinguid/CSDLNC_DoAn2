@@ -101,6 +101,7 @@ namespace ConCungReplication
             this.label6.Size = new System.Drawing.Size(90, 40);
             this.label6.TabIndex = 33;
             this.label6.Text = "< Back";
+            this.label6.Click += new System.EventHandler(this.clickBack);
             // 
             // panel3
             // 
@@ -140,6 +141,7 @@ namespace ConCungReplication
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(241, 65);
             this.panel8.TabIndex = 70;
+            this.panel8.Click += new System.EventHandler(this.clickBack);
             // 
             // textBox5
             // 
@@ -299,6 +301,7 @@ namespace ConCungReplication
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 41);
             this.panel4.TabIndex = 57;
+            this.panel4.Click += new System.EventHandler(this.clickSignIn);
             // 
             // panel2
             // 
@@ -319,6 +322,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 59;
+            this.panel7.Click += new System.EventHandler(this.clickClose);
             // 
             // SignUpFinal
             // 

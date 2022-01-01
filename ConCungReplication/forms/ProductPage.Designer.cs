@@ -49,6 +49,7 @@ namespace ConCungReplication
             this.addBtn = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -60,7 +61,6 @@ namespace ConCungReplication
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minusBtn)).BeginInit();
@@ -68,11 +68,11 @@ namespace ConCungReplication
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.addBtn)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -90,7 +90,7 @@ namespace ConCungReplication
             this.productName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.productName.Location = new System.Drawing.Point(508, 262);
             this.productName.Name = "productName";
-            this.productName.Size = new System.Drawing.Size(290, 60);
+            this.productName.Size = new System.Drawing.Size(281, 58);
             this.productName.TabIndex = 6;
             this.productName.Text = "PRODUCT NAME";
             // 
@@ -195,11 +195,11 @@ namespace ConCungReplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(53)))), ((int)(((byte)(227)))));
-            this.label4.Location = new System.Drawing.Point(797, 821);
+            this.label4.Location = new System.Drawing.Point(756, 819);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 26);
+            this.label4.Size = new System.Drawing.Size(107, 36);
             this.label4.TabIndex = 17;
             this.label4.Text = "Quantity";
             // 
@@ -282,6 +282,16 @@ namespace ConCungReplication
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1585, 131);
             this.panel1.TabIndex = 23;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(55, 101);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 20);
+            this.pictureBox5.TabIndex = 50;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.clickBack);
             // 
             // pictureBox3
             // 
@@ -401,16 +411,6 @@ namespace ConCungReplication
             this.label10.TabIndex = 49;
             this.label10.Text = "Product Name";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(55, 101);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 20);
-            this.pictureBox5.TabIndex = 50;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.clickBack);
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -460,11 +460,11 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.addBtn)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

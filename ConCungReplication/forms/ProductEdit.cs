@@ -6,27 +6,20 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ConCungReplication
+namespace ConCungReplication.forms
 {
-    public partial class SubmitOrder : Form
+    public partial class ProductEdit : Form
     {
-        public SubmitOrder()
+        public ProductEdit()
         {
             InitializeComponent();
         }
 
-        private void clickViewPurchaseHistory(object sender, EventArgs e)
+        private void clickBack(object sender, EventArgs e)
         {
+            ProductManagement productManagement = new ProductManagement();
+            productManagement.Show();
             this.Close();
-            PurchaseHistory purchaseHistory = new PurchaseHistory();
-            purchaseHistory.Show();
-        }
-
-        private void clickToHomepage(object sender, EventArgs e)
-        {
-            this.Close();
-            HomepageCustomer homepage = new HomepageCustomer();
-            homepage.Show();
         }
 
         private void clickClose(object sender, EventArgs e)

@@ -53,5 +53,21 @@ namespace ConCungReplication
             OrderTraces traces = new OrderTraces();
             traces.Show();
         }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageEmployer homepage = new HomepageEmployer();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

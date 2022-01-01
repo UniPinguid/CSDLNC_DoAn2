@@ -198,27 +198,32 @@ namespace ConCungReplication
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.label4);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(80, 473);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(241, 65);
             this.panel2.TabIndex = 5;
+            this.panel2.Click += new System.EventHandler(this.clickBrowse);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Poppins", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(31, 17);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(185, 39);
             this.label4.TabIndex = 6;
             this.label4.Text = "Start Shopping";
+            this.label4.Click += new System.EventHandler(this.clickBrowse);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(899, 208);
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(811, 208);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(519, 460);
+            this.pictureBox4.Size = new System.Drawing.Size(711, 600);
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 

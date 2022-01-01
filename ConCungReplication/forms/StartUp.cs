@@ -76,9 +76,14 @@ namespace ConCungReplication
                     conn.Close();
                     if (customerID != "")
                     {
+                        BoxLoading BoxLoading = new BoxLoading();
+                        BoxLoading.ShowDialog();
+
                         HomepageCustomer homepageCustomer = new HomepageCustomer();
-                        homepageCustomer.ShowDialog();
+                        homepageCustomer.Show();
                         id = customerID;
+
+                        this.Hide();
                     }
                     else if (employeeID != "")
                     {
@@ -135,9 +140,6 @@ namespace ConCungReplication
             {
                 MessageBox.Show("Lỗi hệ thống.", "Thông Báo");
             }
-            this.Hide();
-            //HomepageCustomer homepageCustomer = new HomepageCustomer();
-            //homepageCustomer.Show();
         }
     }
 }

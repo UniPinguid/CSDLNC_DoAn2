@@ -112,6 +112,16 @@
         CJ1jSRVAuBwtyLhVPdNJiImgBZIZAm1dNjiNZus/0MYvHgkWJqAAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAM
+        ewAADHsBifHYiwAAAQNJREFUSEvN1cERgjAUBFBLoBRKsARK8OKdErx4pwQK8EAJlEAJlmAHcTeSmfDd
+        ME4IjIfnyA9hQT/JyTm36n59VNDBa3ZjTZ2bQxYDBsEEzrio83PIIiGkBj6xDadBzckhiwhoIBVO+/0C
+        vLgJsyY7Z4vFAS7emzBrhGINSP6DF4VhDknp7eQSQrjq9Bj7gU9fEh+44g3wQIUeYeINqIHD/MUNcJmV
+        gwfofCfiS2sGFDYN94FSGv8WhNeBBVhb/TjmJ5W0OEAA1//nHJjSxnO2+iog4Jd14ZDdcG1ZHtWcHLIY
+        ICi1Me27HccQdoa4OdkjtTo3hyxaCGRf8Nco9t9/uNMbS37U0hTSwTcAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB8AAAAgCAYAAADqgqNBAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
@@ -223,17 +233,6 @@
         gQJlcPwzgUeh8cQ7OtFNC47AJlQOCAmuAftK/Hf7XiZaUAD39qycnckC9zAYmD49wB4om7MY6+eqaesn
         TGd+dUVtbesRfQZSvpb0hAQf9gFnXvqzz20fML3cBz1QJlc8r95Wd3r84RPqL+Vrgd2SMVTALxL/gb5/
         //A/v1qp9XSZKH8AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADHsAAAx7AYnx2IsAAAEDSURBVEhLzdXBEYIwFARQS6AUSrAESvDinRK8eKcECvBA
-        CZRACZZgB3E3kpnw3TBOCIyH58gPYUE/yck5t+p+fVTQwWt2Y02dm0MWAwbBBM64qPNzyCIhpAY+sQ2n
-        Qc3JIYsIaCAVTvv9Ary4CbMmO2eLxQEu3pswa4RiDUj+gxeFYQ5J6e3kEkK46vQY+4FPXxIfuOIN8ECF
-        HmHiDaiBw/zFDXCZlYMH6Hwn4ktrBhQ2DfeBUhr/FoTXgQVYW/045ieVtDhAANf/5xyY0sZztvoqIOCX
-        deGQ3XBtWR7VnByyGCAotTHtux3HEHaGuDnZI7U6N4csWghkX/DXKPbff7jTG0t+1NIU0sE3AAAAAElF
-        TkSuQmCC
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
