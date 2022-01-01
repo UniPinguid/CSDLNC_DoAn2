@@ -46,7 +46,6 @@ namespace ConCungReplication
             this.plusBtn = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.quantity = new System.Windows.Forms.Label();
-            this.addBtn = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -62,17 +61,27 @@ namespace ConCungReplication
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minusBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plusBtn)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.addBtn)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.panel8.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -245,16 +254,6 @@ namespace ConCungReplication
             this.quantity.Text = "1";
             this.quantity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // addBtn
-            // 
-            this.addBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addBtn.Image = ((System.Drawing.Image)(resources.GetObject("addBtn.Image")));
-            this.addBtn.Location = new System.Drawing.Point(1313, 811);
-            this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(240, 52);
-            this.addBtn.TabIndex = 21;
-            this.addBtn.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -281,10 +280,12 @@ namespace ConCungReplication
             this.panel1.Location = new System.Drawing.Point(-9, -10);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1585, 131);
-            this.panel1.TabIndex = 23;
+            this.panel1.TabIndex = 55;
+            this.panel1.TabStop = true;
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(55, 101);
             this.pictureBox5.Name = "pictureBox5";
@@ -313,6 +314,7 @@ namespace ConCungReplication
             this.label7.Size = new System.Drawing.Size(126, 36);
             this.label7.TabIndex = 45;
             this.label7.Text = "Homepage";
+            this.label7.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label6
             // 
@@ -344,6 +346,7 @@ namespace ConCungReplication
             this.pictureBox2.Size = new System.Drawing.Size(95, 35);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.clickCart);
             // 
             // panel7
             // 
@@ -363,6 +366,7 @@ namespace ConCungReplication
             this.pictureBox4.Size = new System.Drawing.Size(48, 48);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 
@@ -422,12 +426,97 @@ namespace ConCungReplication
             this.label11.TabIndex = 50;
             this.label11.Text = "Description";
             // 
+            // panel8
+            // 
+            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
+            this.panel8.Controls.Add(this.label12);
+            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel8.Location = new System.Drawing.Point(1311, 802);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(241, 65);
+            this.panel8.TabIndex = 51;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label12.Font = new System.Drawing.Font("Poppins SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(49, 15);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(151, 40);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Add to Cart";
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.CausesValidation = false;
+            this.panel2.Controls.Add(this.dataGridView2);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Location = new System.Drawing.Point(-6, 873);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1585, 1237);
+            this.panel2.TabIndex = 0;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(52, 80);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 29;
+            this.dataGridView2.Size = new System.Drawing.Size(1508, 476);
+            this.dataGridView2.TabIndex = 20;
+            this.dataGridView2.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label14.Location = new System.Drawing.Point(52, 29);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(269, 48);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "More of this brand";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(52, 647);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 29;
+            this.dataGridView1.Size = new System.Drawing.Size(1508, 532);
+            this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.TabStop = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label13.Location = new System.Drawing.Point(52, 578);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(259, 48);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "You may also like";
+            // 
             // ProductPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.ClientSize = new System.Drawing.Size(1621, 900);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel8);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.description);
             this.Controls.Add(this.label10);
@@ -435,7 +524,6 @@ namespace ConCungReplication
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.addBtn);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.amountLeft);
@@ -450,14 +538,15 @@ namespace ConCungReplication
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1600, 900);
             this.Name = "ProductPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Product Page";
+            this.Load += new System.EventHandler(this.ProductPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minusBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.plusBtn)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.addBtn)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -465,6 +554,12 @@ namespace ConCungReplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -487,7 +582,6 @@ namespace ConCungReplication
         private System.Windows.Forms.PictureBox plusBtn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label quantity;
-        private System.Windows.Forms.PictureBox addBtn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -503,5 +597,12 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label13;
     }
 }

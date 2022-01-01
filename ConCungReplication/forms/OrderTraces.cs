@@ -53,5 +53,12 @@ namespace ConCungReplication
                 login.Show();
             }
         }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageEmployer homepage = new HomepageEmployer();
+            homepage.Show();
+            this.Close();
+        }
     }
 }

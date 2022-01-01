@@ -53,8 +53,6 @@ namespace ConCungReplication
 
         private void clickLogin(object sender, EventArgs e)
         {
-            BoxLoading loading = new BoxLoading();
-            loading.ShowDialog();
             try
             {
                 conn = new SqlConnection(connectionString);
@@ -103,25 +101,35 @@ namespace ConCungReplication
                             conn.Close();
                             if (role == "Nhân Sự")
                             {
+                                BoxLoading BoxLoading = new BoxLoading();
+                                BoxLoading.ShowDialog();
+
                                 HomepagePersonnel homepagePersonnel = new HomepagePersonnel();
-                                homepagePersonnel.Show();
+                                homepagePersonnel.Show(); 
+
+                                this.Hide();
                             }
-                            else
+                            else if (role == "Quản Lý")
                             {
-                                if (role == "Quản Lý")
-                                {
-                                    HomepageManager homepageManager = new HomepageManager();
-                                    homepageManager.ShowDialog();
-                                }
-                                else
-                                {
-                                    if (role == "Quản Trị")
-                                    {
-                                        HomepageEmployer homepageEmployer = new HomepageEmployer();
-                                        homepageEmployer.ShowDialog();
-                                    }
-                                }
+                                BoxLoading BoxLoading = new BoxLoading();
+                                BoxLoading.ShowDialog();
+
+                                HomepageManager homepageManager = new HomepageManager();
+                                homepageManager.Show();
+
+                                this.Hide();
                             }
+                             else if (role == "Quản Trị")
+                             {
+                                BoxLoading BoxLoading = new BoxLoading();
+                                BoxLoading.ShowDialog();
+
+                                HomepageEmployer homepageEmployer = new HomepageEmployer();
+                                homepageEmployer.ShowDialog();
+
+                                this.Hide();
+                             }
+                            
                             conn.Close();
                         }
                         else

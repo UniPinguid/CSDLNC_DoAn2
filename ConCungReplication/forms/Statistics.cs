@@ -96,7 +96,7 @@ namespace ConCungReplication
             SqlConnection cnn;
             cnn = new SqlConnection(connectionString);
 
-            SqlDataAdapter sda = new SqlDataAdapter("EXEC getRevenueMonthly '" + selectYearRevenue2.Text + "'", cnn);
+            SqlDataAdapter sda = new SqlDataAdapter("EXEC getRevenueMonthly '" + selectYear.Text + "'", cnn);
             DataTable dt = new DataTable();
             sda.Fill(dt);
 

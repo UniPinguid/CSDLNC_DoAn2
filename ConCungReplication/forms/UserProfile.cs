@@ -13,6 +13,7 @@ namespace ConCungReplication
         public UserProfile()
         {
             InitializeComponent();
+
         }
 
         private void clickPurchase(object sender, EventArgs e)
