@@ -11,6 +11,12 @@ namespace ConCungReplication
 {
     public partial class SignUp : Form
     {
+        static string name = "";
+        static string email = "";
+        static string number = "";
+        static string birthday = "";
+        static string gender = "";
+
         public SignUp()
         {
             InitializeComponent();
@@ -41,9 +47,50 @@ namespace ConCungReplication
 
         private void clickContinue(object sender, EventArgs e)
         {
-            SignUp2 sign2 = new SignUp2();
-            sign2.Show();
-            this.Close();
+            int checkEmpty = 0;
+
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Full name is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("Contact number is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox3.Text == "")
+            {
+                MessageBox.Show("Birthday is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox4.Text == "")
+            {
+                MessageBox.Show("Email is empty");
+                checkEmpty = 1;
+            }
+
+            if (GenderSelect.Text == "")
+            {
+                MessageBox.Show("Gender is empty");
+                checkEmpty = 1;
+            }
+
+            if (checkEmpty == 0)
+            {
+                name = textBox1.Text;
+                number = textBox2.Text;
+                gender = GenderSelect.Text;
+                email = textBox4.Text;
+                birthday = textBox3.Text;
+
+                this.Hide();
+                SignUpFinal signUpFinal = new SignUpFinal();
+                signUpFinal.ShowDialog();
+            }
         }
     }
 }
