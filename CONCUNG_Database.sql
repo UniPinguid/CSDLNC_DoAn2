@@ -303,3 +303,22 @@ where h.HD_ID = f.HD_ID
 update SANPHAM
 set KhuyenMai = Gia * 50/100
 where KhuyenMai > Gia
+
+
+--Thêm bảng lương--
+
+create table LichSuLuong
+(
+	NV_ID char(10) not null,
+	ThoiGian datetime not null,
+	Luong float
+)
+
+
+alter table LichSuLuong
+add constraint PK_LICHSULUONG primary key (NV_ID, ThoiGian)
+go
+
+alter table LichSuLuong
+add constraint FK_LICHSULUONG_NVID foreign key (NV_ID) references NHANVIEN(NV_ID)
+go

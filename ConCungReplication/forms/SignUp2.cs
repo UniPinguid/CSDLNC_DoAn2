@@ -11,11 +11,11 @@ namespace ConCungReplication.forms
     public partial class SignUp2 : Form
     {
 
-        static string HouseNumber = "";
-        static string street = "";
-        static string ward = "";
-        static string province = "";
-        static string district = "";
+        public static string HouseNumber = "";
+        public static string street = "";
+        public static string ward = "";
+        public static string province = "";
+        public static string district = "";
 
         public SignUp2()
         {

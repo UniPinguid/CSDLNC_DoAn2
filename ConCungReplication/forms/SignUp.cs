@@ -11,11 +11,11 @@ namespace ConCungReplication
 {
     public partial class SignUp : Form
     {
-        static string name = "";
-        static string email = "";
-        static string number = "";
-        static string birthday = "";
-        static string gender = "";
+        public static string name = "";
+        public static string email = "";
+        public static string number = "";
+        public static string birthday = "";
+        public static string gender = "";
 
         public SignUp()
         {
