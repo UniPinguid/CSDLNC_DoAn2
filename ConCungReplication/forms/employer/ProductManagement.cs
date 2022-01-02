@@ -80,9 +80,10 @@ namespace ConCungReplication
             return id;
         }
 
+       
         private void editPanel_Click(object sender, EventArgs e)
         {
-            id = "false";
+            //id = "false";
             ProductEdit editProduct = new ProductEdit();
             editProduct.Show();
         }
