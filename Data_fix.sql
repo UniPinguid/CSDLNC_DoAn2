@@ -90,3 +90,61 @@ BEGIN TRAN
 	END CATCH
 COMMIT TRAN
 GO
+USE CONCUNG
+GO
+
+CREATE PROC CapNhatKhuyenMai @id CHAR(10), @newGia FLOAT, @newDiscount FLOAT, @ngayBD DATETIME, @ngayKT DATETIME, @result INT OUT
+AS
+BEGIN TRAN
+	BEGIN TRY
+		IF (NOT EXISTS (SELECT * FROM SANPHAM WHERE SP_ID = @id))
+		BEGIN
+			SET @result = 0
+			COMMIT TRAN
+			RETURN
+		END
+
+		UPDATE SANPHAM
+		SET Gia = @newGia,
+			KhuyenMai = @newDiscount,
+			NgayBatDau = @ngayBD,
+			NgayKetThuc = @ngayKT
+		WHERE SP_ID = @id
+
+		SET @result = 1
+	END TRY
+	BEGIN CATCH
+		SET @result = -1
+	END CATCH
+COMMIT TRAN
+GO
+
+CREATE PROC TinhTongDoanhThuThang @time DATETIME, @tongDoanhThu FLOAT OUT
+AS
+BEGIN TRAN
+	BEGIN TRY
+		SELECT @tongDoanhThu = SUM(ThanhTien)
+		FROM HOADON
+		WHERE MONTH(NgayMua)=MONTH(@time) AND YEAR(NgayMua)= YEAR(@time)
+	END TRY
+
+	BEGIN CATCH
+		PRINT (N'lỗi hệ thống')
+	END CATCH
+COMMIT TRAN
+GO
+
+CREATE PROC HoaDonThang @time DATETIME, @tongDoanhThu FLOAT OUT
+AS
+BEGIN TRAN
+	BEGIN TRY
+		SELECT HD_ID, NgayMua, ThanhTien
+		FROM HOADON
+		WHERE MONTH(NgayMua)=MONTH(@time) AND YEAR(NgayMua)= YEAR(@time)
+	END TRY
+
+	BEGIN CATCH
+		PRINT (N'lỗi hệ thống')
+	END CATCH
+COMMIT TRAN
+GO
