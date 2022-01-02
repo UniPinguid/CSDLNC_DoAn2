@@ -1,106 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="forms\Browse.cs">
+    <Compile Update="forms\AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\customer\Browse.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\box\BoxLoading.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Cart.cs">
+    <Compile Update="forms\customer\Cart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Comparison.cs">
+    <Compile Update="forms\manager\Comparison.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Discounts.cs">
+    <Compile Update="forms\manager\DiscountEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\EmployeesPerformance.cs">
+    <Compile Update="forms\manager\Discounts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\HomepageCustomer.cs">
+    <Compile Update="forms\manager\EmployeesPerformance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\HomepageEmployer.cs">
+    <Compile Update="forms\customer\HomepageCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\HomepageManager.cs">
+    <Compile Update="forms\employer\HomepageEmployer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\HomepagePersonnel.cs">
+    <Compile Update="forms\manager\HomepageManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\ImportExport.cs">
+    <Compile Update="forms\personnel\HomepagePersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\employer\ImportExport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\OrderInfo.cs">
+    <Compile Update="forms\customer\OrderInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\OrderInfoEmployer.cs">
+    <Compile Update="forms\employer\OrderInfoEmployer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\OrderTraces.cs">
+    <Compile Update="forms\employer\OrderTraces.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\ProductEdit.cs">
+    <Compile Update="forms\employer\ProductEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\ProductManagement.cs">
+    <Compile Update="forms\employer\ProductManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\ProductPage.cs">
+    <Compile Update="forms\customer\ProductPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\OrderPayment.cs">
+    <Compile Update="forms\customer\OrderPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\PurchaseHistory.cs">
+    <Compile Update="forms\customer\PurchaseHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Rewards.cs">
+    <Compile Update="forms\personnel\Rewards.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Rollcall.cs">
+    <Compile Update="forms\personnel\Rollcall.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SalaryHistory.cs">
+    <Compile Update="forms\personnel\SalaryHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SalesByEmployees.cs">
+    <Compile Update="forms\personnel\SalesByEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SignUp.cs">
+    <Compile Update="forms\login\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SignUp2.cs">
+    <Compile Update="forms\login\SignUp2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SignUpFinal.cs">
+    <Compile Update="forms\login\SignUpFinal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\StartUp.cs">
+    <Compile Update="forms\login\StartUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Statistics.cs">
+    <Compile Update="forms\manager\Statistics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\Storage.cs">
+    <Compile Update="forms\employer\Storage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\SubmitOrder.cs">
+    <Compile Update="forms\customer\SubmitOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\UserLocation.cs">
+    <Compile Update="forms\customer\UserLocation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\UserProfile.cs">
+    <Compile Update="forms\customer\UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\ProductPageEmployer.cs">
+    <Compile Update="forms\employer\ProductPageEmployer.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
