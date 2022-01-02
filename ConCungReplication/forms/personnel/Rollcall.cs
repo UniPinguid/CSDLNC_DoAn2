@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConCungReplication.forms.personnel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,10 +34,17 @@ namespace ConCungReplication
             }
         }
 
-        private void clickSales(object sender, EventArgs e)
+        private void clickHomepage(object sender, EventArgs e)
         {
-            SalesByEmployees sales = new SalesByEmployees();
-            sales.Show();
+            HomepagePersonnel homepage = new HomepagePersonnel();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickEmployees(object sender, EventArgs e)
+        {
+            EmployeesList list = new EmployeesList();
+            list.Show();
             this.Close();
         }
     }

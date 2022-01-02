@@ -123,6 +123,7 @@ namespace ConCungReplication
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label5.Location = new System.Drawing.Point(888, 50);
@@ -130,6 +131,7 @@ namespace ConCungReplication
             this.label5.Size = new System.Drawing.Size(102, 36);
             this.label5.TabIndex = 43;
             this.label5.Text = "About Us";
+            this.label5.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox2
             // 

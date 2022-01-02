@@ -14,5 +14,10 @@ namespace ConCungReplication.forms
         {
             InitializeComponent();
         }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

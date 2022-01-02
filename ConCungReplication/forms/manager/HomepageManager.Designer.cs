@@ -215,7 +215,7 @@ namespace ConCungReplication
             // 
             this.label9.Font = new System.Drawing.Font("Poppins", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label9.Location = new System.Drawing.Point(71, 209);
+            this.label9.Location = new System.Drawing.Point(63, 209);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(761, 65);
             this.label9.TabIndex = 65;
@@ -246,7 +246,6 @@ namespace ConCungReplication
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HomepageManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomepageManager";

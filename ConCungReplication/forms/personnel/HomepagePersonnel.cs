@@ -69,27 +69,6 @@ namespace ConCungReplication
             }
         }
 
-        private void clickSales(object sender, EventArgs e)
-        {
-            SalesByEmployees sales = new SalesByEmployees();
-            sales.Show();
-            this.Close();
-        }
-
-        private void clickSalaryHistory(object sender, EventArgs e)
-        {
-            SalaryHistory salary = new SalaryHistory();
-            salary.Show();
-            this.Close();
-        }
-
-        private void clickRewards(object sender, EventArgs e)
-        {
-            Rewards rewards = new Rewards();
-            rewards.Show();
-            this.Close();
-        }
-
         private void HomepagePersonnel_Load(object sender, EventArgs e)
         {
 
