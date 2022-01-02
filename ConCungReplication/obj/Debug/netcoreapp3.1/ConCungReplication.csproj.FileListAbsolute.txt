@@ -114,3 +114,6 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources

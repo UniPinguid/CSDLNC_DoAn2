@@ -1,3 +1,4 @@
+using ConCungReplication.forms.employer;
 using ConCungReplication.forms.manager;
 using ConCungReplication.forms.personnel;
 using System;
@@ -20,7 +21,7 @@ namespace ConCungReplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new StartUp());
-            Application.Run(new EmployeePage());
+            Application.Run(new HomepageCustomer());
         }
     }
 }

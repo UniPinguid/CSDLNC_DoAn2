@@ -21,7 +21,7 @@ namespace ConCungReplication
             if (dialogResult == DialogResult.Yes)
             {
                 this.Close();
-                Login login = new Login();
+                StartUp login = new StartUp();
                 login.Show();
             }
         }
