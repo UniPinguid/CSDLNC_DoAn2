@@ -291,7 +291,7 @@ namespace ConCungReplication.forms.manager
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.label5.Location = new System.Drawing.Point(508, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(276, 60);
+            this.label5.Size = new System.Drawing.Size(267, 58);
             this.label5.TabIndex = 115;
             this.label5.Text = "Product Name";
             // 
@@ -370,6 +370,7 @@ namespace ConCungReplication.forms.manager
             this.confirmPanel.Name = "confirmPanel";
             this.confirmPanel.Size = new System.Drawing.Size(241, 65);
             this.confirmPanel.TabIndex = 141;
+            this.confirmPanel.Click += new System.EventHandler(this.confirmPanel_Click);
             // 
             // label20
             // 
@@ -561,6 +562,7 @@ namespace ConCungReplication.forms.manager
             this.Name = "DiscountEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DiscountEdit";
+            this.Load += new System.EventHandler(this.DiscountEdit_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

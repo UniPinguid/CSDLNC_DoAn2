@@ -450,6 +450,7 @@ namespace ConCungReplication
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(241, 65);
             this.panel14.TabIndex = 49;
+            this.panel14.Click += new System.EventHandler(this.panel14_Click);
             // 
             // label12
             // 
@@ -646,6 +647,7 @@ namespace ConCungReplication
             this.Name = "Comparison";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Comparison";
+            this.Load += new System.EventHandler(this.Comparison_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel14.ResumeLayout(false);

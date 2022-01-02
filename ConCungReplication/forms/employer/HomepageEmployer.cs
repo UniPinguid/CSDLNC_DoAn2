@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ConCungReplication.forms;
 
 namespace ConCungReplication
 {
@@ -55,6 +56,46 @@ namespace ConCungReplication
             this.Close();
             OrderTraces traces = new OrderTraces();
             traces.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            ProductManagement productManagement = new ProductManagement();
+            productManagement.Show();
+            Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Storage storage = new Storage();
+            storage.Show();
+            Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            OrderTraces traces = new OrderTraces();
+            traces.Show();
+            Close();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            UserProfile profile = new UserProfile();
+            profile.Show();
+            Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

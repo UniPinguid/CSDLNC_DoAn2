@@ -138,6 +138,7 @@ namespace ConCungReplication
             this.label4.Size = new System.Drawing.Size(80, 36);
             this.label4.TabIndex = 48;
             this.label4.Text = "Traces";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -150,6 +151,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(92, 36);
             this.label3.TabIndex = 47;
             this.label3.Text = "Storage";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -161,6 +163,7 @@ namespace ConCungReplication
             this.label2.Size = new System.Drawing.Size(126, 36);
             this.label2.TabIndex = 45;
             this.label2.Text = "Homepage";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label11
             // 
@@ -173,6 +176,7 @@ namespace ConCungReplication
             this.label11.Size = new System.Drawing.Size(102, 36);
             this.label11.TabIndex = 44;
             this.label11.Text = "Products";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -214,6 +218,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // label9
             // 

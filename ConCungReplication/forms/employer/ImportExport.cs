@@ -53,5 +53,40 @@ namespace ConCungReplication
             OrderTraces traces = new OrderTraces();
             traces.Show();
         }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            HomepageEmployer employer = new HomepageEmployer();
+            employer.Show();
+            Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            HomepageEmployer employer = new HomepageEmployer();
+            employer.Show();
+            Close();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            ProductManagement productManagement = new ProductManagement();
+            productManagement.Show();
+            Close ();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Storage storage = new Storage();
+            storage.Show();
+            Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            OrderTraces orderTraces = new OrderTraces();
+            orderTraces.Show();
+            Close();
+        }
     }
 }

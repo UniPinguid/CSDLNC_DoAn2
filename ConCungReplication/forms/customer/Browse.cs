@@ -22,28 +22,7 @@ namespace ConCungReplication
 
             string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM ";
 
-            //if(act == 1)
-            //{
-            //    if(checkedListBox1.CheckedItems.Count > 0)
-            //    {
-            //        truyVan += " WHERE ThuongHieu LIKE '";
-            //        for(int i = 0;i< checkedListBox1.CheckedItems.Count;i++)
-            //        {
-            //            truyVan += checkedListBox1.CheckedItems[i].ToString() + "'";
-            //            if(i<checkedListBox1.CheckedItems.Count-1)
-            //            {
-            //                truyVan += " OR ThuongHieu LIKE N'";
-            //            }
-            //        }
-            //    }
-            //    if(checkedListBox2.CheckedItems.Count > 0)
-            //    {
-            //        if(truyVan.Contains("WHERE")==false)
-            //        {
-            //            truyVan+="WHERE "
-            //        }
-            //    }
-            //}
+            
             if (act == 2)
             {
                 truyVan += " WHERE TenSP LIKE N'%" + textBox1.Text + "%'";
@@ -121,6 +100,20 @@ namespace ConCungReplication
         private void label11_Click(object sender, EventArgs e)
         {
             loadData(1);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            UserProfile userProfile = new UserProfile();
+            userProfile.Show();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
+            Close();
         }
     }
 }

@@ -57,7 +57,6 @@ namespace ConCungReplication
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -216,6 +215,7 @@ namespace ConCungReplication
             this.label20.Size = new System.Drawing.Size(90, 36);
             this.label20.TabIndex = 130;
             this.label20.Text = "Refresh";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label12
             // 
@@ -258,6 +258,7 @@ namespace ConCungReplication
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(143, 65);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // checkedListBox4
             // 
@@ -332,13 +333,13 @@ namespace ConCungReplication
             this.checkedListBox2.ForeColor = System.Drawing.Color.DimGray;
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
-            "Dairy products",
-            "Toys",
-            "Bedding",
-            "A",
-            "B",
-            "C",
-            "D"});
+            "Ăn dặm",
+            "Chăm sóc gia đình",
+            "Đồ chơi",
+            "Đồ dùng mẹ và bé",
+            "Sữa bột",
+            "Thực phẩm",
+            "Vitamin và Sức khỏe"});
             this.checkedListBox2.Location = new System.Drawing.Point(52, 762);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(260, 203);
@@ -361,12 +362,12 @@ namespace ConCungReplication
             this.checkedListBox1.ForeColor = System.Drawing.Color.DimGray;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Brand A",
-            "Brand B",
-            "Brand C",
-            "Brand D",
-            "Brand E",
-            "Brand F"});
+            "BabyOne",
+            "Ensure",
+            "Fitobimbi",
+            "Hairburst",
+            "PediaKid",
+            "ToyCity"});
             this.checkedListBox1.Location = new System.Drawing.Point(57, 517);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(260, 174);
@@ -394,17 +395,7 @@ namespace ConCungReplication
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(1169, 967);
             this.dataGridView1.TabIndex = 118;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(178)))), ((int)(((byte)(219)))));
-            this.label9.Location = new System.Drawing.Point(408, 440);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(138, 34);
-            this.label9.TabIndex = 117;
-            this.label9.Text = "results found";
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // panel9
             // 
@@ -438,7 +429,6 @@ namespace ConCungReplication
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -487,7 +477,6 @@ namespace ConCungReplication
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel9;
     }
 }

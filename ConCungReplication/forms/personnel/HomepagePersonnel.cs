@@ -7,6 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using ConCungReplication.forms;
+using ConCungReplication.forms.personnel;
 
 namespace ConCungReplication
 {
@@ -73,6 +75,39 @@ namespace ConCungReplication
         {
 
             loadPersonnel(StartUp.id);
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Rollcall rollcall = new Rollcall();
+            rollcall.Show();
+            Close();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            EmployeesList employeesList = new EmployeesList();
+            employeesList.Show();
+            Close();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            PersonnelProfile personnelProfile = new PersonnelProfile();
+            personnelProfile.Show();
+            Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

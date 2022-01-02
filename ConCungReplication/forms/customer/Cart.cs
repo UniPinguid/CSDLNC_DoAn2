@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Linq;
+using ConCungReplication.forms;
 
 namespace ConCungReplication
 {
@@ -159,8 +160,8 @@ namespace ConCungReplication
                 cmd.Parameters.Add("@idKH", SqlDbType.Char).Value = StartUp.id;
                 cmd.Parameters.Add("@result", SqlDbType.Int).Value = 0;
                 cmd.Parameters.Add("@idHD", SqlDbType.Char).Value = idHoaDon;
-
-                var result = cmd.ExecuteScalar();
+                cmd.ExecuteNonQuery();
+                var result = cmd.Parameters["@result"].Value;
 
                 if (result.Equals(1))
                 {
@@ -173,6 +174,26 @@ namespace ConCungReplication
                     break;
                 }
             }
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            HomepageCustomer homepageCustomer = new HomepageCustomer();
+            homepageCustomer.Show();
+            Close();
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            UserLocation userLocation = new UserLocation();
+            userLocation.Show();
+            Close();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.ShowDialog();
         }
     }
 }
