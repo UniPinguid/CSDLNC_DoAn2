@@ -34,6 +34,12 @@
     <Compile Update="forms\manager\HomepageManager.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="forms\personnel\EmployeePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\personnel\EmployeesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="forms\personnel\HomepagePersonnel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,16 +73,7 @@
     <Compile Update="forms\customer\PurchaseHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\personnel\Rewards.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="forms\personnel\Rollcall.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="forms\personnel\SalaryHistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="forms\personnel\SalesByEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\login\SignUp.cs">

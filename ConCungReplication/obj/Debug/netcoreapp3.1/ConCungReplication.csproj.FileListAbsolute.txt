@@ -4,7 +4,6 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
@@ -37,9 +36,6 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalesByEmployees.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rewards.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalaryHistory.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
@@ -115,3 +111,6 @@ C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netco
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources

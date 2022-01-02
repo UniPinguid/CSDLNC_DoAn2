@@ -143,7 +143,6 @@ namespace ConCungReplication
             {
                 MessageBox.Show("Lỗi hệ thống.", "Thông Báo");
             }
-            this.Hide();
         }
     }
 }
