@@ -13,7 +13,7 @@ namespace ConCungReplication
 {
     public partial class ProductManagement : Form
     {
-        private static bool addnew;
+        private static string id = null;
         SqlConnection conn;
         SqlCommand cmd;
         SqlDataAdapter adapter;
@@ -70,19 +70,19 @@ namespace ConCungReplication
 
         private void addPanel_Click(object sender, EventArgs e)
         {   
-            addnew = true;
+            
             ProductEdit addProduct = new ProductEdit();
             addProduct.Show();
             
         }
-        static public bool getaddnew()
+        static public string getid()
         {
-            return addnew;
+            return id;
         }
 
         private void editPanel_Click(object sender, EventArgs e)
         {
-            addnew = false;
+            id = "false";
             ProductEdit editProduct = new ProductEdit();
             editProduct.Show();
         }
