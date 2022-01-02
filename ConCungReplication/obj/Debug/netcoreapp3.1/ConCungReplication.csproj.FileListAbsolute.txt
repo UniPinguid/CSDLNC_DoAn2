@@ -115,3 +115,5 @@ C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netco
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
