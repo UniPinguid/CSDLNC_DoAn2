@@ -12,6 +12,15 @@ namespace ConCungReplication
 {
     public partial class HomepagePersonnel : Form
     {
+        public static string name = "";
+        public static string personnelID = "";
+        public static string gender = "";
+        public static string citizenID = "";
+        public static string birthday = "";
+        public static string department = "";
+        public static string kpi = "";
+        public static string salary = "";
+
         public HomepagePersonnel()
         {
             InitializeComponent();
@@ -31,14 +40,14 @@ namespace ConCungReplication
             using var reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                label26.Text = reader["Ten_NV"].ToString();
-                label27.Text = reader["NV_ID"].ToString();
-                gender.Text = reader["Phai_NV"].ToString();
-                citizenID.Text = reader["CMND_NV"].ToString();
-                label22.Text = reader["NgaySinhNV"].ToString();
-                label20.Text = reader["PhongBan"].ToString();
-                KPI.Text = reader["KPI_NV"].ToString();
-                label28.Text = reader["Luong"].ToString();
+                name = reader["Ten_NV"].ToString();
+                personnelID = reader["NV_ID"].ToString();
+                gender = reader["Phai_NV"].ToString();
+                citizenID = reader["CMND_NV"].ToString();
+                birthday = reader["NgaySinhNV"].ToString();
+                department = reader["PhongBan"].ToString();
+                kpi = reader["KPI_NV"].ToString();
+                salary = reader["Luong"].ToString();
             }
             conn.Close();
         }

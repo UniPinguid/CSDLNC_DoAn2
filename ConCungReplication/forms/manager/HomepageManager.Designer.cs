@@ -31,6 +31,7 @@ namespace ConCungReplication
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomepageManager));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,6 +55,7 @@ namespace ConCungReplication
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
@@ -67,17 +69,31 @@ namespace ConCungReplication
             this.panel1.Size = new System.Drawing.Size(1920, 131);
             this.panel1.TabIndex = 64;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Location = new System.Drawing.Point(1085, 49);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 36);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "Discounts";
+            this.label3.Click += new System.EventHandler(this.clickDiscounts);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label5.Location = new System.Drawing.Point(987, 49);
+            this.label5.Location = new System.Drawing.Point(911, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 36);
             this.label5.TabIndex = 48;
             this.label5.Text = "Employees";
+            this.label5.Click += new System.EventHandler(this.clickEmployees);
             // 
             // label6
             // 
@@ -85,7 +101,7 @@ namespace ConCungReplication
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label6.Location = new System.Drawing.Point(800, 49);
+            this.label6.Location = new System.Drawing.Point(724, 49);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(139, 36);
             this.label6.TabIndex = 47;
@@ -96,7 +112,7 @@ namespace ConCungReplication
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label7.Location = new System.Drawing.Point(469, 49);
+            this.label7.Location = new System.Drawing.Point(393, 49);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(130, 36);
             this.label7.TabIndex = 45;
@@ -108,7 +124,7 @@ namespace ConCungReplication
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label8.Location = new System.Drawing.Point(644, 49);
+            this.label8.Location = new System.Drawing.Point(568, 49);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(102, 36);
             this.label8.TabIndex = 44;
@@ -119,7 +135,7 @@ namespace ConCungReplication
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label12.Location = new System.Drawing.Point(1152, 49);
+            this.label12.Location = new System.Drawing.Point(1241, 49);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(102, 36);
             this.label12.TabIndex = 43;
@@ -178,9 +194,9 @@ namespace ConCungReplication
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(745, 209);
+            this.pictureBox4.Location = new System.Drawing.Point(759, 227);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(800, 446);
+            this.pictureBox4.Size = new System.Drawing.Size(750, 395);
             this.pictureBox4.TabIndex = 68;
             this.pictureBox4.TabStop = false;
             // 
@@ -260,5 +276,6 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label3;
     }
 }

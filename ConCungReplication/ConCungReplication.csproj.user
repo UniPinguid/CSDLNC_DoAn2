@@ -16,6 +16,9 @@
     <Compile Update="forms\manager\Comparison.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="forms\manager\DiscountEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="forms\manager\Discounts.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -26,7 +26,7 @@ namespace ConCungReplication
             string truyVan = "SELECT * FROM NHANVIEN ";
             if (act == 2)
             {
-                truyVan += " WHERE Ten_NV LIKE N'%" + search.Text + "%'";
+                truyVan += " WHERE Ten_NV LIKE '%' + N'" + search.Text + "' + '%'";
             }
 
             SqlCommand cmd = new SqlCommand(truyVan, conn);
@@ -119,7 +119,7 @@ namespace ConCungReplication
             loadData(2);
         }
 
-        private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = dataGridView1.CurrentCell.RowIndex;
             string nv = dt.Rows[i]["NV_ID"].ToString();
