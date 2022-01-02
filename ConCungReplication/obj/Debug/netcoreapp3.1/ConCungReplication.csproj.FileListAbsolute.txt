@@ -90,10 +90,7 @@ C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netco
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rewards.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalaryHistory.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalesByEmployees.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
 C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
@@ -174,3 +171,10 @@ E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplica
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
