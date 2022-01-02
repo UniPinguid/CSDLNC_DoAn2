@@ -88,8 +88,16 @@ namespace ConCungReplication
                 birthday = textBox3.Text;
 
                 this.Hide();
-                SignUpFinal signUpFinal = new SignUpFinal();
-                signUpFinal.ShowDialog();
+                SignUp2 signUp2 = new SignUp2();
+
+                SignUp2.name = name;
+                SignUp2.number = number;
+                SignUp2.email = email;
+                SignUp2.birthday = birthday;
+                SignUp2.gender = gender;
+
+                signUp2.ShowDialog();
+
             }
         }
     }

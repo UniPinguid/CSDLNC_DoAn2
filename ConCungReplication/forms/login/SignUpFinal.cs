@@ -17,8 +17,23 @@ namespace ConCungReplication
 
         string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
 
-        static string username = "";
-        static string password = "";
+        public static int HouseNumber;
+        public static string street = "";
+        public static string ward = "";
+        public static string province = "";
+        public static string district = "";
+
+
+        public static string name = "";
+        public static string email = "";
+        public static string number = "";
+        public static string birthday = "";
+        public static string gender = "";
+
+        public static string username = "";
+        public static string password = "";
+
+
 
         private static Random random = new Random();
 
@@ -35,69 +50,7 @@ namespace ConCungReplication
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            int checkEmpty = 0;
-            if (textBox6.Text == "")
-            {
-                MessageBox.Show("Username is empty");
-                checkEmpty = 1;
-            }
 
-            if (textBox5.Text == "")
-            {
-                MessageBox.Show("Password is empty");
-                checkEmpty = 1;
-            }
-
-            if (checkEmpty == 0)
-
-            {
-                if (!textBox3.Text.Equals(textBox5.Text))
-                {
-                    MessageBox.Show("Password and confirm password do not match");
-                }
-                else
-                {
-                    string ID = "KH";
-                    string name = SignUp.name;
-                    string email = SignUp.email;
-                    string birthday = SignUp.birthday;
-                    string gender = SignUp.gender;
-                    string number = SignUp.number;
-
-                    ID += RandomString(8);
-
-                    string HouseNumber = SignUp2.HouseNumber;
-                    string ward = SignUp2.ward;
-                    string street = SignUp2.street;
-                    string province = SignUp2.province;
-                    string district = SignUp2.district;
-
-                    username = textBox6.Text;
-                    password = textBox5.Text;
-
-
-                    try
-                    {
-                        string command = "EXEC SignUpCustomer '" + ID + "', N'" + name + "','" + number + "','" + email + "', N'" + gender + "', " + birthday + ",'" + HouseNumber + "', N'" + street + "', N'" + ward + "', N'" + district + "', N'" + province + "','" + username + "','" + password + "'";
-                        using (SqlConnection conn = new SqlConnection(connectionString))
-                        using (SqlCommand cmd = new SqlCommand(command, conn))
-                        {
-                            conn.Open();
-                            cmd.ExecuteNonQuery();
-                            conn.Close();
-                        }
-                        MessageBox.Show("Your account had been created successfully!", "Success");
-                        Login login = new Login();
-                        login.Show();
-                        this.Close();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Error: Sign up failed");
-                    }
-                }
-
-            }
         }
 
             private void clickBack(object sender, EventArgs e)
@@ -121,6 +74,82 @@ namespace ConCungReplication
             {
                 this.Close();
             }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            int checkEmpty = 0;
+            if (textBox6.Text == "")
+            {
+                MessageBox.Show("Username is empty");
+                checkEmpty = 1;
+            }
+
+            if (textBox5.Text == "")
+            {
+                MessageBox.Show("Password is empty");
+                checkEmpty = 1;
+            }
+
+            if (!CheckTOS.Checked)
+            {
+                MessageBox.Show("Please make sure you accept out Term and Policy");
+                checkEmpty = 1;
+            }
+
+            if (checkEmpty == 0)
+
+            {
+                if (!textBox3.Text.Equals(textBox5.Text))
+                {
+                    MessageBox.Show("Password and confirm password do not match");
+                }
+                else
+                {
+                    string ID = "KH";
+                    string name = SignUp2.name;
+                    string email = SignUp2.email;
+                    string birthday = SignUp2.birthday;
+                    string gender = SignUp2.gender;
+                    string number = SignUp2.number;
+
+                    ID += RandomString(8);
+
+                    int HouseNumber = SignUp2.HouseNumber;
+                    string ward = SignUp2.ward;
+                    string street = SignUp2.street;
+                    string province = SignUp2.province;
+                    string district = SignUp2.district;
+
+                    username = textBox6.Text;
+                    password = textBox5.Text;
+
+
+                    try
+                    {
+                        string command = "exec SignUpCustomer '" + ID + "', N'" + name + "', '" + number + "', '" + email + "', N'" + gender + "', '" + birthday + "', " + HouseNumber + ", '" + street + "', '" + ward + "', '" + district + "', '" + province + "', '" + username + "', '" + password + "' ";
+
+                        using (SqlConnection conn = new SqlConnection(connectionString))
+                        using (SqlCommand cmd = new SqlCommand(command, conn))
+                        {
+                            conn.Open();
+                            cmd.ExecuteNonQuery();
+                            conn.Close();
+                        }
+                        MessageBox.Show("Your account had been created successfully!", "Success");
+                        Login login = new Login();
+                        login.Show();
+                        this.Close();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Error!!! Sign up failed");
+                    }
+
+                }
+
+            }
+
         }
     }
 }

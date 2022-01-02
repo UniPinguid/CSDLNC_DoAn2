@@ -65,11 +65,11 @@ namespace ConCungReplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
             this.label4.Location = new System.Drawing.Point(34, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 39);
+            this.label4.Size = new System.Drawing.Size(162, 32);
             this.label4.TabIndex = 13;
             this.label4.Text = "Final Step!";
             // 
@@ -77,7 +77,7 @@ namespace ConCungReplication
             // 
             this.CheckTOS.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.CheckTOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CheckTOS.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CheckTOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CheckTOS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(82)))), ((int)(((byte)(221)))));
             this.CheckTOS.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.CheckTOS.Location = new System.Drawing.Point(738, 630);
@@ -94,11 +94,11 @@ namespace ConCungReplication
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label6.Font = new System.Drawing.Font("Poppins SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(177)))), ((int)(((byte)(232)))));
             this.label6.Location = new System.Drawing.Point(71, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 40);
+            this.label6.Size = new System.Drawing.Size(92, 29);
             this.label6.TabIndex = 33;
             this.label6.Text = "< Back";
             this.label6.Click += new System.EventHandler(this.clickBack);
@@ -123,13 +123,13 @@ namespace ConCungReplication
             // textBox6
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox6.ForeColor = System.Drawing.Color.DimGray;
             this.textBox6.Location = new System.Drawing.Point(36, 14);
             this.textBox6.MaxLength = 32;
             this.textBox6.Name = "textBox6";
             this.textBox6.PlaceholderText = "82 St. Christopher";
-            this.textBox6.Size = new System.Drawing.Size(655, 30);
+            this.textBox6.Size = new System.Drawing.Size(655, 23);
             this.textBox6.TabIndex = 0;
             // 
             // panel8
@@ -146,23 +146,24 @@ namespace ConCungReplication
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox5.ForeColor = System.Drawing.Color.DimGray;
             this.textBox5.Location = new System.Drawing.Point(36, 14);
             this.textBox5.MaxLength = 32;
             this.textBox5.Name = "textBox5";
+            this.textBox5.PasswordChar = '*';
             this.textBox5.PlaceholderText = "Danville";
-            this.textBox5.Size = new System.Drawing.Size(655, 30);
+            this.textBox5.Size = new System.Drawing.Size(655, 23);
             this.textBox5.TabIndex = 0;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Poppins Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(178)))), ((int)(((byte)(219)))));
             this.label10.Location = new System.Drawing.Point(886, 840);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(409, 30);
+            this.label10.Size = new System.Drawing.Size(378, 20);
             this.label10.TabIndex = 69;
             this.label10.Text = "© All rights preserved by HCMUS_Random Team";
             // 
@@ -180,22 +181,23 @@ namespace ConCungReplication
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Poppins SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(77, 16);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 40);
+            this.label9.Size = new System.Drawing.Size(91, 29);
             this.label9.TabIndex = 33;
             this.label9.Text = "Finish!";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label7.Location = new System.Drawing.Point(714, 516);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(201, 36);
+            this.label7.Size = new System.Drawing.Size(187, 25);
             this.label7.TabIndex = 65;
             this.label7.Text = "Confirm Password";
             // 
@@ -211,23 +213,24 @@ namespace ConCungReplication
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox3.ForeColor = System.Drawing.Color.DimGray;
             this.textBox3.Location = new System.Drawing.Point(36, 14);
             this.textBox3.MaxLength = 32;
             this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
             this.textBox3.PlaceholderText = "Tri-State Area";
-            this.textBox3.Size = new System.Drawing.Size(655, 30);
+            this.textBox3.Size = new System.Drawing.Size(655, 23);
             this.textBox3.TabIndex = 0;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Location = new System.Drawing.Point(714, 394);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 36);
+            this.label5.Size = new System.Drawing.Size(106, 25);
             this.label5.TabIndex = 63;
             this.label5.Text = "Password";
             // 
@@ -243,22 +246,22 @@ namespace ConCungReplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(714, 268);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 36);
+            this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 61;
             this.label1.Text = "Username";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poppins", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(178)))), ((int)(((byte)(219)))));
             this.label3.Location = new System.Drawing.Point(709, 206);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(248, 40);
+            this.label3.Size = new System.Drawing.Size(226, 29);
             this.label3.TabIndex = 55;
             this.label3.Text = "You\'re almost there!";
             // 
@@ -274,11 +277,11 @@ namespace ConCungReplication
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Poppins", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label11.Location = new System.Drawing.Point(702, 144);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(254, 78);
+            this.label11.Size = new System.Drawing.Size(228, 52);
             this.label11.TabIndex = 54;
             this.label11.Text = "Final Step";
             // 
