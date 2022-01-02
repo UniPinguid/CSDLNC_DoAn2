@@ -217,8 +217,10 @@ namespace ConCungReplication
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.TenSP,
@@ -228,8 +230,12 @@ namespace ConCungReplication
             this.NgayBatDau,
             this.NgayKetThuc,
             this.MoTa});
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dataGridView1.GridColor = System.Drawing.Color.White;
             this.dataGridView1.Location = new System.Drawing.Point(381, 496);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(1169, 957);
@@ -242,7 +248,6 @@ namespace ConCungReplication
             this.TenSP.HeaderText = "Sản Phẩm";
             this.TenSP.MinimumWidth = 6;
             this.TenSP.Name = "TenSP";
-            this.TenSP.Width = 125;
             // 
             // Gia
             // 
@@ -250,7 +255,6 @@ namespace ConCungReplication
             this.Gia.HeaderText = "Giá";
             this.Gia.MinimumWidth = 6;
             this.Gia.Name = "Gia";
-            this.Gia.Width = 125;
             // 
             // ThuongHieu
             // 
@@ -258,7 +262,6 @@ namespace ConCungReplication
             this.ThuongHieu.HeaderText = "Thương Hiệu";
             this.ThuongHieu.MinimumWidth = 6;
             this.ThuongHieu.Name = "ThuongHieu";
-            this.ThuongHieu.Width = 125;
             // 
             // KhuyenMai
             // 
@@ -266,7 +269,6 @@ namespace ConCungReplication
             this.KhuyenMai.HeaderText = "Khuyến Mãi";
             this.KhuyenMai.MinimumWidth = 6;
             this.KhuyenMai.Name = "KhuyenMai";
-            this.KhuyenMai.Width = 125;
             // 
             // NgayBatDau
             // 
@@ -274,7 +276,6 @@ namespace ConCungReplication
             this.NgayBatDau.HeaderText = "Bắt Đầu";
             this.NgayBatDau.MinimumWidth = 6;
             this.NgayBatDau.Name = "NgayBatDau";
-            this.NgayBatDau.Width = 125;
             // 
             // NgayKetThuc
             // 
@@ -282,7 +283,6 @@ namespace ConCungReplication
             this.NgayKetThuc.HeaderText = "Hạn Chót";
             this.NgayKetThuc.MinimumWidth = 6;
             this.NgayKetThuc.Name = "NgayKetThuc";
-            this.NgayKetThuc.Width = 125;
             // 
             // MoTa
             // 
@@ -290,7 +290,6 @@ namespace ConCungReplication
             this.MoTa.HeaderText = "Mô Tả";
             this.MoTa.MinimumWidth = 6;
             this.MoTa.Name = "MoTa";
-            this.MoTa.Width = 125;
             // 
             // label3
             // 
@@ -456,7 +455,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.ClientSize = new System.Drawing.Size(1621, 900);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);

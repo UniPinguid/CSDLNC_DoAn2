@@ -88,10 +88,9 @@ namespace ConCungReplication
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(52)))), ((int)(((byte)(117)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.MaximumSize = new System.Drawing.Size(1680, 27);
+            this.panel2.MaximumSize = new System.Drawing.Size(1920, 36);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1680, 27);
+            this.panel2.Size = new System.Drawing.Size(1920, 36);
             this.panel2.TabIndex = 10;
             // 
             // panel1
@@ -103,10 +102,9 @@ namespace ConCungReplication
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.logo);
-            this.panel1.Location = new System.Drawing.Point(0, 26);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(0, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1680, 55);
+            this.panel1.Size = new System.Drawing.Size(1920, 73);
             this.panel1.TabIndex = 9;
             // 
             // label4
@@ -115,9 +113,9 @@ namespace ConCungReplication
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(925, 19);
+            this.label4.Location = new System.Drawing.Point(1057, 25);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 20);
+            this.label4.Size = new System.Drawing.Size(147, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Salary History";
             this.label4.Click += new System.EventHandler(this.clickSalaryHistory);
@@ -128,9 +126,9 @@ namespace ConCungReplication
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1135, 19);
+            this.label3.Location = new System.Drawing.Point(1297, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 20);
+            this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Rewards";
             this.label3.Click += new System.EventHandler(this.clickRewards);
@@ -141,9 +139,9 @@ namespace ConCungReplication
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(774, 19);
+            this.label2.Location = new System.Drawing.Point(885, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.Size = new System.Drawing.Size(67, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Sales";
             // 
@@ -153,9 +151,9 @@ namespace ConCungReplication
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(598, 19);
+            this.label1.Location = new System.Drawing.Point(683, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 20);
+            this.label1.Size = new System.Drawing.Size(89, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Roll-call";
             this.label1.Click += new System.EventHandler(this.clickRollcall);
@@ -164,10 +162,9 @@ namespace ConCungReplication
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1317, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(1505, 19);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(49, 43);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.clickLogout);
@@ -177,10 +174,9 @@ namespace ConCungReplication
             this.logo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
             this.logo.ImageLocation = "";
-            this.logo.Location = new System.Drawing.Point(42, 19);
-            this.logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.logo.Location = new System.Drawing.Point(48, 25);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(141, 25);
+            this.logo.Size = new System.Drawing.Size(161, 33);
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
@@ -189,10 +185,9 @@ namespace ConCungReplication
             // searchIcon
             // 
             this.searchIcon.Image = ((System.Drawing.Image)(resources.GetObject("searchIcon.Image")));
-            this.searchIcon.Location = new System.Drawing.Point(913, 113);
-            this.searchIcon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchIcon.Location = new System.Drawing.Point(1043, 151);
             this.searchIcon.Name = "searchIcon";
-            this.searchIcon.Size = new System.Drawing.Size(32, 27);
+            this.searchIcon.Size = new System.Drawing.Size(37, 36);
             this.searchIcon.TabIndex = 58;
             this.searchIcon.TabStop = false;
             // 
@@ -200,29 +195,28 @@ namespace ConCungReplication
             // 
             this.search.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.search.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.search.Location = new System.Drawing.Point(90, 113);
-            this.search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.search.Location = new System.Drawing.Point(103, 151);
             this.search.Name = "search";
             this.search.PlaceholderText = "Yve Shmith";
-            this.search.Size = new System.Drawing.Size(816, 17);
+            this.search.Size = new System.Drawing.Size(933, 21);
             this.search.TabIndex = 57;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(11, 113);
+            this.label9.Location = new System.Drawing.Point(13, 151);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(71, 20);
+            this.label9.Size = new System.Drawing.Size(88, 25);
             this.label9.TabIndex = 56;
             this.label9.Text = "Search:";
             // 
             // label10
             // 
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(14, 136);
+            this.label10.Location = new System.Drawing.Point(16, 181);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(892, 2);
+            this.label10.Size = new System.Drawing.Size(1019, 2);
             this.label10.TabIndex = 55;
             // 
             // listProduct
@@ -230,12 +224,11 @@ namespace ConCungReplication
             this.listProduct.BackgroundColor = System.Drawing.Color.White;
             this.listProduct.ColumnHeadersHeight = 29;
             this.listProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.listProduct.Location = new System.Drawing.Point(14, 151);
-            this.listProduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listProduct.Location = new System.Drawing.Point(16, 201);
             this.listProduct.Name = "listProduct";
             this.listProduct.RowHeadersWidth = 51;
             this.listProduct.RowTemplate.Height = 29;
-            this.listProduct.Size = new System.Drawing.Size(930, 475);
+            this.listProduct.Size = new System.Drawing.Size(1063, 633);
             this.listProduct.TabIndex = 54;
             // 
             // panel4
@@ -243,19 +236,18 @@ namespace ConCungReplication
             this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel4.Controls.Add(this.label28);
             this.panel4.Controls.Add(this.label29);
-            this.panel4.Location = new System.Drawing.Point(1105, 305);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(1263, 407);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(256, 62);
+            this.panel4.Size = new System.Drawing.Size(293, 83);
             this.panel4.TabIndex = 117;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label28.Location = new System.Drawing.Point(48, 23);
+            this.label28.Location = new System.Drawing.Point(55, 31);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(140, 29);
+            this.label28.Size = new System.Drawing.Size(177, 36);
             this.label28.TabIndex = 102;
             this.label28.Text = "4,000,000đ";
             // 
@@ -264,9 +256,9 @@ namespace ConCungReplication
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
-            this.label29.Location = new System.Drawing.Point(67, 5);
+            this.label29.Location = new System.Drawing.Point(77, 7);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(128, 15);
+            this.label29.Size = new System.Drawing.Size(156, 18);
             this.label29.TabIndex = 101;
             this.label29.Text = "CURRENT SALARY";
             // 
@@ -275,10 +267,9 @@ namespace ConCungReplication
             this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel3.Controls.Add(this.KPI);
             this.panel3.Controls.Add(this.label19);
-            this.panel3.Location = new System.Drawing.Point(967, 305);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Location = new System.Drawing.Point(1105, 407);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(118, 62);
+            this.panel3.Size = new System.Drawing.Size(135, 83);
             this.panel3.TabIndex = 116;
             // 
             // KPI
@@ -286,9 +277,9 @@ namespace ConCungReplication
             this.KPI.AutoSize = true;
             this.KPI.BackColor = System.Drawing.Color.Transparent;
             this.KPI.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.KPI.Location = new System.Drawing.Point(20, 19);
+            this.KPI.Location = new System.Drawing.Point(23, 25);
             this.KPI.Name = "KPI";
-            this.KPI.Size = new System.Drawing.Size(71, 31);
+            this.KPI.Size = new System.Drawing.Size(87, 39);
             this.KPI.TabIndex = 100;
             this.KPI.Text = "20.2";
             // 
@@ -297,9 +288,9 @@ namespace ConCungReplication
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(67)))), ((int)(((byte)(132)))));
-            this.label19.Location = new System.Drawing.Point(8, 5);
+            this.label19.Location = new System.Drawing.Point(9, 7);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(99, 15);
+            this.label19.Size = new System.Drawing.Size(120, 18);
             this.label19.TabIndex = 99;
             this.label19.Text = "CURRENT KPI";
             // 
@@ -308,9 +299,9 @@ namespace ConCungReplication
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.Color.DimGray;
-            this.label20.Location = new System.Drawing.Point(1225, 251);
+            this.label20.Location = new System.Drawing.Point(1400, 335);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(70, 17);
+            this.label20.Size = new System.Drawing.Size(82, 20);
             this.label20.TabIndex = 115;
             this.label20.Text = "Employee";
             // 
@@ -318,9 +309,9 @@ namespace ConCungReplication
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(1109, 251);
+            this.label21.Location = new System.Drawing.Point(1267, 335);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(92, 17);
+            this.label21.Size = new System.Drawing.Size(107, 20);
             this.label21.TabIndex = 114;
             this.label21.Text = "Department";
             // 
@@ -329,9 +320,9 @@ namespace ConCungReplication
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.Color.DimGray;
-            this.label22.Location = new System.Drawing.Point(1225, 228);
+            this.label22.Location = new System.Drawing.Point(1400, 304);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(80, 17);
+            this.label22.Size = new System.Drawing.Size(91, 20);
             this.label22.TabIndex = 113;
             this.label22.Text = "11/11/2011";
             // 
@@ -339,9 +330,9 @@ namespace ConCungReplication
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.Location = new System.Drawing.Point(1109, 228);
+            this.label23.Location = new System.Drawing.Point(1267, 304);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 17);
+            this.label23.Size = new System.Drawing.Size(79, 20);
             this.label23.TabIndex = 112;
             this.label23.Text = "Birthday";
             // 
@@ -349,9 +340,9 @@ namespace ConCungReplication
             // 
             this.gender.AutoSize = true;
             this.gender.ForeColor = System.Drawing.Color.DimGray;
-            this.gender.Location = new System.Drawing.Point(1289, 147);
+            this.gender.Location = new System.Drawing.Point(1473, 196);
             this.gender.Name = "gender";
-            this.gender.Size = new System.Drawing.Size(33, 15);
+            this.gender.Size = new System.Drawing.Size(42, 20);
             this.gender.TabIndex = 111;
             this.gender.Text = "Male";
             // 
@@ -360,9 +351,9 @@ namespace ConCungReplication
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label24.Location = new System.Drawing.Point(1231, 148);
+            this.label24.Location = new System.Drawing.Point(1407, 197);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(59, 13);
+            this.label24.Size = new System.Drawing.Size(71, 16);
             this.label24.TabIndex = 110;
             this.label24.Text = "GENDER";
             // 
@@ -371,9 +362,9 @@ namespace ConCungReplication
             this.citizenID.AutoSize = true;
             this.citizenID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.citizenID.ForeColor = System.Drawing.Color.DimGray;
-            this.citizenID.Location = new System.Drawing.Point(1225, 205);
+            this.citizenID.Location = new System.Drawing.Point(1400, 273);
             this.citizenID.Name = "citizenID";
-            this.citizenID.Size = new System.Drawing.Size(72, 17);
+            this.citizenID.Size = new System.Drawing.Size(81, 20);
             this.citizenID.TabIndex = 109;
             this.citizenID.Text = "58127381";
             // 
@@ -381,18 +372,17 @@ namespace ConCungReplication
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(1109, 205);
+            this.label25.Location = new System.Drawing.Point(1267, 273);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(77, 17);
+            this.label25.Size = new System.Drawing.Size(93, 20);
             this.label25.TabIndex = 108;
             this.label25.Text = "Citizen ID";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(967, 151);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(1105, 201);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(118, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(135, 183);
             this.pictureBox2.TabIndex = 107;
             this.pictureBox2.TabStop = false;
             // 
@@ -400,9 +390,9 @@ namespace ConCungReplication
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(1105, 161);
+            this.label26.Location = new System.Drawing.Point(1263, 215);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(199, 26);
+            this.label26.Size = new System.Drawing.Size(251, 32);
             this.label26.TabIndex = 106;
             this.label26.Text = "EMPLOYEENAME";
             // 
@@ -411,9 +401,9 @@ namespace ConCungReplication
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(170)))), ((int)(((byte)(202)))));
-            this.label27.Location = new System.Drawing.Point(1110, 149);
+            this.label27.Location = new System.Drawing.Point(1269, 199);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(86, 13);
+            this.label27.Size = new System.Drawing.Size(101, 16);
             this.label27.TabIndex = 105;
             this.label27.Text = "MNV: E0012345";
             // 
@@ -430,10 +420,9 @@ namespace ConCungReplication
             "2019",
             "2020",
             "2021"});
-            this.selectYearRevenue2.Location = new System.Drawing.Point(1096, 510);
-            this.selectYearRevenue2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.selectYearRevenue2.Location = new System.Drawing.Point(1253, 680);
             this.selectYearRevenue2.Name = "selectYearRevenue2";
-            this.selectYearRevenue2.Size = new System.Drawing.Size(67, 25);
+            this.selectYearRevenue2.Size = new System.Drawing.Size(76, 28);
             this.selectYearRevenue2.TabIndex = 122;
             // 
             // label7
@@ -441,9 +430,9 @@ namespace ConCungReplication
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(965, 511);
+            this.label7.Location = new System.Drawing.Point(1103, 681);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 18);
+            this.label7.Size = new System.Drawing.Size(128, 22);
             this.label7.TabIndex = 121;
             this.label7.Text = "Select a year";
             // 
@@ -460,10 +449,9 @@ namespace ConCungReplication
             "2019",
             "2020",
             "2021"});
-            this.selectYearRevenue.Location = new System.Drawing.Point(1228, 383);
-            this.selectYearRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.selectYearRevenue.Location = new System.Drawing.Point(1403, 511);
             this.selectYearRevenue.Name = "selectYearRevenue";
-            this.selectYearRevenue.Size = new System.Drawing.Size(67, 25);
+            this.selectYearRevenue.Size = new System.Drawing.Size(76, 28);
             this.selectYearRevenue.TabIndex = 120;
             // 
             // selectMonthRevenue
@@ -484,10 +472,9 @@ namespace ConCungReplication
             "October",
             "November",
             "December"});
-            this.selectMonthRevenue.Location = new System.Drawing.Point(1112, 384);
-            this.selectMonthRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.selectMonthRevenue.Location = new System.Drawing.Point(1271, 512);
             this.selectMonthRevenue.Name = "selectMonthRevenue";
-            this.selectMonthRevenue.Size = new System.Drawing.Size(105, 25);
+            this.selectMonthRevenue.Size = new System.Drawing.Size(119, 28);
             this.selectMonthRevenue.TabIndex = 119;
             // 
             // label6
@@ -495,9 +482,9 @@ namespace ConCungReplication
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(967, 387);
+            this.label6.Location = new System.Drawing.Point(1105, 516);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 18);
+            this.label6.Size = new System.Drawing.Size(143, 22);
             this.label6.TabIndex = 118;
             this.label6.Text = "Select a month";
             // 
@@ -506,9 +493,9 @@ namespace ConCungReplication
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(1109, 416);
+            this.label8.Location = new System.Drawing.Point(1267, 555);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(24, 17);
+            this.label8.Size = new System.Drawing.Size(27, 20);
             this.label8.TabIndex = 124;
             this.label8.Text = "24";
             // 
@@ -517,9 +504,9 @@ namespace ConCungReplication
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(973, 416);
+            this.label5.Location = new System.Drawing.Point(1112, 555);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 17);
+            this.label5.Size = new System.Drawing.Size(102, 20);
             this.label5.TabIndex = 123;
             this.label5.Text = "Total sales";
             // 
@@ -528,9 +515,9 @@ namespace ConCungReplication
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.DimGray;
-            this.label11.Location = new System.Drawing.Point(1109, 438);
+            this.label11.Location = new System.Drawing.Point(1267, 584);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(16, 17);
+            this.label11.Size = new System.Drawing.Size(18, 20);
             this.label11.TabIndex = 126;
             this.label11.Text = "7";
             // 
@@ -539,9 +526,9 @@ namespace ConCungReplication
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label12.Location = new System.Drawing.Point(973, 438);
+            this.label12.Location = new System.Drawing.Point(1112, 584);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(103, 17);
+            this.label12.Size = new System.Drawing.Size(118, 20);
             this.label12.TabIndex = 125;
             this.label12.Text = "Orders taken";
             // 
@@ -550,9 +537,9 @@ namespace ConCungReplication
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.DimGray;
-            this.label13.Location = new System.Drawing.Point(1112, 564);
+            this.label13.Location = new System.Drawing.Point(1271, 752);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(24, 17);
+            this.label13.Size = new System.Drawing.Size(27, 20);
             this.label13.TabIndex = 130;
             this.label13.Text = "68";
             // 
@@ -561,9 +548,9 @@ namespace ConCungReplication
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label14.Location = new System.Drawing.Point(976, 564);
+            this.label14.Location = new System.Drawing.Point(1115, 752);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(103, 17);
+            this.label14.Size = new System.Drawing.Size(118, 20);
             this.label14.TabIndex = 129;
             this.label14.Text = "Orders taken";
             // 
@@ -572,9 +559,9 @@ namespace ConCungReplication
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.Color.DimGray;
-            this.label15.Location = new System.Drawing.Point(1112, 542);
+            this.label15.Location = new System.Drawing.Point(1271, 723);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(32, 17);
+            this.label15.Size = new System.Drawing.Size(36, 20);
             this.label15.TabIndex = 128;
             this.label15.Text = "321";
             // 
@@ -583,18 +570,18 @@ namespace ConCungReplication
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label16.Location = new System.Drawing.Point(976, 542);
+            this.label16.Location = new System.Drawing.Point(1115, 723);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(88, 17);
+            this.label16.Size = new System.Drawing.Size(102, 20);
             this.label16.TabIndex = 127;
             this.label16.Text = "Total sales";
             // 
             // SalesByEmployees
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1347, 630);
+            this.ClientSize = new System.Drawing.Size(1539, 840);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
@@ -630,7 +617,6 @@ namespace ConCungReplication
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SalesByEmployees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sales By Employees";

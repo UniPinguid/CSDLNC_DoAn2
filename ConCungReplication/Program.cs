@@ -18,7 +18,7 @@ namespace ConCungReplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new StartUp());
-            Application.Run(new Statistics());
+            Application.Run(new Browse());
         }
     }
 }
