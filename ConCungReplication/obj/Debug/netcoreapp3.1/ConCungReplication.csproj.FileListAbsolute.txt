@@ -37,9 +37,6 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalesByEmployees.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rewards.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalaryHistory.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
@@ -237,8 +234,16 @@ D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplic
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
+<<<<<<< HEAD
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
+=======
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
+>>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f

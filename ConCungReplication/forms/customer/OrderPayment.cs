@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConCungReplication.forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
@@ -23,33 +24,55 @@ namespace ConCungReplication
             InitializeComponent();
         }
 
-        private void clickReturn(object sender, EventArgs e)
-        {
-            this.Close();
-            Cart cart = new Cart();
-            cart.Show();
-        }
-
-        private void clickLogo(object sender, EventArgs e)
-        {
-            this.Close();
-            HomepageCustomer homepage = new HomepageCustomer();
-            homepage.Show();
-        }
-
         private void clickSubmit(object sender, EventArgs e)
         {
-            this.Close();
             // Insert data here
             SubmitOrder submitOrder = new SubmitOrder();
             submitOrder.Show();
+            this.Close();
         }
 
         private void clickUser(object sender, EventArgs e)
         {
-            this.Close();
             UserProfile user = new UserProfile();
             user.Show();
+            this.Close();
+        }
+
+        private void clickBack(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
+            this.Close();
+        }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickBrowse(object sender, EventArgs e)
+        {
+            Browse browse = new Browse();
+            browse.Show();
+            this.Close();
+        }
+
+        private void clickAboutUs(object sender, EventArgs e)
+        {
+            AboutUs about = new AboutUs();
+            about.ShowDialog();
+        }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void OrderPayment_Load(object sender, EventArgs e)

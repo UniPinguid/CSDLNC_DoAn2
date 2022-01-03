@@ -192,6 +192,7 @@ namespace ConCungReplication
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label11.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label11.Location = new System.Drawing.Point(545, 50);
@@ -199,6 +200,7 @@ namespace ConCungReplication
             this.label11.Size = new System.Drawing.Size(126, 36);
             this.label11.TabIndex = 45;
             this.label11.Text = "Homepage";
+            this.label11.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label12
             // 
@@ -211,6 +213,7 @@ namespace ConCungReplication
             this.label12.Size = new System.Drawing.Size(87, 36);
             this.label12.TabIndex = 44;
             this.label12.Text = "Browse";
+            this.label12.Click += new System.EventHandler(this.clickBrowse);
             // 
             // label13
             // 
@@ -222,6 +225,7 @@ namespace ConCungReplication
             this.label13.Size = new System.Drawing.Size(102, 36);
             this.label13.TabIndex = 43;
             this.label13.Text = "About Us";
+            this.label13.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox13
             // 
@@ -285,6 +289,7 @@ namespace ConCungReplication
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(262, 60);
             this.panel8.TabIndex = 24;
+            this.panel8.Click += new System.EventHandler(this.clickExit);
             // 
             // label8
             // 
@@ -296,6 +301,7 @@ namespace ConCungReplication
             this.label8.Size = new System.Drawing.Size(44, 34);
             this.label8.TabIndex = 0;
             this.label8.Text = "Exit";
+            this.label8.Click += new System.EventHandler(this.clickExit);
             // 
             // panel6
             // 
@@ -306,6 +312,7 @@ namespace ConCungReplication
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(262, 60);
             this.panel6.TabIndex = 24;
+            this.panel6.Click += new System.EventHandler(this.clickLogout);
             // 
             // label7
             // 
@@ -317,6 +324,7 @@ namespace ConCungReplication
             this.label7.Size = new System.Drawing.Size(84, 34);
             this.label7.TabIndex = 0;
             this.label7.Text = "Log out";
+            this.label7.Click += new System.EventHandler(this.clickLogout);
             // 
             // panel5
             // 
@@ -327,6 +335,7 @@ namespace ConCungReplication
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(262, 60);
             this.panel5.TabIndex = 1;
+            this.panel5.Click += new System.EventHandler(this.clickLocation);
             // 
             // label6
             // 
@@ -338,6 +347,7 @@ namespace ConCungReplication
             this.label6.Size = new System.Drawing.Size(136, 34);
             this.label6.TabIndex = 0;
             this.label6.Text = "My Locations";
+            this.label6.Click += new System.EventHandler(this.clickLocation);
             // 
             // panel4
             // 
@@ -348,6 +358,7 @@ namespace ConCungReplication
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(262, 60);
             this.panel4.TabIndex = 1;
+            this.panel4.Click += new System.EventHandler(this.clickPurchaseHistory);
             // 
             // label5
             // 
@@ -359,6 +370,7 @@ namespace ConCungReplication
             this.label5.Size = new System.Drawing.Size(172, 34);
             this.label5.TabIndex = 0;
             this.label5.Text = "Purchase History";
+            this.label5.Click += new System.EventHandler(this.clickPurchaseHistory);
             // 
             // panel3
             // 
@@ -782,7 +794,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.ClientSize = new System.Drawing.Size(1621, 900);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.label14);

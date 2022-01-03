@@ -74,9 +74,12 @@ namespace ConCungReplication
                     conn.Close();
                     if (customerID != "")
                     {
-                        HomepageCustomer homepageCustomer = new HomepageCustomer();
-                        homepageCustomer.ShowDialog();
                         id = customerID;
+
+                        HomepageCustomer homepageCustomer = new HomepageCustomer();
+                        homepageCustomer.Show();
+
+                        this.Hide();
                     }
                     else if (employeeID != "")
                     {

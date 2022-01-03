@@ -404,12 +404,14 @@ namespace ConCungReplication
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(55, 101);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 20);
             this.pictureBox3.TabIndex = 50;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.clickBack);
             // 
             // pictureBox6
             // 
@@ -431,10 +433,12 @@ namespace ConCungReplication
             this.label14.Size = new System.Drawing.Size(126, 36);
             this.label14.TabIndex = 45;
             this.label14.Text = "Homepage";
+            this.label14.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label15.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label15.Location = new System.Drawing.Point(742, 50);
@@ -442,10 +446,12 @@ namespace ConCungReplication
             this.label15.Size = new System.Drawing.Size(87, 36);
             this.label15.TabIndex = 44;
             this.label15.Text = "Browse";
+            this.label15.Click += new System.EventHandler(this.clickBrowse);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label16.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label16.Location = new System.Drawing.Point(888, 50);
@@ -453,15 +459,18 @@ namespace ConCungReplication
             this.label16.Size = new System.Drawing.Size(102, 36);
             this.label16.TabIndex = 43;
             this.label16.Text = "About Us";
+            this.label16.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(1313, 44);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(95, 35);
             this.pictureBox7.TabIndex = 42;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.clickCart);
             // 
             // panel7
             // 
@@ -471,6 +480,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.clickClose);
             // 
             // pictureBox8
             // 
@@ -481,6 +491,7 @@ namespace ConCungReplication
             this.pictureBox8.Size = new System.Drawing.Size(48, 48);
             this.pictureBox8.TabIndex = 2;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 

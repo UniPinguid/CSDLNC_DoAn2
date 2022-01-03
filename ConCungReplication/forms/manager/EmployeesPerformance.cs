@@ -56,7 +56,7 @@ namespace ConCungReplication
             {
                 label5.Text = reader["Ten_NV"].ToString();
                 label6.Text = reader["NV_ID"].ToString();
-                label7.Text = reader["Phai_NV"].ToString();
+                gender.Text = reader["Phai_NV"].ToString();
                 citizenID.Text = reader["CMND_NV"].ToString();
                 label8.Text = reader["NgaySinhNV"].ToString();
                 label15.Text = reader["PhongBan"].ToString();

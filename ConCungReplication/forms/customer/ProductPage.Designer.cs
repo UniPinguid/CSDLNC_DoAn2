@@ -218,7 +218,7 @@ namespace ConCungReplication
             this.minusBtn.Image = ((System.Drawing.Image)(resources.GetObject("minusBtn.Image")));
             this.minusBtn.Location = new System.Drawing.Point(0, 0);
             this.minusBtn.Name = "minusBtn";
-            this.minusBtn.Size = new System.Drawing.Size(35, 35);
+            this.minusBtn.Size = new System.Drawing.Size(40, 40);
             this.minusBtn.TabIndex = 18;
             this.minusBtn.TabStop = false;
             this.minusBtn.Click += new System.EventHandler(this.decrementQuantity);
@@ -229,7 +229,7 @@ namespace ConCungReplication
             this.plusBtn.Image = ((System.Drawing.Image)(resources.GetObject("plusBtn.Image")));
             this.plusBtn.Location = new System.Drawing.Point(80, 0);
             this.plusBtn.Name = "plusBtn";
-            this.plusBtn.Size = new System.Drawing.Size(34, 35);
+            this.plusBtn.Size = new System.Drawing.Size(40, 40);
             this.plusBtn.TabIndex = 19;
             this.plusBtn.TabStop = false;
             this.plusBtn.Click += new System.EventHandler(this.incrementQuantity);
@@ -330,6 +330,7 @@ namespace ConCungReplication
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label5.Location = new System.Drawing.Point(888, 50);
@@ -337,6 +338,7 @@ namespace ConCungReplication
             this.label5.Size = new System.Drawing.Size(102, 36);
             this.label5.TabIndex = 43;
             this.label5.Text = "About Us";
+            this.label5.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox2
             // 

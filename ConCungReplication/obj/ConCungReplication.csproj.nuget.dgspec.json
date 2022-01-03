@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+        "projectName": "ConCungReplication",
+        "projectPath": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+        "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +80,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+>>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConCungReplication.forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,40 @@ namespace ConCungReplication
             this.Close();
             HomepageCustomer homepage = new HomepageCustomer();
             homepage.Show();
+        }
+
+        private void clickHomepage(object sender, EventArgs e)
+        {
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void clickBrowse(object sender, EventArgs e)
+        {
+            Browse browse = new Browse();
+            browse.Show();
+            this.Close();
+        }
+
+        private void clickAboutUs(object sender, EventArgs e)
+        {
+            AboutUs about = new AboutUs();
+            about.ShowDialog();
+        }
+
+        private void clickCart(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
+            this.Close();
+        }
+
+        private void clickUser(object sender, EventArgs e)
+        {
+            UserProfile user = new UserProfile();
+            user.Show();
+            this.Close();
         }
     }
 }

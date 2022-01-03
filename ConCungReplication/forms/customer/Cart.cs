@@ -191,14 +191,27 @@ namespace ConCungReplication
             Close();
         }
 
+<<<<<<< HEAD
         public static string gethdid()
         {
             return hdid;
         }
         private void label9_Click(object sender, EventArgs e)
+=======
+        private void clickAboutUs(object sender, EventArgs e)
+>>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
         {
             AboutUs aboutUs = new AboutUs();
             aboutUs.ShowDialog();
+        }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

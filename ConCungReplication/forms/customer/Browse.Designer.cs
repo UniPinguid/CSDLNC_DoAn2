@@ -124,6 +124,7 @@ namespace ConCungReplication
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label5.Location = new System.Drawing.Point(888, 50);
@@ -131,6 +132,7 @@ namespace ConCungReplication
             this.label5.Size = new System.Drawing.Size(102, 36);
             this.label5.TabIndex = 43;
             this.label5.Text = "About Us";
+            this.label5.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox2
             // 
@@ -219,6 +221,7 @@ namespace ConCungReplication
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -457,7 +460,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1621, 900);
+            this.ClientSize = new System.Drawing.Size(1663, 900);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
