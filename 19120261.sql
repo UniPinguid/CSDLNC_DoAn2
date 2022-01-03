@@ -25,3 +25,12 @@ begin
 		insert into SANPHAM values (@ID, @Ten, @Gia, @MoTa, @SLTon, @ThuongHieu, @KhuyenMai, @NgayBatDau, @NgayKetThuc, @GrSP_ID)
 		end
 end
+
+
+select * from NGUOIDUNG
+select * from NHANVIEN where PhongBan like N'Qu?n tr?'
+insert into NHANVIEN values ('k', null, null, '19120261',null,null,null,null,null)
+update NHANVIEN set PhongBan = N'Qu?n Tr?' where NV_ID = 'k'
+insert into nguoidung values ('k', null, 'k', 'k',1)
+SELECT * FROM SANPHAM
+select * from hoadon

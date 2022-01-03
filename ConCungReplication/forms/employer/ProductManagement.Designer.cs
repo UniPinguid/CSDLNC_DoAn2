@@ -172,6 +172,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // pictureBox3
             // 
@@ -296,6 +297,7 @@ namespace ConCungReplication
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(1169, 957);
             this.dataGridView1.TabIndex = 54;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label7
             // 
@@ -337,6 +339,7 @@ namespace ConCungReplication
             this.searchPanel.Name = "searchPanel";
             this.searchPanel.Size = new System.Drawing.Size(143, 65);
             this.searchPanel.TabIndex = 1;
+            this.searchPanel.Click += new System.EventHandler(this.searchPanel_Click);
             // 
             // textBox1
             // 
@@ -515,7 +518,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1701, 900);
+            this.ClientSize = new System.Drawing.Size(1743, 900);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.checkedListBox4);
             this.Controls.Add(this.label18);
@@ -542,6 +545,7 @@ namespace ConCungReplication
             this.Name = "ProductManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductManagement";
+            this.Load += new System.EventHandler(this.ProductManagement_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

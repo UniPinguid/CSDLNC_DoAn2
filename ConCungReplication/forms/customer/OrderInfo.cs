@@ -35,5 +35,10 @@ namespace ConCungReplication
             UserProfile user = new UserProfile();
             user.Show();
         }
+
+        private void OrderInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

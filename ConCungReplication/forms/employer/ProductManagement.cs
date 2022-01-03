@@ -22,11 +22,7 @@ namespace ConCungReplication
         public ProductManagement()
         {
             InitializeComponent();
-            conn = new SqlConnection(connectionString);
-            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            dataGridView1.DataSource = dt;
+            
         }
 
         private void clickLogo(object sender, EventArgs e)
@@ -86,6 +82,41 @@ namespace ConCungReplication
             //id = "false";
             ProductEdit editProduct = new ProductEdit();
             editProduct.Show();
+        }
+
+        private void ProductManagement_Load(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int numrow;
+            numrow = e.RowIndex;
+            id = dataGridView1.Rows[numrow].Cells[0].Value.ToString();
+        }
+        
+        private void searchPanel_Click(object sender, EventArgs e)
+        {
+            string info = textBox1.Text;
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM WHERE TENSP like N'%" + info + "%'",conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

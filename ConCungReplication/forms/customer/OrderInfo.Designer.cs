@@ -207,11 +207,11 @@ namespace ConCungReplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DimGray;
             this.label4.Location = new System.Drawing.Point(26, 591);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 26);
+            this.label4.Size = new System.Drawing.Size(56, 24);
             this.label4.TabIndex = 43;
             this.label4.Text = "Total";
             // 
@@ -522,6 +522,7 @@ namespace ConCungReplication
             this.Name = "OrderInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderInfo";
+            this.Load += new System.EventHandler(this.OrderInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productList)).EndInit();
             this.panel3.ResumeLayout(false);
