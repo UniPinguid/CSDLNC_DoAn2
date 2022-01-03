@@ -438,7 +438,7 @@ namespace ConCungReplication
             this.panel1.Controls.Add(this.logo);
             this.panel1.Location = new System.Drawing.Point(-9, -10);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1920, 131);
+            this.panel1.Size = new System.Drawing.Size(1585, 131);
             this.panel1.TabIndex = 114;
             // 
             // label3

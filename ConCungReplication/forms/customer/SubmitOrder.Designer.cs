@@ -155,6 +155,7 @@ namespace ConCungReplication
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label7.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label7.Location = new System.Drawing.Point(545, 50);
@@ -162,6 +163,7 @@ namespace ConCungReplication
             this.label7.Size = new System.Drawing.Size(126, 36);
             this.label7.TabIndex = 45;
             this.label7.Text = "Homepage";
+            this.label7.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label6
             // 
@@ -178,6 +180,7 @@ namespace ConCungReplication
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label5.Location = new System.Drawing.Point(888, 50);
@@ -185,6 +188,7 @@ namespace ConCungReplication
             this.label5.Size = new System.Drawing.Size(102, 36);
             this.label5.TabIndex = 43;
             this.label5.Text = "About Us";
+            this.label5.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox2
             // 
@@ -195,6 +199,7 @@ namespace ConCungReplication
             this.pictureBox2.Size = new System.Drawing.Size(95, 35);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.clickCart);
             // 
             // panel7
             // 
@@ -215,6 +220,7 @@ namespace ConCungReplication
             this.pictureBox4.Size = new System.Drawing.Size(48, 48);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 

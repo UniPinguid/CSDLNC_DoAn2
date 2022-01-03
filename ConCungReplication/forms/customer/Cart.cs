@@ -190,10 +190,19 @@ namespace ConCungReplication
             Close();
         }
 
-        private void label9_Click(object sender, EventArgs e)
+        private void clickAboutUs(object sender, EventArgs e)
         {
             AboutUs aboutUs = new AboutUs();
             aboutUs.ShowDialog();
+        }
+
+        private void clickClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using ConCungReplication.forms;
 
 namespace ConCungReplication
 {
@@ -114,6 +115,12 @@ namespace ConCungReplication
             Cart cart = new Cart();
             cart.Show();
             Close();
+        }
+
+        private void clickAboutUs(object sender, EventArgs e)
+        {
+            AboutUs about = new AboutUs();
+            about.ShowDialog();
         }
     }
 }

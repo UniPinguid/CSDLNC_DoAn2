@@ -133,6 +133,7 @@ namespace ConCungReplication
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(545, 50);
@@ -140,6 +141,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(126, 36);
             this.label3.TabIndex = 45;
             this.label3.Text = "Homepage";
+            this.label3.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label9
             // 
@@ -152,10 +154,12 @@ namespace ConCungReplication
             this.label9.Size = new System.Drawing.Size(87, 36);
             this.label9.TabIndex = 44;
             this.label9.Text = "Browse";
+            this.label9.Click += new System.EventHandler(this.clickBrowse);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label11.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label11.Location = new System.Drawing.Point(888, 50);
@@ -163,6 +167,7 @@ namespace ConCungReplication
             this.label11.Size = new System.Drawing.Size(102, 36);
             this.label11.TabIndex = 43;
             this.label11.Text = "About Us";
+            this.label11.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox8
             // 
@@ -173,6 +178,7 @@ namespace ConCungReplication
             this.pictureBox8.Size = new System.Drawing.Size(95, 35);
             this.pictureBox8.TabIndex = 42;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.clickCart);
             // 
             // panel7
             // 
@@ -192,6 +198,7 @@ namespace ConCungReplication
             this.pictureBox9.Size = new System.Drawing.Size(48, 48);
             this.pictureBox9.TabIndex = 2;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 

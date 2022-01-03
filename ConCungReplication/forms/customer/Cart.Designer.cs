@@ -79,6 +79,9 @@ namespace ConCungReplication
             // 
             // inCartData
             // 
+            this.inCartData.AllowUserToAddRows = false;
+            this.inCartData.AllowUserToDeleteRows = false;
+            this.inCartData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.inCartData.BackgroundColor = System.Drawing.Color.White;
             this.inCartData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.inCartData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -88,6 +91,8 @@ namespace ConCungReplication
             this.KhuyenMai});
             this.inCartData.Location = new System.Drawing.Point(28, 215);
             this.inCartData.Name = "inCartData";
+            this.inCartData.ReadOnly = true;
+            this.inCartData.RowHeadersVisible = false;
             this.inCartData.RowHeadersWidth = 51;
             this.inCartData.RowTemplate.Height = 29;
             this.inCartData.Size = new System.Drawing.Size(1530, 372);
@@ -100,7 +105,7 @@ namespace ConCungReplication
             this.TenSP.HeaderText = "Sản Phẩm";
             this.TenSP.MinimumWidth = 6;
             this.TenSP.Name = "TenSP";
-            this.TenSP.Width = 125;
+            this.TenSP.ReadOnly = true;
             // 
             // ThuongHieu
             // 
@@ -108,7 +113,7 @@ namespace ConCungReplication
             this.ThuongHieu.HeaderText = "Thương Hiệu";
             this.ThuongHieu.MinimumWidth = 6;
             this.ThuongHieu.Name = "ThuongHieu";
-            this.ThuongHieu.Width = 125;
+            this.ThuongHieu.ReadOnly = true;
             // 
             // Gia
             // 
@@ -116,7 +121,7 @@ namespace ConCungReplication
             this.Gia.HeaderText = "Giá";
             this.Gia.MinimumWidth = 6;
             this.Gia.Name = "Gia";
-            this.Gia.Width = 125;
+            this.Gia.ReadOnly = true;
             // 
             // KhuyenMai
             // 
@@ -124,7 +129,7 @@ namespace ConCungReplication
             this.KhuyenMai.HeaderText = "Khuyến Mãi";
             this.KhuyenMai.MinimumWidth = 6;
             this.KhuyenMai.Name = "KhuyenMai";
-            this.KhuyenMai.Width = 125;
+            this.KhuyenMai.ReadOnly = true;
             // 
             // pictureBox1
             // 
@@ -278,6 +283,7 @@ namespace ConCungReplication
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label8.Location = new System.Drawing.Point(742, 50);
@@ -290,6 +296,7 @@ namespace ConCungReplication
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label9.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label9.Location = new System.Drawing.Point(888, 50);
@@ -297,7 +304,7 @@ namespace ConCungReplication
             this.label9.Size = new System.Drawing.Size(102, 36);
             this.label9.TabIndex = 43;
             this.label9.Text = "About Us";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label9.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox5
             // 
@@ -316,6 +323,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.clickClose);
             // 
             // pictureBox6
             // 
@@ -326,6 +334,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 
@@ -343,6 +352,7 @@ namespace ConCungReplication
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.label10);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(1237, 140);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(321, 65);
@@ -353,6 +363,7 @@ namespace ConCungReplication
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Poppins SemiBold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(58, 16);

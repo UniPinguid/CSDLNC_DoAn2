@@ -204,12 +204,14 @@ namespace ConCungReplication
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(55, 101);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(32, 20);
             this.pictureBox2.TabIndex = 51;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.clickBack);
             // 
             // pictureBox3
             // 
@@ -231,10 +233,12 @@ namespace ConCungReplication
             this.label12.Size = new System.Drawing.Size(126, 36);
             this.label12.TabIndex = 45;
             this.label12.Text = "Homepage";
+            this.label12.Click += new System.EventHandler(this.clickHomepage);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label13.Location = new System.Drawing.Point(742, 50);
@@ -242,10 +246,12 @@ namespace ConCungReplication
             this.label13.Size = new System.Drawing.Size(87, 36);
             this.label13.TabIndex = 44;
             this.label13.Text = "Browse";
+            this.label13.Click += new System.EventHandler(this.clickBrowse);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label14.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label14.Location = new System.Drawing.Point(888, 50);
@@ -253,6 +259,7 @@ namespace ConCungReplication
             this.label14.Size = new System.Drawing.Size(102, 36);
             this.label14.TabIndex = 43;
             this.label14.Text = "About Us";
+            this.label14.Click += new System.EventHandler(this.clickAboutUs);
             // 
             // pictureBox5
             // 
@@ -271,6 +278,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.clickClose);
             // 
             // pictureBox6
             // 
@@ -281,6 +289,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.clickUser);
             // 
             // logo
             // 
@@ -302,6 +311,7 @@ namespace ConCungReplication
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(241, 65);
             this.panel14.TabIndex = 49;
+            this.panel14.Click += new System.EventHandler(this.clickSubmit);
             // 
             // label1
             // 
@@ -315,6 +325,7 @@ namespace ConCungReplication
             this.label1.Size = new System.Drawing.Size(101, 40);
             this.label1.TabIndex = 33;
             this.label1.Text = "Submit";
+            this.label1.Click += new System.EventHandler(this.clickSubmit);
             // 
             // label5
             // 
@@ -431,6 +442,7 @@ namespace ConCungReplication
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.label10);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(1244, 138);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(321, 65);
@@ -440,6 +452,7 @@ namespace ConCungReplication
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Poppins SemiBold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(58, 16);

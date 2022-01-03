@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConCungReplication.forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -76,6 +77,12 @@ namespace ConCungReplication
         {
             panel1.AutoScroll = true;
             panel1.VerticalScroll.Value = 0;
+        }
+
+        private void clickAboutUs(object sender, EventArgs e)
+        {
+            AboutUs about = new AboutUs();
+            about.ShowDialog();
         }
     }
 }

@@ -1,4 +1,5 @@
 using ConCungReplication.forms.manager;
+using ConCungReplication.forms.personnel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,8 +19,8 @@ namespace ConCungReplication
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartUp());
-            Application.Run(new HomepagePersonnel());
+            Application.Run(new Storage());
+            //Application.Run(new HomepagePersonnel());
         }
     }
 }
