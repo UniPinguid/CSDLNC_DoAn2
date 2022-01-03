@@ -5,11 +5,17 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace ConCungReplication
 {
     public partial class Comparison : Form
     {
+        SqlConnection conn;
+        string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        DataTable dt; 
+        
         public Comparison()
         {
             InitializeComponent();
@@ -52,6 +58,16 @@ namespace ConCungReplication
             Discounts discounts = new Discounts();
             discounts.Show();
             this.Close();
+        }
+
+        private void Comparison_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel14_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

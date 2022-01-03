@@ -297,6 +297,7 @@ namespace ConCungReplication
             this.label9.Size = new System.Drawing.Size(102, 36);
             this.label9.TabIndex = 43;
             this.label9.Text = "About Us";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox5
             // 
@@ -336,6 +337,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // panel2
             // 
@@ -345,6 +347,7 @@ namespace ConCungReplication
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(321, 65);
             this.panel2.TabIndex = 27;
+            this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
             // label10
             // 

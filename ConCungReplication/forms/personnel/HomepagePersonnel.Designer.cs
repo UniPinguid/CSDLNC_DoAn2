@@ -76,6 +76,7 @@ namespace ConCungReplication
             this.label7.Size = new System.Drawing.Size(122, 36);
             this.label7.TabIndex = 47;
             this.label7.Text = "Employees";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -99,6 +100,7 @@ namespace ConCungReplication
             this.label9.Size = new System.Drawing.Size(95, 36);
             this.label9.TabIndex = 44;
             this.label9.Text = "Roll-call";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label12
             // 
@@ -110,6 +112,7 @@ namespace ConCungReplication
             this.label12.Size = new System.Drawing.Size(102, 36);
             this.label12.TabIndex = 43;
             this.label12.Text = "About Us";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // panel7
             // 
@@ -119,6 +122,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // pictureBox6
             // 
@@ -129,6 +133,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
@@ -143,7 +148,7 @@ namespace ConCungReplication
             // 
             // label11
             // 
-            this.label11.Font = new System.Drawing.Font("Roboto", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.label11.Location = new System.Drawing.Point(63, 459);
             this.label11.Name = "label11";
