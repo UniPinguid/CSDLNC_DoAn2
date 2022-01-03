@@ -163,11 +163,24 @@ namespace ConCungReplication
                 cmd.Parameters.Add("@idHD", SqlDbType.Char).Value = idHoaDon;
                 cmd.ExecuteNonQuery();
                 var result = cmd.Parameters["@result"].Value;
-
+                conn.Close();
                 if (result.Equals(1))
                 {
-                    MessageBox.Show("Đặt hàng thàng công", "Thông Báo");
-                    break;
+                    conn.Open();
+                    SqlCommand cmd2 = new SqlCommand();
+                    cmd2.Connection = conn;
+                    cmd2.CommandText = "ThemChiTietHoaDon";
+                    cmd2.CommandType= CommandType.StoredProcedure;
+                    cmd2.Parameters.Add("@idKH",SqlDbType.Char).Value = StartUp.id;
+                    cmd2.Parameters.Add("@idHD",SqlDbType.Char).Value= idHoaDon;
+                    cmd2.Parameters.Add("@result", SqlDbType.Int).Value = 0;
+                    cmd2.ExecuteNonQuery();
+                    var res = cmd2.Parameters["@result"];
+                    if(res.Equals(1))
+                    {
+                        MessageBox.Show("Đặt hàng thàng công", "Thông Báo");
+                        break;
+                    }
                 }
                 else if (result.Equals(-1))
                 {
@@ -191,15 +204,12 @@ namespace ConCungReplication
             Close();
         }
 
-<<<<<<< HEAD
+
         public static string gethdid()
         {
             return hdid;
         }
-        private void label9_Click(object sender, EventArgs e)
-=======
         private void clickAboutUs(object sender, EventArgs e)
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
         {
             AboutUs aboutUs = new AboutUs();
             aboutUs.ShowDialog();
