@@ -247,3 +247,45 @@ D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\C
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
 D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
 >>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
+E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb

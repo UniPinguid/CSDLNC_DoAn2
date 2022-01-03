@@ -454,34 +454,24 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\My PC\\.nuget\\packages\\": {}
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
+    "C:\\Users\\gamal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+      "projectUniqueName": "E:\\K19 Document\\Advanced Database\\Bckp\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
       "projectName": "ConCungReplication",
-      "projectPath": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\CSDLNC\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
+      "projectPath": "E:\\K19 Document\\Advanced Database\\Bckp\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+      "packagesPath": "C:\\Users\\gamal\\.nuget\\packages\\",
+      "outputPath": "E:\\K19 Document\\Advanced Database\\Bckp\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
-      "projectName": "ConCungReplication",
-      "projectPath": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
-      "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSDLNC_DoAn2\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
+        "C:\\Users\\gamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -530,12 +520,16 @@
             "privateAssets": "none"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\K19 Document\\Advanced Database\\Bckp\\CSDLNC_DoAn2\\ConCungReplication\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
