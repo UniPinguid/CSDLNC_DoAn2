@@ -524,6 +524,7 @@ namespace ConCungReplication
             this.Name = "OrderPayment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Receipt";
+            this.Load += new System.EventHandler(this.OrderPayment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inCartData)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

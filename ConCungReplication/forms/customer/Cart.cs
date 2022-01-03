@@ -17,6 +17,7 @@ namespace ConCungReplication
         SqlConnection conn;
         string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
         DataTable dt;
+        private static string hdid;
         void loadData()
         {
             conn = new SqlConnection(ConnectionString);
@@ -149,7 +150,7 @@ namespace ConCungReplication
             while (true)
             {
                 string idHoaDon = "HD" + RandomString(8);
-
+                hdid = idHoaDon;
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = conn;
 
@@ -190,6 +191,10 @@ namespace ConCungReplication
             Close();
         }
 
+        public static string gethdid()
+        {
+            return hdid;
+        }
         private void label9_Click(object sender, EventArgs e)
         {
             AboutUs aboutUs = new AboutUs();

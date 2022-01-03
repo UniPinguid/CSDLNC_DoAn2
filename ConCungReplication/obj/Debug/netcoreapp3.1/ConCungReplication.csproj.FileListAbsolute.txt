@@ -158,10 +158,7 @@ E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplica
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rewards.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalaryHistory.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SalesByEmployees.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
 E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
@@ -240,3 +237,8 @@ D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplic
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
 D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
+E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources

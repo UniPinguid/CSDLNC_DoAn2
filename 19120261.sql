@@ -34,3 +34,15 @@ update NHANVIEN set PhongBan = N'Qu?n Tr?' where NV_ID = 'k'
 insert into nguoidung values ('k', null, 'k', 'k',1)
 SELECT * FROM SANPHAM
 select * from hoadon
+go
+--Thong tin don hang
+create or alter proc orderInfo @id char(10)
+as 
+begin 
+select dh.KH_ID, sp.tensp, dh.soluong from KH_DATHANG dh, sanpham sp where dh.KH_ID = @id and dh.SP_ID = sp.SP_ID
+end
+--
+select * from KHACHHANG
+select * from SANPHAM
+insert into KH_DATHANG values('KH00050818','SP00019447', 3)
+exec orderInfo 'KH00050818'
