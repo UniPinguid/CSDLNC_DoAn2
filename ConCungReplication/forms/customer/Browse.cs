@@ -23,14 +23,31 @@ namespace ConCungReplication
 
             string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM ";
 
-            
+            if (act == 1)
+            {
+                truyVan = "AdvancedSearch";
+            }
+
             if (act == 2)
             {
                 truyVan += " WHERE TenSP LIKE N'%" + textBox1.Text + "%'";
             }
 
             SqlCommand cmd = new SqlCommand(truyVan, conn);
-            cmd.CommandType = CommandType.Text;
+            if (act == 1)
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Clear();
+                cmd.Parameters.Add("@name", SqlDbType.NChar).Value = textBox1.Text;
+                string tHieu = checkedListBox1.SelectedIndex.ToString();
+                string loai = checkedListBox2.SelectedIndex.ToString();
+                cmd.Parameters.Add("@brand", SqlDbType.NChar).Value = tHieu;
+                cmd.Parameters.Add("@department", SqlDbType.NChar).Value = loai;
+            }
+            if (act == 2)
+            {
+                cmd.CommandType = CommandType.Text;
+            }
 
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
 

@@ -151,6 +151,7 @@ namespace ConCungReplication
             this.userKids.RowTemplate.Height = 29;
             this.userKids.Size = new System.Drawing.Size(663, 294);
             this.userKids.TabIndex = 36;
+            this.userKids.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.userKids_CellContentClick);
             // 
             // CheckTOS
             // 
@@ -623,6 +624,7 @@ namespace ConCungReplication
             this.label19.Size = new System.Drawing.Size(112, 40);
             this.label19.TabIndex = 33;
             this.label19.Text = "Confirm";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // panel18
             // 
@@ -661,6 +663,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(146, 40);
             this.label3.TabIndex = 33;
             this.label3.Text = "Update Kid";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label9
             // 
@@ -794,7 +797,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1621, 900);
+            this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.label14);
@@ -817,6 +820,7 @@ namespace ConCungReplication
             this.Name = "UserProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User Profile";
+            this.Load += new System.EventHandler(this.UserProfile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.userKids)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

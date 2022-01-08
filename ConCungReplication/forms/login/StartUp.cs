@@ -74,6 +74,9 @@ namespace ConCungReplication
                     conn.Close();
                     if (customerID != "")
                     {
+                        UserLocation.customerID = customerID;
+                        UserProfile.customerID = customerID;
+
                         id = customerID;
 
                         HomepageCustomer homepageCustomer = new HomepageCustomer();

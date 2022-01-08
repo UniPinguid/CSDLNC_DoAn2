@@ -48,6 +48,13 @@ namespace ConCungReplication
             this.label7 = new System.Windows.Forms.Label();
             this.brand = new System.Windows.Forms.Label();
             this.productName = new System.Windows.Forms.Label();
+            this.NH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SP_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayNhapHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TienNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.XH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DonViVanChuyen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.importList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exportList)).BeginInit();
@@ -71,6 +78,12 @@ namespace ConCungReplication
             // 
             this.importList.BackgroundColor = System.Drawing.Color.White;
             this.importList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.importList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NH_ID,
+            this.SP_ID,
+            this.NCC,
+            this.NgayNhapHang,
+            this.TienNhap});
             this.importList.GridColor = System.Drawing.Color.White;
             this.importList.Location = new System.Drawing.Point(28, 343);
             this.importList.Name = "importList";
@@ -92,6 +105,9 @@ namespace ConCungReplication
             // 
             this.exportList.BackgroundColor = System.Drawing.Color.White;
             this.exportList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.exportList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.XH_ID,
+            this.DonViVanChuyen});
             this.exportList.GridColor = System.Drawing.Color.White;
             this.exportList.Location = new System.Drawing.Point(832, 343);
             this.exportList.Name = "exportList";
@@ -188,6 +204,7 @@ namespace ConCungReplication
             this.label12.Size = new System.Drawing.Size(102, 36);
             this.label12.TabIndex = 43;
             this.label12.Text = "About Us";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // panel7
             // 
@@ -197,6 +214,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // pictureBox6
             // 
@@ -207,6 +225,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
@@ -265,6 +284,62 @@ namespace ConCungReplication
             this.productName.TabIndex = 63;
             this.productName.Text = "PRODUCT NAME";
             // 
+            // NH_ID
+            // 
+            this.NH_ID.DataPropertyName = "NH_ID";
+            this.NH_ID.HeaderText = "Đơn Nhập";
+            this.NH_ID.MinimumWidth = 6;
+            this.NH_ID.Name = "NH_ID";
+            this.NH_ID.Width = 125;
+            // 
+            // SP_ID
+            // 
+            this.SP_ID.DataPropertyName = "SP_ID";
+            this.SP_ID.HeaderText = "Sản Phẩm";
+            this.SP_ID.MinimumWidth = 6;
+            this.SP_ID.Name = "SP_ID";
+            this.SP_ID.Width = 125;
+            // 
+            // NCC
+            // 
+            this.NCC.DataPropertyName = "NCC";
+            this.NCC.HeaderText = "Nhà Cung Cấp";
+            this.NCC.MinimumWidth = 6;
+            this.NCC.Name = "NCC";
+            this.NCC.Width = 125;
+            // 
+            // NgayNhapHang
+            // 
+            this.NgayNhapHang.DataPropertyName = "NgayNhapHang";
+            this.NgayNhapHang.HeaderText = "Ngày Nhập";
+            this.NgayNhapHang.MinimumWidth = 6;
+            this.NgayNhapHang.Name = "NgayNhapHang";
+            this.NgayNhapHang.Width = 125;
+            // 
+            // TienNhap
+            // 
+            this.TienNhap.DataPropertyName = "TienNhap";
+            this.TienNhap.HeaderText = "Trị Giá";
+            this.TienNhap.MinimumWidth = 6;
+            this.TienNhap.Name = "TienNhap";
+            this.TienNhap.Width = 125;
+            // 
+            // XH_ID
+            // 
+            this.XH_ID.DataPropertyName = "XH_ID";
+            this.XH_ID.HeaderText = "Mã Xuất Hàng";
+            this.XH_ID.MinimumWidth = 6;
+            this.XH_ID.Name = "XH_ID";
+            this.XH_ID.Width = 125;
+            // 
+            // DonViVanChuyen
+            // 
+            this.DonViVanChuyen.DataPropertyName = "DonViVanChuyen";
+            this.DonViVanChuyen.HeaderText = "Đơn Vị Vận Chuyển";
+            this.DonViVanChuyen.MinimumWidth = 6;
+            this.DonViVanChuyen.Name = "DonViVanChuyen";
+            this.DonViVanChuyen.Width = 125;
+            // 
             // ImportExport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -286,6 +361,7 @@ namespace ConCungReplication
             this.Name = "ImportExport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Import & Export";
+            this.Load += new System.EventHandler(this.ImportExport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.importList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exportList)).EndInit();
@@ -317,5 +393,12 @@ namespace ConCungReplication
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label brand;
         private System.Windows.Forms.Label productName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NH_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SP_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NCC;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayNhapHang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TienNhap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn XH_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DonViVanChuyen;
     }
 }

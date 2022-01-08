@@ -13,7 +13,16 @@
     <Compile Update="forms\customer\Cart.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="forms\customer\UserLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="forms\employer\EmployerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\login\SignUp2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\login\SignUpFinal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\manager\Comparison.cs">
@@ -88,12 +97,6 @@
     <Compile Update="forms\login\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\login\SignUp2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="forms\login\SignUpFinal.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="forms\login\StartUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,9 +107,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\customer\SubmitOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="forms\customer\UserLocation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\customer\UserProfile.cs">
