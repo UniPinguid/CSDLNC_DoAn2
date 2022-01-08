@@ -5,11 +5,81 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
+using ConCungReplication.forms;
+using ConCungReplication.forms.employer;
 
 namespace ConCungReplication
 {
     public partial class ImportExport : Form
     {
+        private static string id = "";
+        SqlConnection conn;
+        string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        DataTable dt1;
+        DataTable dt2;
+
+        void loadData(int act)
+        {
+            conn = new SqlConnection(ConnectionString);
+            conn.Open();
+
+            string truyVan = "SELECT * FROM ";
+
+
+            if (act == 1)
+            {
+                truyVan += " DonNhapHang WHERE SP_ID = " + id;
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                cmd.CommandType = CommandType.Text;
+
+                SqlDataAdapter adapter1 = new SqlDataAdapter(cmd);
+
+                dt1 = new DataTable();
+                adapter1.Fill(dt1);
+
+                conn.Close();
+
+                importList.DataSource = dt1;
+                importList.AutoResizeColumns();
+                importList.AutoResizeRows();
+            }
+            if (act == 2)
+            {
+                truyVan += " XuatHang WHERE SP_ID = " + id;
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                cmd.CommandType = CommandType.Text;
+
+                SqlDataAdapter adapter2 = new SqlDataAdapter(cmd);
+
+                dt2 = new DataTable();
+                adapter2.Fill(dt2);
+                exportList.DataSource = dt2;
+                exportList.AutoResizeColumns();
+                exportList.AutoResizeRows();
+            }
+            conn.Close();
+        }
+
+        public void loadProduct()
+        {
+            conn = new SqlConnection(ConnectionString);
+            conn.Open();
+            string truyVan = "SELECT * FROM SANPHAM sp, NhomSP gr WHERE sp.SP_ID = '" + id + "' AND sp.GrSP_ID = gr.GrSP_ID";
+            SqlCommand cmd = new SqlCommand(truyVan, conn);
+            cmd.CommandType = CommandType.Text;
+            var result = cmd.ExecuteReader();
+            if (result.HasRows)
+            {
+                result.Read();
+                label7.Text = id;
+                productName.Text = result["TenSP"].ToString();
+                brand.Text = result["ThuongHieu"].ToString();
+                label9.Text = result["TenNhom"].ToString();
+            }
+        }
+        
         public ImportExport()
         {
             InitializeComponent();
@@ -87,6 +157,14 @@ namespace ConCungReplication
             OrderTraces orderTraces = new OrderTraces();
             orderTraces.Show();
             Close();
+        }
+
+        private void ImportExport_Load(object sender, EventArgs e)
+        {
+            id = ProductManagement.getid();
+            loadData(1);
+            loadData(2);
+            loadProduct();
         }
     }
 }

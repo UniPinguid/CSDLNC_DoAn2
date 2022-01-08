@@ -286,6 +286,7 @@ namespace ConCungReplication
             this.Name = "ImportExport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Import & Export";
+            this.Load += new System.EventHandler(this.ImportExport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.importList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exportList)).EndInit();

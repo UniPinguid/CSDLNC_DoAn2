@@ -451,6 +451,7 @@ namespace ConCungReplication
             this.panel14.Size = new System.Drawing.Size(241, 65);
             this.panel14.TabIndex = 49;
             this.panel14.Click += new System.EventHandler(this.panel14_Click);
+            this.panel14.Paint += new System.Windows.Forms.PaintEventHandler(this.panel14_Paint);
             // 
             // label12
             // 
@@ -474,6 +475,7 @@ namespace ConCungReplication
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(241, 65);
             this.panel2.TabIndex = 50;
+            this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
             // label15
             // 
