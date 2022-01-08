@@ -48,8 +48,21 @@ namespace ConCungReplication.forms
             cmd = new SqlCommand("editProduct", conn);
             cmd.CommandType = CommandType.StoredProcedure;
             //@ID char(10), @Ten nvarchar(20), @Gia float,
-            //@MoTa nvarchar(50), @SLTon int, @ThuongHieu nvarchar(20), @KhuyenMai float, @NgayBatDau datetime,
+            //@MoTa nvarchar(50), @SLTon int, @ThuongHieu nvarchar(20), @KhuyenMai float, @NgayBatDau datetime,@NgayKetThuc datetime,
+            //@GrSP_ID char(10)
             cmd.Parameters.Add(new SqlParameter("@ID", pdid));
+            cmd.Parameters.Add(new SqlParameter("@Ten", nameBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@Gia", priceBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@MoTa", description.Text));
+            cmd.Parameters.Add(new SqlParameter("@SLTon", quantityBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@ThuongHieu", brandBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@KhuyenMai", discountBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@NgayBatDau", dcstartBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@NgayKetThuc", dcendBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@GrSP_ID", groupBox.Text));
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Update Success!");
+
 
         }
 
