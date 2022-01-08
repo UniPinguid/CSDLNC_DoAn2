@@ -77,9 +77,11 @@ namespace ConCungReplication
 
         private void OrderPayment_Load(object sender, EventArgs e)
         {
-            string hdid = Cart.gethdid();
+            //string hdid = Cart.gethdid();
+            string hdid = "HD00003350";
             conn = new SqlConnection(connectionString);
-            adapter = new SqlDataAdapter("exec SELECT * FROM CT_HOADON ", conn);
+            conn.Open();
+            adapter = new SqlDataAdapter("exec SELECT * FROM CT_HOADON where HD_ID = '" + hdid +"'", conn);
             dt = new DataTable();
             adapter.Fill(dt);
             inCartData.DataSource = dt;
