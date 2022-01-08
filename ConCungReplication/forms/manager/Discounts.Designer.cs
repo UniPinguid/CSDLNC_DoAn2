@@ -105,6 +105,7 @@ namespace ConCungReplication
             this.label1.Size = new System.Drawing.Size(122, 36);
             this.label1.TabIndex = 48;
             this.label1.Text = "Employees";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -117,6 +118,7 @@ namespace ConCungReplication
             this.label2.Size = new System.Drawing.Size(139, 36);
             this.label2.TabIndex = 47;
             this.label2.Text = "Comparison";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -128,6 +130,7 @@ namespace ConCungReplication
             this.label4.Size = new System.Drawing.Size(126, 36);
             this.label4.TabIndex = 45;
             this.label4.Text = "Homepage";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label18
             // 
@@ -140,6 +143,7 @@ namespace ConCungReplication
             this.label18.Size = new System.Drawing.Size(102, 36);
             this.label18.TabIndex = 44;
             this.label18.Text = "Statistics";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label19
             // 
@@ -151,6 +155,7 @@ namespace ConCungReplication
             this.label19.Size = new System.Drawing.Size(102, 36);
             this.label19.TabIndex = 43;
             this.label19.Text = "About Us";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // panel7
             // 
@@ -160,6 +165,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // pictureBox6
             // 
@@ -170,6 +176,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
@@ -417,7 +424,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1621, 900);
+            this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);

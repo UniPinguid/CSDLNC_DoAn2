@@ -136,5 +136,58 @@ namespace ConCungReplication
 
             
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            HomepageManager homepage = new HomepageManager();
+            homepage.Show();
+            this.Close();
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            Statistics stats = new Statistics();
+            stats.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Comparison comparison = new Comparison();
+            comparison.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            EmployeesPerformance employees = new EmployeesPerformance();
+            employees.Show();
+            this.Close();
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile profile = new ManagerProfile();
+            profile.Show();
+            Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Log out Verification", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+                Login login = new Login();
+                login.Show();
+            }
+        }
     }
 }

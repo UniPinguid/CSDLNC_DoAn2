@@ -166,5 +166,30 @@ namespace ConCungReplication
             loadData(2);
             loadProduct();
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            EmployerProfile profile = new EmployerProfile();
+            profile.Show();
+            Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Log out Verification", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+                Login login = new Login();
+                login.Show();
+            }
+        }
     }
 }

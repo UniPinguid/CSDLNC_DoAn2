@@ -194,11 +194,6 @@ namespace ConCungReplication
 
         private void panel14_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel14_Paint(object sender, PaintEventArgs e)
-        {
             loadData(1, selectMonthRevenue.Text, selectYearRevenue.Text);
             loadData(2, comboBox2.Text, comboBox1.Text);
 
@@ -235,6 +230,67 @@ namespace ConCungReplication
             double tileSales = Convert.ToDouble(salesB) / salesA * 100.0;
             label19.Text = tiLeRev.ToString() + "%";
             label17.Text = tileSales.ToString() + "%";
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomepageManager homepage = new HomepageManager();
+            homepage.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomepageManager homepage = new HomepageManager();
+            homepage.Show();
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Statistics stats = new Statistics();
+            stats.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            EmployeesPerformance employees = new EmployeesPerformance();
+            employees.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile managerProfile = new ManagerProfile();
+            managerProfile.Show();
+            Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Log out Verification", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+                Login login = new Login();
+                login.Show();
+            }
         }
     }
 }
