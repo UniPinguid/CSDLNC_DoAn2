@@ -65,8 +65,8 @@ namespace ConCungReplication
         }
 
         private void addPanel_Click(object sender, EventArgs e)
-        {   
-            
+        {
+            id = null;
             ProductEdit addProduct = new ProductEdit();
             addProduct.Show();
             

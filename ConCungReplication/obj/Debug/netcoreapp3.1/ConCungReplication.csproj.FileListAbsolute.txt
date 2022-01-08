@@ -1,291 +1,61 @@
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderPayment.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderPayment.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderPayment.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
-C:\Users\LENOVO\Documents\GitHub\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.AssemblyReference.cache
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderPayment.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.GeneratedMSBuildEditorConfig.editorconfig
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
-D:\Nam3\03-CSDL NC\02-Thực hành\02\03-Physical\00-00-New Source\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
-<<<<<<< HEAD
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
-E:\CSDLNC\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
-=======
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
-D:\GitHub\CSDLNC_DoAn2\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
-E:\K19 Document\Advanced Database\Bckp\CSDLNC_DoAn2\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.exe
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll.config
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.deps.json
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.json
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.runtimeconfig.dev.json
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\ConCungReplication.pdb
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.AboutUs.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.box.BoxLoading.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Browse.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Cart.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageCustomer.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderInfo.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderPayment.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPage.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.PurchaseHistory.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SubmitOrder.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserLocation.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.UserProfile.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.employer.EmployerProfile.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageEmployer.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ImportExport.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.OrderInfoEmployer.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.OrderTraces.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.ProductEdit.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductManagement.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.ProductPageEmployer.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Storage.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Login.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUp.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.SignUp2.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.SignUpFinal.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.StartUp.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Comparison.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.DiscountEdit.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Discounts.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.EmployeesPerformance.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepageManager.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.manager.ManagerProfile.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Statistics.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeePage.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.EmployeesList.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.HomepagePersonnel.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.forms.personnel.PersonnelProfile.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Rollcall.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.Properties.Resources.resources
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.GenerateResource.cache
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfoInputs.cache
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.AssemblyInfo.cs
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CoreCompileInputs.cache
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csproj.CopyComplete
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.dll
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.pdb
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.genruntimeconfig.cache
+E:\K19 Document\Advanced Database\CSDLNC_DoAn2\ms-vscode.cpptools-1.7.1.vsix\ConCungReplication\obj\Debug\netcoreapp3.1\ConCungReplication.csprojAssemblyReference.cache

@@ -178,7 +178,10 @@ namespace ConCungReplication
                     var res = cmd2.Parameters["@result"];
                     if(res.Equals(1))
                     {
-                        MessageBox.Show("Đặt hàng thàng công", "Thông Báo");
+                        //MessageBox.Show("Đặt hàng thàng công", "Thông Báo");
+                        OrderPayment pay = new OrderPayment();
+                        pay.Show();
+                        this.Close();
                         break;
                     }
                 }
