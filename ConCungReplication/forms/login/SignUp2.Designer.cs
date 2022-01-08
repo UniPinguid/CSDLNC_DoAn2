@@ -259,7 +259,7 @@ namespace ConCungReplication.forms
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Location = new System.Drawing.Point(701, 143);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(491, 78);
+            this.label4.Size = new System.Drawing.Size(480, 76);
             this.label4.TabIndex = 35;
             this.label4.Text = "Register to Concung";
             // 
@@ -399,6 +399,7 @@ namespace ConCungReplication.forms
             this.Name = "SignUp2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp2";
+            this.Load += new System.EventHandler(this.SignUp2_Load);
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.panel12.ResumeLayout(false);

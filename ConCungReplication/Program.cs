@@ -22,7 +22,7 @@ namespace ConCungReplication
 
             //Application.Run(new ProductManagement());
 
-            Application.Run(new Storage());
+            Application.Run(new StartUp());
 
         }
     }

@@ -17,19 +17,6 @@ namespace ConCungReplication
 
         string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
 
-        public static int HouseNumber;
-        public static string street = "";
-        public static string ward = "";
-        public static string province = "";
-        public static string district = "";
-
-
-        public static string name = "";
-        public static string email = "";
-        public static string number = "";
-        public static string birthday = "";
-        public static string gender = "";
-
         public static string username = "";
         public static string password = "";
 
@@ -53,7 +40,7 @@ namespace ConCungReplication
 
         }
 
-            private void clickBack(object sender, EventArgs e)
+        private void clickBack(object sender, EventArgs e)
         {
             SignUp2 signUp2 = new SignUp2();
             signUp2.Show();
@@ -91,6 +78,19 @@ namespace ConCungReplication
                 checkEmpty = 1;
             }
 
+            if(textBox6.Text.Length>10)
+            {
+                MessageBox.Show("Account has no more than 10 characters");
+                checkEmpty = 1;
+            }
+
+
+            if (textBox5.Text.Length > 20)
+            {
+                MessageBox.Show("Password has no more than 20 characters");
+                checkEmpty = 1;
+            }
+
             if (!CheckTOS.Checked)
             {
                 MessageBox.Show("Please make sure you accept out Term and Policy");
@@ -107,11 +107,13 @@ namespace ConCungReplication
                 else
                 {
                     string ID = "KH";
-                    string name = SignUp2.name;
-                    string email = SignUp2.email;
-                    string birthday = SignUp2.birthday;
-                    string gender = SignUp2.gender;
-                    string number = SignUp2.number;
+                    string name = SignUp.name;
+                    string email = SignUp.email;
+                    string birthday = SignUp.birthday;
+                    string gender;
+                    if (SignUp.gender == "Male") gender = "Nam";
+                    else gender = "Nữ";
+                    string number = SignUp.number;
 
                     ID += RandomString(8);
 

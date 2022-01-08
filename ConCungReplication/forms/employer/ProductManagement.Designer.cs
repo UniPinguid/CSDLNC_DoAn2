@@ -521,11 +521,7 @@ namespace ConCungReplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1743, 900);
-=======
-            this.ClientSize = new System.Drawing.Size(1722, 900);
->>>>>>> 391cf4e498b529ec5d893b271bbb51e8b50c621f
             this.Controls.Add(this.label20);
             this.Controls.Add(this.checkedListBox4);
             this.Controls.Add(this.label18);

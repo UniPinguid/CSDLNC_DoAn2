@@ -104,6 +104,7 @@ namespace ConCungReplication
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(1141, 384);
             this.dataGridView1.TabIndex = 36;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // panel1
             // 
@@ -527,6 +528,7 @@ namespace ConCungReplication
             this.label15.Size = new System.Drawing.Size(112, 40);
             this.label15.TabIndex = 33;
             this.label15.Text = "Confirm";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // pictureBox1
             // 
@@ -577,6 +579,7 @@ namespace ConCungReplication
             this.Name = "UserLocation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Location";
+            this.Load += new System.EventHandler(this.UserLocation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

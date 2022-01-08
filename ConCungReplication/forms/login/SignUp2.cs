@@ -11,18 +11,12 @@ namespace ConCungReplication.forms
     public partial class SignUp2 : Form
     {
 
-        public static int HouseNumber ;
+        public static int HouseNumber;
         public static string street = "";
         public static string ward = "";
         public static string province = "";
         public static string district = "";
 
-
-        public static string name = "";
-        public static string email = "";
-        public static string number = "";
-        public static string birthday = "";
-        public static string gender = "";
 
         public SignUp2()
         {
@@ -101,23 +95,20 @@ namespace ConCungReplication.forms
                 province = textBox1.Text;
 
                 SignUpFinal signUpFinal = new SignUpFinal();
-                SignUpFinal.name = name;
-                SignUpFinal.email = email;
-                SignUpFinal.gender = gender;
-                SignUpFinal.number = number;
-                SignUpFinal.birthday = birthday;
-
-
-                SignUpFinal.street = street;
-                SignUpFinal.HouseNumber = HouseNumber;
-                SignUpFinal.ward = ward;
-                SignUpFinal.district = district;
-                SignUpFinal.province = province;
 
                 signUpFinal.Show();
                 this.Close();
 
             }
+        }
+
+        private void SignUp2_Load(object sender, EventArgs e)
+        {
+            if (HouseNumber >= 0) textBox6.Text = HouseNumber.ToString();
+            if (street != "") textBox3.Text = street;
+            if (ward != "") textBox5.Text = ward;
+            if (district != "") textBox2.Text = district;
+            if (province != "") textBox1.Text = province;
         }
     }
 }

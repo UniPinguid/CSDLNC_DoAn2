@@ -90,15 +90,19 @@ namespace ConCungReplication
                 this.Hide();
                 SignUp2 signUp2 = new SignUp2();
 
-                SignUp2.name = name;
-                SignUp2.number = number;
-                SignUp2.email = email;
-                SignUp2.birthday = birthday;
-                SignUp2.gender = gender;
 
                 signUp2.ShowDialog();
 
             }
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+            if (name != "") textBox1.Text = name;
+            if (number != "") textBox2.Text = number;
+            if (gender != "") GenderSelect.Text = gender;
+            if (email != "") textBox4.Text = email;
+            if (birthday != "") textBox3.Text = birthday;
         }
     }
 }
