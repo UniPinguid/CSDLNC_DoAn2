@@ -19,6 +19,7 @@ namespace ConCungReplication
         SqlDataAdapter adapter;
         DataTable dt;
         string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        string hdid = null;
         public OrderPayment()
         {
             InitializeComponent();
@@ -26,7 +27,34 @@ namespace ConCungReplication
 
         private void clickSubmit(object sender, EventArgs e)
         {
-            // Insert data here
+            string payment = null;
+            if (checkMOMO.Checked == true)
+            {
+                payment = "Momo";
+            }
+            if (checkZaloPay.Checked == true)
+            {
+                payment = "ZaloPay";
+            }
+            if (checkMastercard.Checked == true)
+            {
+                payment = "MasterCard";
+            }
+            if(checkVisa.Checked == true)
+            {
+                payment = "Visa";
+            }
+            if(checkDelivery.Checked == true)
+            {
+                payment = "COD";
+            }
+            conn = new SqlConnection(connectionString);
+            conn.Open();
+            cmd = new SqlCommand();
+            
+            cmd.Connection = conn;
+            cmd.CommandText = "update hoadon set phuongthucthanhtoan = '" + payment + "' where HD_ID = '" + hdid + "'";
+            cmd.ExecuteNonQuery();
             SubmitOrder submitOrder = new SubmitOrder();
             submitOrder.Show();
             this.Close();
@@ -77,8 +105,8 @@ namespace ConCungReplication
 
         private void OrderPayment_Load(object sender, EventArgs e)
         {
-            //string hdid = Cart.gethdid();
-            string hdid = "HD00003350";
+            hdid = Cart.gethdid();
+            //string hdid = "HD00003350";
             conn = new SqlConnection(connectionString);
             conn.Open();
             adapter = new SqlDataAdapter("exec SELECT * FROM CT_HOADON where HD_ID = '" + hdid +"'", conn);
