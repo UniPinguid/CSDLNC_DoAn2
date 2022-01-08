@@ -45,7 +45,7 @@ namespace ConCungReplication
                 textBox2.Text = dt.Rows[0]["SoDienThoai"].ToString();
                 string str_Phai = dt.Rows[0]["Phai"].ToString();
                 if (str_Phai == "Nam") GenderSelect.Text = "Male";
-                else GenderSelect.Text = "Nữ";
+                else GenderSelect.Text = "Female";
                 textBox3.Text = dt.Rows[0]["NgaySinh"].ToString();
                 textBox4.Text = dt.Rows[0]["Email"].ToString();
             }
