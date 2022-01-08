@@ -42,7 +42,15 @@ namespace ConCungReplication.forms
 
         private void confirmPanel_Click(object sender, EventArgs e)
         {
-            
+            pdid = ProductManagement.getid();
+            conn = new SqlConnection(connectionString);
+            conn.Open();
+            cmd = new SqlCommand("editProduct", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //@ID char(10), @Ten nvarchar(20), @Gia float,
+            //@MoTa nvarchar(50), @SLTon int, @ThuongHieu nvarchar(20), @KhuyenMai float, @NgayBatDau datetime,
+            cmd.Parameters.Add(new SqlParameter("@ID", pdid));
+
         }
 
         private void ProductEdit_Load_1(object sender, EventArgs e)
@@ -66,6 +74,7 @@ namespace ConCungReplication.forms
                 discountBox.Text = dt.Rows[0][6].ToString();
                 dcstartBox.Text = dt.Rows[0][7].ToString();
                 dcendBox.Text = dt.Rows[0][8].ToString();
+                groupBox.Text = dt.Rows[0][9].ToString();
                
             }
            
