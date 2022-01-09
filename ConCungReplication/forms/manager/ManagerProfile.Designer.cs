@@ -162,6 +162,7 @@ namespace ConCungReplication.forms.manager
             this.label19.Size = new System.Drawing.Size(112, 40);
             this.label19.TabIndex = 33;
             this.label19.Text = "Confirm";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label10
             // 
@@ -636,6 +637,7 @@ namespace ConCungReplication.forms.manager
             this.Name = "ManagerProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManagerProfile";
+            this.Load += new System.EventHandler(this.ManagerProfile_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel17.ResumeLayout(false);

@@ -5,11 +5,14 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using ConCungReplication.forms.manager;
 
 namespace ConCungReplication
 {
     public partial class HomepageManager : Form
     {
+        public static string ID;
+
         public HomepageManager()
         {
             InitializeComponent();
@@ -51,6 +54,13 @@ namespace ConCungReplication
         {
             Discounts discounts = new Discounts();
             discounts.Show();
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile profile = new ManagerProfile();
+            profile.Show();
             this.Close();
         }
     }

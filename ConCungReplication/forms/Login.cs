@@ -100,8 +100,10 @@ namespace ConCungReplication
                             {
                                 if (role == "Quản Lý")
                                 {
+
                                     HomepageManager homepageManager = new HomepageManager();
                                     homepageManager.ShowDialog();
+
                                 }
                                 else
                                 {

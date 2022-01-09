@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\K19 Document\\Advanced Database\\CSDLNC_DoAn2\\ms-vscode.cpptools-1.7.1.vsix\\ConCungReplication\\ConCungReplication.csproj": {}
+    "C:\\Users\\LENOVO\\Documents\\GitHub\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj": {}
   },
   "projects": {
-    "E:\\K19 Document\\Advanced Database\\CSDLNC_DoAn2\\ms-vscode.cpptools-1.7.1.vsix\\ConCungReplication\\ConCungReplication.csproj": {
+    "C:\\Users\\LENOVO\\Documents\\GitHub\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\K19 Document\\Advanced Database\\CSDLNC_DoAn2\\ms-vscode.cpptools-1.7.1.vsix\\ConCungReplication\\ConCungReplication.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\GitHub\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
         "projectName": "ConCungReplication",
-        "projectPath": "E:\\K19 Document\\Advanced Database\\CSDLNC_DoAn2\\ms-vscode.cpptools-1.7.1.vsix\\ConCungReplication\\ConCungReplication.csproj",
-        "packagesPath": "C:\\Users\\gamal\\.nuget\\packages\\",
-        "outputPath": "E:\\K19 Document\\Advanced Database\\CSDLNC_DoAn2\\ms-vscode.cpptools-1.7.1.vsix\\ConCungReplication\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\CSDLNC_DoAn2\\ConCungReplication\\ConCungReplication.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Documents\\GitHub\\CSDLNC_DoAn2\\ConCungReplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
