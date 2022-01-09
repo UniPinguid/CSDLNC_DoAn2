@@ -59,9 +59,6 @@ namespace ConCungReplication
                 conn.Open();
 
 
-                textBox1.Text = "0000237779";
-                textBox2.Text = "Passuekzihhhs28871";
-
                 cmd = new SqlCommand();
                 cmd.Connection = conn;
                 cmd.CommandText = "SELECT * FROM NGUOIDUNG WHERE username = '" + textBox1.Text + "' AND password ='" + textBox2.Text + "'";
