@@ -67,6 +67,7 @@ namespace ConCungReplication
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.IDPICKING = new System.Windows.Forms.Label();
+            this.Refresh = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -107,6 +108,7 @@ namespace ConCungReplication
             this.label8.Size = new System.Drawing.Size(120, 28);
             this.label8.TabIndex = 49;
             this.label8.Text = "Import/Export";
+            this.label8.Click += new System.EventHandler(this.label3_click);
             // 
             // label4
             // 
@@ -119,6 +121,7 @@ namespace ConCungReplication
             this.label4.Size = new System.Drawing.Size(65, 28);
             this.label4.TabIndex = 48;
             this.label4.Text = "Traces";
+            this.label4.Click += new System.EventHandler(this.clickTraces);
             // 
             // label3
             // 
@@ -131,6 +134,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(75, 28);
             this.label3.TabIndex = 47;
             this.label3.Text = "Storage";
+            this.label3.Click += new System.EventHandler(this.clickStorage);
             // 
             // label1
             // 
@@ -199,6 +203,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.clickLogo);
             // 
             // label12
             // 
@@ -531,6 +536,7 @@ namespace ConCungReplication
             this.label20.Size = new System.Drawing.Size(75, 28);
             this.label20.TabIndex = 70;
             this.label20.Text = "Refresh";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // IDPICKING
             // 
@@ -541,13 +547,24 @@ namespace ConCungReplication
             this.IDPICKING.TabIndex = 71;
             this.IDPICKING.Text = "label21";
             // 
+            // Refresh
+            // 
+            this.Refresh.Location = new System.Drawing.Point(1267, 404);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(75, 23);
+            this.Refresh.TabIndex = 72;
+            this.Refresh.Text = "Refresh";
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.Refresh_Click);
+            // 
             // ProductManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1524, 675);
+            this.ClientSize = new System.Drawing.Size(1558, 675);
+            this.Controls.Add(this.Refresh);
             this.Controls.Add(this.IDPICKING);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.checkedListBox4);
@@ -637,5 +654,6 @@ namespace ConCungReplication
         private System.Windows.Forms.Panel PMdeletePanel;
         private System.Windows.Forms.Panel viewproductPanel;
         private System.Windows.Forms.Label IDPICKING;
+        private System.Windows.Forms.Button Refresh;
     }
 }

@@ -187,11 +187,6 @@ namespace ConCungReplication
             this.Close();
         }
 
-        private void Comparison_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void panel14_Click(object sender, EventArgs e)
         {
             loadData(1, selectMonthRevenue.Text, selectYearRevenue.Text);

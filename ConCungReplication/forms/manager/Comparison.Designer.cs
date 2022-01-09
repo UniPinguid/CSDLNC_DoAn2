@@ -57,7 +57,17 @@ namespace ConCungReplication
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.HD_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayMua = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NV_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -72,16 +82,6 @@ namespace ConCungReplication
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.logo = new System.Windows.Forms.PictureBox();
-            this.HD_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayMua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NV_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KH_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel14.SuspendLayout();
@@ -446,6 +446,46 @@ namespace ConCungReplication
             this.dataGridView1.Size = new System.Drawing.Size(1027, 307);
             this.dataGridView1.TabIndex = 43;
             // 
+            // HD_ID
+            // 
+            this.HD_ID.DataPropertyName = "HD_ID";
+            this.HD_ID.HeaderText = "Mã Hóa Đơn";
+            this.HD_ID.MinimumWidth = 6;
+            this.HD_ID.Name = "HD_ID";
+            this.HD_ID.Width = 125;
+            // 
+            // NgayMua
+            // 
+            this.NgayMua.DataPropertyName = "NgayMua";
+            this.NgayMua.HeaderText = "Ngày Mua";
+            this.NgayMua.MinimumWidth = 6;
+            this.NgayMua.Name = "NgayMua";
+            this.NgayMua.Width = 125;
+            // 
+            // ThanhTien
+            // 
+            this.ThanhTien.DataPropertyName = "ThanhTien";
+            this.ThanhTien.HeaderText = "Trị Giá";
+            this.ThanhTien.MinimumWidth = 6;
+            this.ThanhTien.Name = "ThanhTien";
+            this.ThanhTien.Width = 125;
+            // 
+            // NV_ID
+            // 
+            this.NV_ID.DataPropertyName = "NV_ID";
+            this.NV_ID.HeaderText = "Nhân Viên";
+            this.NV_ID.MinimumWidth = 6;
+            this.NV_ID.Name = "NV_ID";
+            this.NV_ID.Width = 125;
+            // 
+            // KH_ID
+            // 
+            this.KH_ID.DataPropertyName = "KH_ID";
+            this.KH_ID.HeaderText = "Khách Hàng";
+            this.KH_ID.MinimumWidth = 6;
+            this.KH_ID.Name = "KH_ID";
+            this.KH_ID.Width = 125;
+            // 
             // dataGridView2
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
@@ -462,6 +502,46 @@ namespace ConCungReplication
             this.dataGridView2.RowTemplate.Height = 29;
             this.dataGridView2.Size = new System.Drawing.Size(1027, 317);
             this.dataGridView2.TabIndex = 44;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "HD_ID";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Mã Hóa Đơn";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "NgayMua";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Ngày Mua";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "ThanhTien";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Trị Giá";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "NV_ID";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Nhân Viên";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "KH_ID";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Khách Hàng";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 125;
             // 
             // panel14
             // 
@@ -636,86 +716,6 @@ namespace ConCungReplication
             this.logo.WaitOnLoad = true;
             this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
-            // HD_ID
-            // 
-            this.HD_ID.DataPropertyName = "HD_ID";
-            this.HD_ID.HeaderText = "Mã Hóa Đơn";
-            this.HD_ID.MinimumWidth = 6;
-            this.HD_ID.Name = "HD_ID";
-            this.HD_ID.Width = 125;
-            // 
-            // NgayMua
-            // 
-            this.NgayMua.DataPropertyName = "NgayMua";
-            this.NgayMua.HeaderText = "Ngày Mua";
-            this.NgayMua.MinimumWidth = 6;
-            this.NgayMua.Name = "NgayMua";
-            this.NgayMua.Width = 125;
-            // 
-            // ThanhTien
-            // 
-            this.ThanhTien.DataPropertyName = "ThanhTien";
-            this.ThanhTien.HeaderText = "Trị Giá";
-            this.ThanhTien.MinimumWidth = 6;
-            this.ThanhTien.Name = "ThanhTien";
-            this.ThanhTien.Width = 125;
-            // 
-            // NV_ID
-            // 
-            this.NV_ID.DataPropertyName = "NV_ID";
-            this.NV_ID.HeaderText = "Nhân Viên";
-            this.NV_ID.MinimumWidth = 6;
-            this.NV_ID.Name = "NV_ID";
-            this.NV_ID.Width = 125;
-            // 
-            // KH_ID
-            // 
-            this.KH_ID.DataPropertyName = "KH_ID";
-            this.KH_ID.HeaderText = "Khách Hàng";
-            this.KH_ID.MinimumWidth = 6;
-            this.KH_ID.Name = "KH_ID";
-            this.KH_ID.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "HD_ID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Mã Hóa Đơn";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "NgayMua";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Ngày Mua";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "ThanhTien";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Trị Giá";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "NV_ID";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Nhân Viên";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "KH_ID";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Khách Hàng";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 125;
-            // 
             // Comparison
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -758,7 +758,6 @@ namespace ConCungReplication
             this.Name = "Comparison";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Comparison";
-            this.Load += new System.EventHandler(this.Comparison_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel14.ResumeLayout(false);

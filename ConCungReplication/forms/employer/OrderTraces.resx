@@ -57,7 +57,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="panel7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
@@ -134,7 +134,7 @@
   <data name="panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAvUAAABkCAYAAAAG589CAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAI
-        ewAACHsBerdURAAAFk9JREFUeF7tnWuMXGd5x+m9FFpyJXZuEJwQkgBJyiXNBUgIiA+tqn5o+6VSkCqk
+        eQAACHkBBUmXzQAAFk9JREFUeF7tnWuMXGd5x+m9FFpyJXZuEJwQkgBJyiXNBUgIiA+tqn5o+6VSkCqk
         ktKgqqL9UOiNVqpQKZWAVK3ERW1AalDSKG2gpvmQEqSEoIRCcJM4GHJxjB3ba3u9u95d785Mn//qPJtn
         331mdmbnzG39+0k/OXv2nDMzZ/PhN++8552XtVotREREREScYNONiIiIiIg4OaYbERERERFxckw3IiIi
         IiLi5JhuHJV33LDvJxARERERJ8GsZ0dlunEYZhemB38SEREREXGAZg3alVn7Dtp04yDMXnBldhERERER

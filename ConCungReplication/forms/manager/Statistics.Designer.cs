@@ -452,6 +452,7 @@ namespace ConCungReplication
             this.label3.Size = new System.Drawing.Size(112, 36);
             this.label3.TabIndex = 49;
             this.label3.Text = "Discounts";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
             // 
@@ -476,6 +477,7 @@ namespace ConCungReplication
             this.label2.Size = new System.Drawing.Size(139, 36);
             this.label2.TabIndex = 47;
             this.label2.Text = "Comparison";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -487,6 +489,7 @@ namespace ConCungReplication
             this.label4.Size = new System.Drawing.Size(126, 36);
             this.label4.TabIndex = 45;
             this.label4.Text = "Homepage";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label9
             // 
@@ -510,6 +513,7 @@ namespace ConCungReplication
             this.label10.Size = new System.Drawing.Size(102, 36);
             this.label10.TabIndex = 43;
             this.label10.Text = "About Us";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // panel7
             // 
@@ -529,6 +533,7 @@ namespace ConCungReplication
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 

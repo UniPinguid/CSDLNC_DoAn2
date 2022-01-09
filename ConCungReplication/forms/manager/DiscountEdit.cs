@@ -93,5 +93,40 @@ namespace ConCungReplication.forms.manager
             MessageBox.Show(mess, "Thông Báo");
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            HomepageManager homepageManager = new HomepageManager();
+            homepageManager.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Comparison comparison = new Comparison();
+            comparison.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            EmployeesPerformance employeesPerformance = new EmployeesPerformance();
+            employeesPerformance.Show();
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile managerProfile = new ManagerProfile();
+            managerProfile.Show();
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
     }
 }

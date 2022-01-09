@@ -5,6 +5,8 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -38,11 +40,21 @@ namespace ConCungReplication.forms
                 this.Close();
             }
         }
-        
+        private static Random random = new Random();
+        public static string RandomString(int length)
+        {
+            const string chars = "0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
 
         private void confirmPanel_Click(object sender, EventArgs e)
         {
             pdid = ProductManagement.getid();
+            if (pdid == null)
+            {
+                pdid = "SP" + RandomString(8);
+            }
             conn = new SqlConnection(connectionString);
             conn.Open();
             cmd = new SqlCommand("editProduct", conn);
@@ -52,14 +64,14 @@ namespace ConCungReplication.forms
             //@GrSP_ID char(10)
             cmd.Parameters.Add(new SqlParameter("@ID", pdid));
             cmd.Parameters.Add(new SqlParameter("@Ten", nameBox.Text));
-            cmd.Parameters.Add(new SqlParameter("@Gia", priceBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@Gia", Convert.ToDouble(priceBox.Text)));
             cmd.Parameters.Add(new SqlParameter("@MoTa", description.Text));
-            cmd.Parameters.Add(new SqlParameter("@SLTon", quantityBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@SLTon", Convert.ToInt64(quantityBox.Text)));
             cmd.Parameters.Add(new SqlParameter("@ThuongHieu", brandBox.Text));
-            cmd.Parameters.Add(new SqlParameter("@KhuyenMai", discountBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@KhuyenMai", Convert.ToDouble(discountBox.Text)));
             cmd.Parameters.Add(new SqlParameter("@NgayBatDau", dcstartBox.Text));
             cmd.Parameters.Add(new SqlParameter("@NgayKetThuc", dcendBox.Text));
-            cmd.Parameters.Add(new SqlParameter("@GrSP_ID", groupBox.Text));
+            cmd.Parameters.Add(new SqlParameter("@GrSP_ID", "NSP8411887"));
             cmd.ExecuteNonQuery();
             MessageBox.Show("Update Success!");
 

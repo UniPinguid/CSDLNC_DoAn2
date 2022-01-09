@@ -1,7 +1,10 @@
-﻿using System;
+﻿using ConCungReplication.forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
@@ -10,6 +13,12 @@ namespace ConCungReplication
 {
     public partial class OrderTraces : Form
     {
+        private static string id = null;
+        SqlConnection conn;
+        SqlCommand cmd;
+        SqlDataAdapter adapter;
+        DataTable dt;
+        string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
         public OrderTraces()
         {
             InitializeComponent();
@@ -59,6 +68,33 @@ namespace ConCungReplication
             HomepageEmployer homepage = new HomepageEmployer();
             homepage.Show();
             this.Close();
+        }
+
+        private void OrderTraces_Load(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM HOADON", conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int numrow;
+            numrow = e.RowIndex;
+            id = dataGridView1.Rows[numrow].Cells[0].Value.ToString();
+        }
+        public static string getid()
+        {
+            return id;
+        }
+        
+
+        private void panel8_Click(object sender, EventArgs e)
+        {
+            OrderInfoEmployer oie = new OrderInfoEmployer();
+            oie.Show();
         }
     }
 }

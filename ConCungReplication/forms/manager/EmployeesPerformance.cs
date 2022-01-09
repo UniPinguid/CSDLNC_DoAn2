@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using ConCungReplication.forms.manager;
 
 namespace ConCungReplication
 {
@@ -128,6 +129,41 @@ namespace ConCungReplication
                 return;
             }
             loadEmployee(nv);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            HomepageManager homepageManager = new HomepageManager();
+            homepageManager.Show();
+            this.Close();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Statistics statistics = new Statistics();
+            statistics.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Comparison comparison = new Comparison();
+            comparison.Show();
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile managerProfile = new ManagerProfile();
+            managerProfile.Show();
+            this.Close();
         }
     }
 }

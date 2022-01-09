@@ -345,7 +345,7 @@ namespace ConCungReplication.forms
             this.priceBox.Name = "priceBox";
             this.priceBox.Size = new System.Drawing.Size(277, 72);
             this.priceBox.TabIndex = 0;
-            this.priceBox.Text = "690,000đ";
+            this.priceBox.Text = "69000";
             this.priceBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2

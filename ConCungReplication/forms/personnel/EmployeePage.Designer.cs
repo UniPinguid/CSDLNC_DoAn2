@@ -473,6 +473,7 @@ namespace ConCungReplication.forms.personnel
             this.label1.Size = new System.Drawing.Size(122, 36);
             this.label1.TabIndex = 47;
             this.label1.Text = "Employees";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -496,6 +497,7 @@ namespace ConCungReplication.forms.personnel
             this.label3.Size = new System.Drawing.Size(95, 36);
             this.label3.TabIndex = 44;
             this.label3.Text = "Roll-call";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -507,6 +509,7 @@ namespace ConCungReplication.forms.personnel
             this.label4.Size = new System.Drawing.Size(102, 36);
             this.label4.TabIndex = 43;
             this.label4.Text = "About Us";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel7
             // 
@@ -916,18 +919,18 @@ namespace ConCungReplication.forms.personnel
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Montserrat SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label30.ForeColor = System.Drawing.Color.DimGray;
             this.label30.Location = new System.Drawing.Point(24, 65);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(129, 25);
+            this.label30.Size = new System.Drawing.Size(128, 22);
             this.label30.TabIndex = 235;
             this.label30.Text = "Select a year";
             // 
             // selectYearRevenue
             // 
             this.selectYearRevenue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.selectYearRevenue.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.selectYearRevenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.selectYearRevenue.FormattingEnabled = true;
             this.selectYearRevenue.Items.AddRange(new object[] {
             "2015",
@@ -939,7 +942,7 @@ namespace ConCungReplication.forms.personnel
             "2021"});
             this.selectYearRevenue.Location = new System.Drawing.Point(199, 63);
             this.selectYearRevenue.Name = "selectYearRevenue";
-            this.selectYearRevenue.Size = new System.Drawing.Size(76, 32);
+            this.selectYearRevenue.Size = new System.Drawing.Size(76, 28);
             this.selectYearRevenue.TabIndex = 234;
             // 
             // EmployeePage
@@ -971,6 +974,7 @@ namespace ConCungReplication.forms.personnel
             this.Name = "EmployeePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeePage";
+            this.Load += new System.EventHandler(this.EmployeePage_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel4.ResumeLayout(false);

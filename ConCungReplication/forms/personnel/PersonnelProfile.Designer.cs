@@ -168,6 +168,7 @@ namespace ConCungReplication.forms.personnel
             this.label19.Size = new System.Drawing.Size(112, 40);
             this.label19.TabIndex = 33;
             this.label19.Text = "Confirm";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label10
             // 
@@ -514,6 +515,7 @@ namespace ConCungReplication.forms.personnel
             this.label2.Size = new System.Drawing.Size(122, 36);
             this.label2.TabIndex = 47;
             this.label2.Text = "Employees";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -525,6 +527,7 @@ namespace ConCungReplication.forms.personnel
             this.label3.Size = new System.Drawing.Size(126, 36);
             this.label3.TabIndex = 45;
             this.label3.Text = "Homepage";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label9
             // 
@@ -537,6 +540,7 @@ namespace ConCungReplication.forms.personnel
             this.label9.Size = new System.Drawing.Size(95, 36);
             this.label9.TabIndex = 44;
             this.label9.Text = "Roll-call";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label12
             // 
@@ -548,6 +552,7 @@ namespace ConCungReplication.forms.personnel
             this.label12.Size = new System.Drawing.Size(102, 36);
             this.label12.TabIndex = 43;
             this.label12.Text = "About Us";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // panel7
             // 
@@ -567,6 +572,7 @@ namespace ConCungReplication.forms.personnel
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
@@ -608,6 +614,7 @@ namespace ConCungReplication.forms.personnel
             this.Name = "PersonnelProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonnelProfile";
+            this.Load += new System.EventHandler(this.PersonnelProfile_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel17.ResumeLayout(false);

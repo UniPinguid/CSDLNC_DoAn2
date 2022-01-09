@@ -34,7 +34,7 @@ namespace ConCungReplication
 
         private void clickStorage(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
             Storage storage = new Storage();
             storage.Show();
         }
@@ -50,16 +50,16 @@ namespace ConCungReplication
             }
         }
 
-        private void clickIE(object sender, EventArgs e)
+        private void label3_click(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
             ImportExport ie = new ImportExport();
             ie.Show();
         }
 
         private void clickTraces(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
             OrderTraces traces = new OrderTraces();
             traces.Show();
         }
@@ -117,6 +117,24 @@ namespace ConCungReplication
             {
                 this.Close();
             }
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void Refresh_Click(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
     }
 }

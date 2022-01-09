@@ -178,6 +178,7 @@ namespace ConCungReplication
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(143, 65);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // textBox1
             // 
@@ -360,6 +361,7 @@ namespace ConCungReplication
             this.Name = "Rollcall";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rollcall";
+            this.Load += new System.EventHandler(this.Rollcall_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

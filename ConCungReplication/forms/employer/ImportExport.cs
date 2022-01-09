@@ -30,7 +30,7 @@ namespace ConCungReplication
 
             if (act == 1)
             {
-                truyVan += " DonNhapHang WHERE SP_ID = " + id;
+                truyVan += " DonNhapHang WHERE SP_ID = '" + id+ "'" ;
                 SqlCommand cmd = new SqlCommand(truyVan, conn);
                 cmd.CommandType = CommandType.Text;
 
@@ -47,7 +47,7 @@ namespace ConCungReplication
             }
             if (act == 2)
             {
-                truyVan += " XuatHang WHERE SP_ID = " + id;
+                truyVan += " XH_SP WHERE SP_ID = '" + id + "'";
                 SqlCommand cmd = new SqlCommand(truyVan, conn);
                 cmd.CommandType = CommandType.Text;
 
