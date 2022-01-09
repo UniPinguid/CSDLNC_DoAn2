@@ -40,6 +40,8 @@ BEGIN TRAN
 	END TRY
 	BEGIN CATCH
 		PRINT(N'Lỗi hệ thống')
+		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
@@ -61,6 +63,8 @@ BEGIN TRAN
 	END TRY
 	BEGIN CATCH
 		SET @result = -1
+		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
@@ -87,6 +91,7 @@ BEGIN TRAN
 	BEGIN CATCH
 		SET @result = -1
 		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
@@ -115,6 +120,8 @@ BEGIN TRAN
 	END TRY
 	BEGIN CATCH
 		SET @result = -1
+		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
@@ -130,21 +137,71 @@ BEGIN TRAN
 
 	BEGIN CATCH
 		PRINT (N'lỗi hệ thống')
+		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
 
-CREATE PROC HoaDonThang @time DATETIME, @tongDoanhThu FLOAT OUT
+CREATE PROC TinhDoanhThu @month INT, @year INT, @tongDoanhThu FLOAT OUT
 AS
 BEGIN TRAN
 	BEGIN TRY
-		SELECT HD_ID, NgayMua, ThanhTien
-		FROM HOADON
-		WHERE MONTH(NgayMua)=MONTH(@time) AND YEAR(NgayMua)= YEAR(@time)
+		IF(@month = 0)
+		BEGIN
+			SELECT @tongDoanhThu = SUM(ThanhTien)
+			FROM HOADON
+			WHERE YEAR(NgayMua)=@year
+		END
+		ELSE
+		BEGIN
+			SELECT @tongDoanhThu = SUM(ThanhTien)
+			FROM HOADON
+			WHERE MONTH(NgayMua)=@month AND YEAR(NgayMua)=@year
+		END
 	END TRY
 
 	BEGIN CATCH
 		PRINT (N'lỗi hệ thống')
+	END CATCH
+COMMIT TRAN
+GO
+
+CREATE PROC TinhSales @month INT, @year INT, @tongSale INT OUT
+AS
+BEGIN TRAN
+	BEGIN TRY
+		IF(@month = 0)
+		BEGIN
+			SELECT @tongSale = SUM(ct.SoLuong)
+			FROM HOADON hd left join CT_HoaDon ct on hd.HD_ID=ct.HD_ID
+			WHERE YEAR(NgayMua)=@year
+		END
+		ELSE
+		BEGIN
+			SELECT @tongSale = SUM(ct.SoLuong)
+			FROM HOADON hd left join CT_HoaDon ct on hd.HD_ID=ct.HD_ID
+			WHERE YEAR(NgayMua)=@year AND MONTH(NgayMua)=@month
+		END
+	END TRY
+
+	BEGIN CATCH
+		PRINT (N'lỗi hệ thống')
+		ROLLBACK TRAN
+	END CATCH
+COMMIT TRAN
+GO
+
+CREATE PROC AdvancedSearch @name NCHAR(30), @brand NCHAR(30), @department NCHAR(30)
+AS
+BEGIN TRAN
+	BEGIN TRY
+		SELECT * FROM SANPHAM sp left join NhomSP gr on sp.GrSP_ID = gr.GrSP_ID
+		WHERE sp.TenSP LIKE N'%'+@name+'%' AND ThuongHieu LIKE N'%'+@brand+'%' AND  gr.TenNhom LIKE N'%'+@department+'%'
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+		RETURN
 	END CATCH
 COMMIT TRAN
 GO
