@@ -168,6 +168,7 @@ namespace ConCungReplication.forms.personnel
             this.label19.Size = new System.Drawing.Size(112, 40);
             this.label19.TabIndex = 33;
             this.label19.Text = "Confirm";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label10
             // 
@@ -608,6 +609,7 @@ namespace ConCungReplication.forms.personnel
             this.Name = "PersonnelProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonnelProfile";
+            this.Load += new System.EventHandler(this.PersonnelProfile_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel17.ResumeLayout(false);

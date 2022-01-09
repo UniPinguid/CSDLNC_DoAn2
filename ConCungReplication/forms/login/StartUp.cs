@@ -126,6 +126,7 @@ namespace ConCungReplication
                                 BoxLoading BoxLoading = new BoxLoading();
                                 BoxLoading.ShowDialog();
 
+                                HomepagePersonnel.personnelID = employeeID;
                                 HomepageEmployer homepageEmployer = new HomepageEmployer();
                                 homepageEmployer.ShowDialog();
 

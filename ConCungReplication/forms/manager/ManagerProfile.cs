@@ -67,38 +67,45 @@ namespace ConCungReplication.forms.manager
 
         private void label19_Click(object sender, EventArgs e)
         {
-            string TeNV = textBox5.Text;
-            string CMND = textBox2.Text;
-            string Phai = "";
-            string DiaChi = textBox3.Text;
-            string str = KPI.Text;
-            float kpi = float.Parse(str);
-            str = label20.Text;
-            int luong = Int32.Parse(str);
-            if (GenderSelect.Text == "Male") Phai = "Nam";
-            else Phai = "Nữ";
-
-            try
+            if (CheckTOS.Checked)
             {
-                string command = "exec UpdateEmployee '" + HomepageManager.ID + "', N'" + TeNV + "', '"+CMND+"', N'" + DiaChi + "', N'" + Phai + "'";
+                string TeNV = textBox5.Text;
+                string CMND = textBox2.Text;
+                string Phai = "";
+                string DiaChi = textBox3.Text;
+                string str = KPI.Text;
+                float kpi = float.Parse(str);
+                str = label20.Text;
+                int luong = Int32.Parse(str);
+                if (GenderSelect.Text == "Male") Phai = "Nam";
+                else Phai = "Nữ";
 
-                using (SqlConnection conn = new SqlConnection(ConnectionString))
-                using (SqlCommand cmd = new SqlCommand(command, conn))
+                try
                 {
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                    conn.Close();
+                    string command = "exec UpdateEmployee '" + HomepageManager.ID + "', N'" + TeNV + "', '" + CMND + "', N'" + DiaChi + "', N'" + Phai + "'";
+
+                    using (SqlConnection conn = new SqlConnection(ConnectionString))
+                    using (SqlCommand cmd = new SqlCommand(command, conn))
+                    {
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+                        conn.Close();
+                    }
+                    MessageBox.Show("Update Information success");
+                    loadData();
+
                 }
-                MessageBox.Show("Update Information success");
-                loadData();
+                catch
+                {
+                    MessageBox.Show("Failed to update your information");
+                }
 
             }
-            catch
+            else 
             {
-                MessageBox.Show("Failed to update your information");
+                MessageBox.Show("Error! Failed to load your information");
+
             }
-
-
 
 
         }
