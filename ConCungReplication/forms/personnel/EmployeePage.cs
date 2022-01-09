@@ -65,5 +65,26 @@ namespace ConCungReplication.forms.personnel
 
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Rollcall rollcall = new Rollcall();
+            rollcall.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            EmployeesList employeesList = new EmployeesList();
+            this.Close();
+            employeesList.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            this.Close();
+        }
     }
 }

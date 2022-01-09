@@ -109,5 +109,41 @@ namespace ConCungReplication.forms.personnel
                 MessageBox.Show("Make sure you accept our term and policy");
             }
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            HomepagePersonnel homepagePersonnel = new HomepagePersonnel();
+            this.Close();
+            homepagePersonnel.Show();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Rollcall rollcall = new Rollcall();
+            this.Close();
+            rollcall.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+            EmployeesList employeesList = new EmployeesList();
+            this.Close();
+            employeesList.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            PersonnelProfile personnelProfile = new PersonnelProfile();
+            this.Close();
+            personnelProfile.Show();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            AboutUs about = new AboutUs();
+            this.Close();
+            about.Show();
+        }
     }
 }

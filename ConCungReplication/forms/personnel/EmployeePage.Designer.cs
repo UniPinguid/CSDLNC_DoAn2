@@ -473,6 +473,7 @@ namespace ConCungReplication.forms.personnel
             this.label1.Size = new System.Drawing.Size(122, 36);
             this.label1.TabIndex = 47;
             this.label1.Text = "Employees";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -496,6 +497,7 @@ namespace ConCungReplication.forms.personnel
             this.label3.Size = new System.Drawing.Size(95, 36);
             this.label3.TabIndex = 44;
             this.label3.Text = "Roll-call";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -507,6 +509,7 @@ namespace ConCungReplication.forms.personnel
             this.label4.Size = new System.Drawing.Size(102, 36);
             this.label4.TabIndex = 43;
             this.label4.Text = "About Us";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel7
             // 

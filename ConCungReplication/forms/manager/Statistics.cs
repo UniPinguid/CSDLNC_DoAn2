@@ -7,6 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
+using ConCungReplication.forms.manager;
+using ConCungReplication.forms;
 
 namespace ConCungReplication
 {
@@ -213,6 +215,41 @@ namespace ConCungReplication
                 double baseprice = (Convert.ToDouble(price.Text) / (100 - Convert.ToDouble(salesOffPercent.Text) / 100));
                 basePrice.Text = baseprice.ToString();
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            HomepageManager homepageManager = new HomepageManager();
+            homepageManager.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Comparison comparison = new Comparison();
+            comparison.Show();
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Discounts discounts = new Discounts();
+            discounts.Show();
+            this.Close();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            this.Close();
+            aboutUs.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            ManagerProfile managerProfile = new ManagerProfile();
+            managerProfile.Show();
+            this.Close();
         }
     }
 }

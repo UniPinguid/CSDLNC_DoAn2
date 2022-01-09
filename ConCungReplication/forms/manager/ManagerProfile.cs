@@ -114,5 +114,19 @@ namespace ConCungReplication.forms.manager
         {
             loadData();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            HomepageManager homepageManager = new HomepageManager();
+            this.Close();
+            homepageManager.Show();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            StartUp startUp = new StartUp();
+            startUp.Show();
+            this.Close();
+        }
     }
 }

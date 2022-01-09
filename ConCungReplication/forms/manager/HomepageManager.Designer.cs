@@ -129,6 +129,7 @@ namespace ConCungReplication
             this.label8.Size = new System.Drawing.Size(102, 36);
             this.label8.TabIndex = 44;
             this.label8.Text = "Statistics";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label12
             // 

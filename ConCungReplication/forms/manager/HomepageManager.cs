@@ -63,5 +63,12 @@ namespace ConCungReplication
             profile.Show();
             this.Close();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            Statistics statistics = new Statistics();
+            this.Close();
+            statistics.Show();
+        }
     }
 }

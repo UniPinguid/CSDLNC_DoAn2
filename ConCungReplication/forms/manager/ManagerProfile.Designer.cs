@@ -469,6 +469,7 @@ namespace ConCungReplication.forms.manager
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(262, 60);
             this.panel6.TabIndex = 24;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // label7
             // 
@@ -554,6 +555,7 @@ namespace ConCungReplication.forms.manager
             this.label9.Size = new System.Drawing.Size(126, 36);
             this.label9.TabIndex = 45;
             this.label9.Text = "Homepage";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label12
             // 

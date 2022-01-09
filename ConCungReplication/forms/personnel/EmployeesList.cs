@@ -42,7 +42,7 @@ namespace ConCungReplication.forms.personnel
             if (textBox2.Text != "")
             {
                 string name = textBox2.Text;
-                truyVan += "   where Ten_NV like N'&" + name + "&'";
+                truyVan += "   where Ten_NV like N'%" + name + "%'";
             }
             SqlCommand cmd = new SqlCommand(truyVan, conn);
             cmd.CommandType = CommandType.Text;
@@ -66,7 +66,7 @@ namespace ConCungReplication.forms.personnel
             conn = new SqlConnection(ConnectionString);
             conn.Open();
 
-            string truyVan = "SELECT * FROM NHANVIEN ";
+            string truyVan = "select Ten_NV, CMND_NV, Phai_NV, PhongBan, KPI_NV, Luong, NV_ID from NHANVIEN";
             SqlCommand cmd = new SqlCommand(truyVan, conn);
             cmd.CommandType = CommandType.Text;
 
@@ -99,6 +99,34 @@ namespace ConCungReplication.forms.personnel
             employee.Show();
             this.Close();
 
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            HomepagePersonnel homepagePersonnel = new HomepagePersonnel();
+            homepagePersonnel.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Rollcall rollcall = new Rollcall();
+            rollcall.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            EmployeesList employeesList = new EmployeesList();
+            employeesList.Show();
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            AboutUs aboutUs = new AboutUs();
+            aboutUs.Show();
+            this.Close();
         }
     }
 }

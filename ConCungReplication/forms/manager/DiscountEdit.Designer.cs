@@ -108,6 +108,7 @@ namespace ConCungReplication.forms.manager
             this.label3.Size = new System.Drawing.Size(118, 36);
             this.label3.TabIndex = 49;
             this.label3.Text = "Discounts";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
             // 
@@ -120,6 +121,7 @@ namespace ConCungReplication.forms.manager
             this.label1.Size = new System.Drawing.Size(122, 36);
             this.label1.TabIndex = 48;
             this.label1.Text = "Employees";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -132,6 +134,7 @@ namespace ConCungReplication.forms.manager
             this.label2.Size = new System.Drawing.Size(139, 36);
             this.label2.TabIndex = 47;
             this.label2.Text = "Comparison";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -143,6 +146,7 @@ namespace ConCungReplication.forms.manager
             this.label4.Size = new System.Drawing.Size(126, 36);
             this.label4.TabIndex = 45;
             this.label4.Text = "Homepage";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label18
             // 
@@ -185,6 +189,7 @@ namespace ConCungReplication.forms.manager
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
