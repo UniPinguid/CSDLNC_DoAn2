@@ -7,7 +7,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
-using System.Linq;
 using ConCungReplication.forms;
 
 namespace ConCungReplication
@@ -17,7 +16,12 @@ namespace ConCungReplication
         SqlConnection conn;
         string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
         DataTable dt;
-        private static string hdid;
+        private static string hdid = "";
+        public static string _address = "";
+        public static string _nguoiNhan = "";
+        public static string _subTotal = "";
+        public static string _discount = "";
+        public static string _total = "";
         void loadData()
         {
             conn = new SqlConnection(ConnectionString);
@@ -44,12 +48,14 @@ namespace ConCungReplication
             conn.Open();
 
             SqlCommand cmd_cart = new SqlCommand("tinhTien", conn);
-            cmd.CommandType = CommandType.StoredProcedure;
+            cmd_cart.CommandType = CommandType.StoredProcedure;
             cmd_cart.Parameters.Add("@id", SqlDbType.Char).Value = StartUp.id;
-            cmd_cart.Parameters.Add("@tongTien", SqlDbType.Float).Value = 0;
-            var cost = cmd_cart.ExecuteScalar();
-            subtotal.Text = cost.ToString() + "đ";
-            label2.Text = cost.ToString() + "\n(VAT included)";
+            
+            cmd_cart.Parameters.Add("@tongTien", SqlDbType.Float).Value = 10;
+            cmd_cart.Parameters["@tongTien"].Direction = ParameterDirection.InputOutput;
+            cmd_cart.ExecuteNonQuery();
+            subtotal.Text = cmd_cart.Parameters["@tongTien"].Value.ToString();
+            label2.Text = subtotal.Text;
             discount.Text = "0đ";
             conn.Close();
         }
@@ -135,62 +141,18 @@ namespace ConCungReplication
             product.Show();
             this.Close();
         }
-        private static Random random = new Random();
-        public static string RandomString(int length)
-        {
-            const string chars = "0123456789";
-            return new string(Enumerable.Repeat(chars, length)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
-        }
-
+        
         private void panel14_Click(object sender, EventArgs e)
         {
-            conn = new SqlConnection(ConnectionString);
-            conn.Open();
-            while (true)
-            {
-                string idHoaDon = "HD" + RandomString(8);
-                hdid = idHoaDon;
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = conn;
+            _nguoiNhan = customerName.Text;
+            _address = address.Text;
+            _discount = discount.Text;
+            _subTotal = subtotal.Text;
+            _total = label2.Text; 
+            OrderPayment pay = new OrderPayment();
+            pay.Show();
+            this.Close();
 
-                cmd.CommandText = "TaoHoaDon";
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                cmd.Parameters.Add("@diaChi", SqlDbType.Char).Value = address.Text;
-                cmd.Parameters.Add("@idKH", SqlDbType.Char).Value = StartUp.id;
-                cmd.Parameters.Add("@result", SqlDbType.Int).Value = 0;
-                cmd.Parameters.Add("@idHD", SqlDbType.Char).Value = idHoaDon;
-                cmd.ExecuteNonQuery();
-                var result = cmd.Parameters["@result"].Value;
-                conn.Close();
-                if (result.Equals(1))
-                {
-                    conn.Open();
-                    SqlCommand cmd2 = new SqlCommand();
-                    cmd2.Connection = conn;
-                    cmd2.CommandText = "ThemChiTietHoaDon";
-                    cmd2.CommandType= CommandType.StoredProcedure;
-                    cmd2.Parameters.Add("@idKH",SqlDbType.Char).Value = StartUp.id;
-                    cmd2.Parameters.Add("@idHD",SqlDbType.Char).Value= idHoaDon;
-                    cmd2.Parameters.Add("@result", SqlDbType.Int).Value = 0;
-                    cmd2.ExecuteNonQuery();
-                    var res = cmd2.Parameters["@result"];
-                    if(res.Equals(1))
-                    {
-                        //MessageBox.Show("Đặt hàng thàng công", "Thông Báo");
-                        OrderPayment pay = new OrderPayment();
-                        pay.Show();
-                        this.Close();
-                        break;
-                    }
-                }
-                else if (result.Equals(-1))
-                {
-                    MessageBox.Show("Lỗi Hệ Thống", "Thông Báo");
-                    break;
-                }
-            }
         }
 
         private void logo_Click(object sender, EventArgs e)

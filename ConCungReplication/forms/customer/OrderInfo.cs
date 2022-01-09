@@ -18,6 +18,69 @@ namespace ConCungReplication
         SqlDataAdapter adapter;
         DataTable dt;
         string connectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        
+        public void loadCT()
+        {
+            try
+            {
+                conn = new SqlConnection(connectionString);
+                conn.Open();
+
+                string truyVan = "SELECT * FROM CT_HoaDon WHERE HD_ID LIKE '" + PurchaseHistory.IdHD + "'";
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                cmd.CommandType = CommandType.Text;
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                dt = new DataTable();
+                adapter.Fill(dt);
+
+                conn.Close();
+
+                productList.DataSource = dt;
+                productList.AutoResizeColumns();
+                productList.AutoResizeRows();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Thông Báo");
+            }
+        }
+        
+        public void loadHD()
+        {
+            try
+            {
+                conn = new SqlConnection(connectionString);
+                conn.Open();
+
+                string truyVan = "SELECT * FROM HoaDon WHERE HD_ID LIKE '" + PurchaseHistory.IdHD + "'";
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                cmd.CommandType = CommandType.Text;
+
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    date.Text=dr["NgayMua"].ToString();
+                    orderID.Text = dr["HD_ID"].ToString();
+                    customerName.Text = "X";
+                    address.Text = dr["DiaChi"].ToString();
+                    subtotal.Text = dr["TienHang"].ToString();
+                    discount.Text = dr["GiamGia"].ToString();
+                    label6.Text = dr["PhiVanChuyen"].ToString();
+                    label2.Text = dr["ThanhTien"].ToString();
+                    status.Text = dr["TrangThai"].ToString();
+                }
+                conn.Close ();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Thông Báo");
+            }
+        }
+        
         public OrderInfo()
         {
             InitializeComponent();
@@ -75,11 +138,17 @@ namespace ConCungReplication
 
         private void OrderInfo_Load(object sender, EventArgs e)
         {
-            conn = new SqlConnection(connectionString);
-            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
-            dt = new DataTable();
-            adapter.Fill(dt);
-            productList.DataSource = dt;
+            loadCT();
+            loadHD();
+        }
+
+        private void productList_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ProductPage product = new ProductPage();
+            int i = productList.CurrentCell.RowIndex;
+            product.IDSP = dt.Rows[i]["SP_ID"].ToString();
+            product.Show();
+            this.Close();
         }
     }
 }

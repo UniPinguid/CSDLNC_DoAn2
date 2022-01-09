@@ -237,6 +237,7 @@ namespace ConCungReplication
             this.pictureBox13.Size = new System.Drawing.Size(95, 35);
             this.pictureBox13.TabIndex = 42;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // panel7
             // 
@@ -246,6 +247,7 @@ namespace ConCungReplication
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(32, 32);
             this.panel7.TabIndex = 41;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // pictureBox14
             // 
@@ -267,6 +269,7 @@ namespace ConCungReplication
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
             this.logo.WaitOnLoad = true;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // panel2
             // 
@@ -611,6 +614,7 @@ namespace ConCungReplication
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(241, 65);
             this.panel17.TabIndex = 60;
+            this.panel17.Click += new System.EventHandler(this.panel17_Click);
             // 
             // label19
             // 

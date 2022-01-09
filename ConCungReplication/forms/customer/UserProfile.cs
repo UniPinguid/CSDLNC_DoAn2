@@ -20,6 +20,7 @@ namespace ConCungReplication
         SqlConnection conn;
         string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
         DataTable dt;
+        DataTable dt2 = null;
 
         void LoadCustomerInformation()
         {
@@ -69,11 +70,11 @@ namespace ConCungReplication
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
 
-                dt = new DataTable();
-                adapter.Fill(dt);
+                dt2 = new DataTable();
+                adapter.Fill(dt2);
 
                 conn.Close();
-                userKids.DataSource = dt;
+                userKids.DataSource = dt2;
                 userKids.AutoResizeColumns();
                 userKids.AutoResizeRows();
             }
@@ -118,9 +119,9 @@ namespace ConCungReplication
 
         private void clickPurchaseHistory(object sender, EventArgs e)
         {
-            this.Close();
             PurchaseHistory purchase = new PurchaseHistory();
             purchase.Show();
+            this.Close();
         }
 
         private void clickExit(object sender, EventArgs e)
@@ -190,14 +191,14 @@ namespace ConCungReplication
         private void userKids_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = userKids.CurrentCell.RowIndex;
-            string str = dt.Rows[i]["STT"].ToString();
+            string str = dt2.Rows[i]["STT"].ToString();
             num = Int32.Parse(str);
 
-            string str_Phai = dt.Rows[i]["Phai"].ToString();
+            string str_Phai = dt2.Rows[i]["Phai"].ToString();
             if (str_Phai == "Nam") comboBox1.Text = "Male";
             else comboBox1.Text = "Female";
-            textBox7.Text = dt.Rows[i]["Ten"].ToString();
-            textBox6.Text = dt.Rows[i]["NgaySinh"].ToString();
+            textBox7.Text = dt2.Rows[i]["Ten"].ToString();
+            textBox6.Text = dt2.Rows[i]["NgaySinh"].ToString();
             LoadCustomerKid();
 
         }
@@ -220,6 +221,57 @@ namespace ConCungReplication
             MessageBox.Show("Your KID information had been updated successfully!", "Success");
             LoadCustomerKid();
 
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomepageCustomer homepage = new HomepageCustomer();
+            homepage.Show();
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            Cart cart = new Cart();
+            cart.Show();
+            this.Close();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void panel17_Click(object sender, EventArgs e)
+        {
+            string TenKH = textBox5.Text;
+            string Phai;
+            if (GenderSelect.Text == "Male") Phai = "Nam";
+            else Phai = "Nữ";
+            string SoDienThoai = textBox2.Text;
+            string Email = textBox4.Text;
+            string NgaySinh = textBox3.Text;
+            try
+            {
+                string command = "exec UpdateCustomer '" + customerID + "', N'" + TenKH + "', '" + Email + "', '" + NgaySinh + "',N'" + Phai + "', '" + SoDienThoai + "'";
+                using (SqlConnection conn = new SqlConnection(ConnectionString))
+                using (SqlCommand cmd = new SqlCommand(command, conn))
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                }
+                MessageBox.Show("Your information had been updated successfully!", "Success");
+                LoadCustomerInformation();
+            }
+            catch
+            {
+                MessageBox.Show("Error! Update has failed");
+            }
         }
     }
 }

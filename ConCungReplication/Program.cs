@@ -20,7 +20,7 @@ namespace ConCungReplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new ProductManagement());
+            Application.Run(new StartUp());
 
             //Application.Run(new Storage());
 

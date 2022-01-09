@@ -18,55 +18,101 @@ namespace ConCungReplication
         DataTable dt;
         void loadData(int act)
         {
-            conn = new SqlConnection(ConnectionString);
-            conn.Open();
-
-            string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM ";
-
-            if (act == 1)
+            try
             {
-                truyVan = "AdvancedSearch";
+                conn = new SqlConnection(ConnectionString);
+                conn.Open();
+
+                string truyVan = "SELECT SP_ID, TenSP, Gia, MoTa, ThuongHieu, KhuyenMai,NgayBatDau, NgayKetThuc FROM SANPHAM ";
+                int i = checkedListBox1.SelectedIndex;
+                int j = checkedListBox2.SelectedIndex;
+                if (act == 1)
+                {
+                    if(i!=-1&&j!=-1)
+                    {
+                        truyVan = "AdvancedSearch_FULL";
+                    }
+                    else if(i==-1&&j!=-1)
+                    {
+                        truyVan = "AdvancedSearch_DEPARTMENT";
+                    }
+                    else if(i!=-1&&j==-1)
+                    {
+                        truyVan = "AdvancedSearch_BRAND";
+                    }
+                    else if(i==-1 && j == -1)
+                    {
+                        act = 2;
+                    }
+                    
+                }
+
+                if (act == 2)
+                {
+                    truyVan += " WHERE TenSP LIKE N'%" + textBox1.Text + "%'";
+                }
+
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                if (act == 1)
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Clear();
+                    cmd.Parameters.Add("@name", SqlDbType.NVarChar).Value = textBox1.Text;
+                    
+                    string tHieu = "";
+                    if (i != -1)
+                    {
+                        tHieu = checkedListBox1.Items[i].ToString();
+                    }
+                    string loai = "";
+                    if (j != -1)
+                    {
+                        loai = checkedListBox2.SelectedIndex.ToString();
+                    }
+
+
+                    if (i != -1 && j != -1)
+                    {
+                        cmd.Parameters.Add("@brand", SqlDbType.NVarChar).Value = tHieu;
+                        cmd.Parameters.Add("@department", SqlDbType.NVarChar).Value = loai;
+                    }
+                    else if (i == -1 && j != -1)
+                    {
+                        cmd.Parameters.Add("@department", SqlDbType.NVarChar).Value = loai;
+                    }
+                    else if (i != -1 && j == -1)
+                    {
+                        cmd.Parameters.Add("@brand", SqlDbType.NVarChar).Value = tHieu;
+                    }
+                }
+                if (act == 2)
+                {
+                    cmd.CommandType = CommandType.Text;
+                }
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                dt = new DataTable();
+                adapter.Fill(dt);
+
+                conn.Close();
+
+                dataGridView1.DataSource = dt;
+                dataGridView1.AutoResizeColumns();
+                dataGridView1.AutoResizeRows();
+                int count = dt.Rows.Count;
+                if (count == 1 || count == 0)
+                {
+                    label1.Text = count.ToString() + " result found";
+                }
+                else
+                {
+                    label1.Text = count.ToString() + " results found";
+                }
             }
-
-            if (act == 2)
+            catch (Exception ex)
             {
-                truyVan += " WHERE TenSP LIKE N'%" + textBox1.Text + "%'";
-            }
-
-            SqlCommand cmd = new SqlCommand(truyVan, conn);
-            if (act == 1)
-            {
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Clear();
-                cmd.Parameters.Add("@name", SqlDbType.NChar).Value = textBox1.Text;
-                string tHieu = checkedListBox1.SelectedIndex.ToString();
-                string loai = checkedListBox2.SelectedIndex.ToString();
-                cmd.Parameters.Add("@brand", SqlDbType.NChar).Value = tHieu;
-                cmd.Parameters.Add("@department", SqlDbType.NChar).Value = loai;
-            }
-            if (act == 2)
-            {
-                cmd.CommandType = CommandType.Text;
-            }
-
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-
-            dt = new DataTable();
-            adapter.Fill(dt);
-
-            conn.Close();
-
-            dataGridView1.DataSource = dt;
-            dataGridView1.AutoResizeColumns();
-            dataGridView1.AutoResizeRows();
-            int count = dt.Rows.Count;
-            if (count == 1 || count == 0)
-            {
-                label1.Text = count.ToString() + " result found";
-            }
-            else
-            {
-                label1.Text = count.ToString() + " results found";
+                _ = MessageBox.Show(ex.Message, "Thông Báo");
             }
         }
         public Browse()
@@ -100,7 +146,7 @@ namespace ConCungReplication
         }
         private void Browse_Load(object sender, EventArgs e)
         {
-            loadData(1);
+            loadData(0);
         }
 
         private void logo_Click(object sender, EventArgs e)

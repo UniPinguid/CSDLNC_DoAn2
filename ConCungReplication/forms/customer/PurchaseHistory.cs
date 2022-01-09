@@ -6,11 +6,20 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace ConCungReplication
 {
     public partial class PurchaseHistory : Form
     {
+        SqlConnection conn;
+        string ConnectionString = ConfigurationManager.ConnectionStrings["MyconnectionString"].ConnectionString;
+        DataTable dt;
+        private static string _idHD = "";
+
+        public static string IdHD
+        { get { return _idHD; } set { _idHD = value; } }
         public PurchaseHistory()
         {
             InitializeComponent();
@@ -82,6 +91,41 @@ namespace ConCungReplication
         {
             AboutUs about = new AboutUs();
             about.ShowDialog();
+        }
+
+        private void PurchaseHistory_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                conn = new SqlConnection(ConnectionString);
+                conn.Open();
+
+                string truyVan = "SELECT * FROM HOADON WHERE KH_ID LIKE '" + StartUp.id + "'";
+                SqlCommand cmd = new SqlCommand(truyVan, conn);
+                cmd.CommandType = CommandType.Text;
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                dt = new DataTable();
+                adapter.Fill(dt);
+
+                conn.Close();
+
+                purchaseHistoryList.DataSource = dt;
+                purchaseHistoryList.AutoResizeColumns();
+                purchaseHistoryList.AutoResizeRows();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Thông Báo");
+            }
+        }
+
+        private void purchaseHistoryList_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.Close();
+            OrderInfo orderInfo = new OrderInfo();
+            orderInfo.Show();
         }
     }
 }

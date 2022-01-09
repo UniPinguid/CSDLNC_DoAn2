@@ -269,6 +269,7 @@ namespace ConCungReplication
             this.pictureBox5.Size = new System.Drawing.Size(95, 35);
             this.pictureBox5.TabIndex = 42;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // panel7
             // 
@@ -409,7 +410,6 @@ namespace ConCungReplication
             // 
             // panel3
             // 
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Location = new System.Drawing.Point(78, 788);
             this.panel3.Name = "panel3";
@@ -440,7 +440,6 @@ namespace ConCungReplication
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.label10);
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(1244, 138);
@@ -485,7 +484,6 @@ namespace ConCungReplication
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1192, 154);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 43);

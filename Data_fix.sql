@@ -192,12 +192,13 @@ BEGIN TRAN
 COMMIT TRAN
 GO
 
-CREATE PROC AdvancedSearch @name NCHAR(30), @brand NCHAR(30), @department NCHAR(30)
+CREATE PROC AdvancedSearch_FULL @name NVARCHAR(30), @brand NVARCHAR(30), @department NVARCHAR(30)
 AS
 BEGIN TRAN
 	BEGIN TRY
+
 		SELECT * FROM SANPHAM sp left join NhomSP gr on sp.GrSP_ID = gr.GrSP_ID
-		WHERE sp.TenSP LIKE N'%'+@name+'%' AND ThuongHieu LIKE N'%'+@brand+'%' AND  gr.TenNhom LIKE N'%'+@department+'%'
+		WHERE sp.TenSP LIKE '%'+@name+'%' AND sp.ThuongHieu LIKE @brand AND  gr.TenNhom LIKE @department
 	END TRY
 	BEGIN CATCH
 		ROLLBACK TRAN
@@ -205,3 +206,41 @@ BEGIN TRAN
 	END CATCH
 COMMIT TRAN
 GO
+
+ALTER PROC AdvancedSearch_BRAND @name NVARCHAR(30), @brand NVARCHAR(30)
+AS
+BEGIN TRAN
+	BEGIN TRY
+
+		SELECT * FROM SANPHAM
+		WHERE TenSP LIKE '%'+@name+'%' AND ThuongHieu LIKE @brand 
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+		RETURN
+	END CATCH
+COMMIT TRAN
+GO
+ALTER PROC AdvancedSearch_DEPARTMENT @name NVARCHAR(30), @department NVARCHAR(30)
+AS
+BEGIN TRAN
+	BEGIN TRY
+		SELECT * FROM SANPHAM sp LEFT JOIN NhomSP gr on sp.GrSP_ID = gr.GrSP_ID
+		WHERE TenSP LIKE '%'+@name+'%' AND gr.TenNhom LIKE @department
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+		RETURN
+	END CATCH
+COMMIT TRAN
+GO
+
+DECLARE @ten NVARCHAR(40)
+DECLARE @hieu NVARCHAR(40)
+DECLARE @nhom NVARCHAR(40)
+SET @ten = N'Đồ chơi'
+SET @hieu = N'BabyOne'
+SET @nhom = N'Đồ chơi'
+
+EXEC AdvancedSearch_FULL @ten,@hieu,@nhom
+go

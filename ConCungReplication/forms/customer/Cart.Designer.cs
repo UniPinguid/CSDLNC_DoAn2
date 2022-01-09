@@ -150,6 +150,7 @@ namespace ConCungReplication
             this.address.Size = new System.Drawing.Size(389, 30);
             this.address.TabIndex = 9;
             this.address.Text = "410 Green Hill Court, Boynton Beach, FL 33435";
+            this.address.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // customerName
             // 
@@ -161,6 +162,7 @@ namespace ConCungReplication
             this.customerName.Size = new System.Drawing.Size(176, 31);
             this.customerName.TabIndex = 11;
             this.customerName.Text = "John Andrick Doe";
+            this.customerName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label1
             // 

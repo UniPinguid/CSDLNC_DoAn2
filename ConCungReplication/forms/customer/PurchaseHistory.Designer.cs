@@ -82,6 +82,7 @@ namespace ConCungReplication
             this.purchaseHistoryList.RowTemplate.Height = 29;
             this.purchaseHistoryList.Size = new System.Drawing.Size(1193, 662);
             this.purchaseHistoryList.TabIndex = 11;
+            this.purchaseHistoryList.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.purchaseHistoryList_CellContentDoubleClick);
             // 
             // label1
             // 
@@ -376,6 +377,7 @@ namespace ConCungReplication
             this.Name = "PurchaseHistory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Purchase History";
+            this.Load += new System.EventHandler(this.PurchaseHistory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.purchaseHistoryList)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
