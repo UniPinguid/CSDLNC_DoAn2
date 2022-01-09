@@ -67,6 +67,7 @@ namespace ConCungReplication
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.IDPICKING = new System.Windows.Forms.Label();
+            this.Refresh = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -546,13 +547,24 @@ namespace ConCungReplication
             this.IDPICKING.TabIndex = 71;
             this.IDPICKING.Text = "label21";
             // 
+            // Refresh
+            // 
+            this.Refresh.Location = new System.Drawing.Point(1267, 404);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(75, 23);
+            this.Refresh.TabIndex = 72;
+            this.Refresh.Text = "Refresh";
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.Refresh_Click);
+            // 
             // ProductManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1541, 675);
+            this.ClientSize = new System.Drawing.Size(1558, 675);
+            this.Controls.Add(this.Refresh);
             this.Controls.Add(this.IDPICKING);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.checkedListBox4);
@@ -642,5 +654,6 @@ namespace ConCungReplication
         private System.Windows.Forms.Panel PMdeletePanel;
         private System.Windows.Forms.Panel viewproductPanel;
         private System.Windows.Forms.Label IDPICKING;
+        private System.Windows.Forms.Button Refresh;
     }
 }

@@ -127,5 +127,14 @@ namespace ConCungReplication
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+        private void Refresh_Click(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(connectionString);
+            adapter = new SqlDataAdapter("SELECT * FROM SANPHAM", conn);
+            dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
     }
 }
