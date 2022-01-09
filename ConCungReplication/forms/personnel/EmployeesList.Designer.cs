@@ -121,6 +121,7 @@ namespace ConCungReplication.forms.personnel
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(143, 65);
             this.panel3.TabIndex = 1;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // dataGridView1
             // 
@@ -133,6 +134,7 @@ namespace ConCungReplication.forms.personnel
             this.dataGridView1.Size = new System.Drawing.Size(1141, 571);
             this.dataGridView1.TabIndex = 183;
             this.dataGridView1.TabStop = false;
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // label10
             // 
@@ -262,6 +264,7 @@ namespace ConCungReplication.forms.personnel
             this.pictureBox6.Size = new System.Drawing.Size(48, 48);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // logo
             // 
@@ -291,6 +294,7 @@ namespace ConCungReplication.forms.personnel
             this.Name = "EmployeesList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeesList";
+            this.Load += new System.EventHandler(this.EmployeesList_Load);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
